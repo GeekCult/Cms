@@ -1,0 +1,178 @@
+
+ html                                                           { margin: 0px; padding: 0px;}
+ body                                                           { margin:0px; font-family: verdana;  font-size:11px;  color:#000000; border: none; padding: 0px;}
+.noform                                                         { border:none!important; background:none!important; color:#FFFFFF;}
+.noform a:hover                                                 { border:none!important;background:none!important; color:#99CC33;}
+
+.header_purple_store                                                            {width: 100%; height: 30px; background: url(/media/images/layout/purple/header_fancy_pp.png) repeat-x;}
+.logo_pp_header                                                                 {width: 120px; height: 25px; background: url(/media/images/layout/purple/logo_pp_25x100.png)no-repeat}
+
+.container_title_fancy                                                          { padding-top: 10px;}
+.combo_cat                                                                      {width:160px; margin-right:10px; margin-bottom: 10px;}
+.combo_cat_launcher                                                             {clear:both;margin-left:10px; height: 24px;width: 400px;cursor:pointer;}
+.container_properties_fancy                                                     {position: relative;float: right; margin-right: 10px; margin-top: 10px;}
+.container_categorias_option                                                    {position: relative; float: left; width: 100px; background: url(/media/images/layout/tab_fancy_right.png) no-repeat; height: 45px; cursor: pointer;}
+.container_categorias_option:hover                                              {width: 100px; background: url(/media/images/layout/tab_fancy_right_hover.png) no-repeat;  height: 45px;}
+.label_text                                                                     { float:left; width:120px; padding-top: 2px; font-weight: bold;}
+.label_text_tab                                                                 { float:left; width:auto; padding-top: 2px; font-weight: bold; margin-right: 3px; padding-left: 9px;}
+.label_text_tab_option                                                          { float:left; width:auto; padding-top: 2px; font-weight: bold; width: 100px; text-align: center; color: #000;}
+.titleContent                                                                   { margin-left: 0px; font-size:12px; display: inline-block;}
+.titleContent_add                                                               { margin-left: 5px; font-size:12px; height: 30px; margin-bottom: 5px; margin-top: 5px;}
+.titleContent_general                                                           { margin-left: 5px; font-size:12px; display: inline-block; margin-bottom: 15px; margin-top: 5px;}
+.divider-fancybox                                                               { border-bottom: dotted 2px #666666; padding-bottom:0px;margin-right: 15px; }
+.hide                                                                           {display: none;}
+
+.container_pan                                                                  { margin-left: 0px; margin-top: 0px;}
+.layoutGaleria                                                                  {width: 700px; height: 300px; overflow: hidden;}
+.layoutUsers                                                                    {width: 290px; position:relative; overflow: hidden; margin-bottom: 20px; padding-right: 5px;}
+.layoutModelos                                                                  {width: 975px; height: 300px; overflow: hidden;}
+.imageFotos                                                                     {width: 120px;float:left; margin-right: 20px; margin-top: 10px; cursor: pointer;}
+.Swfobject                                                                      {width: 120px; height: 120px; z-index: 1003; float: left; position: absolute;}
+.containerFotos                                                                 {height:120px;width: 120px;;padding: 4px;border: 1px solid #ffffff; z-index: 2; float: left; z-index: 3; overflow: hidden; position: relative}
+.container_img                                                                  { z-index: 1;}
+#ItemManager                                                                    { padding-left: 5px; padding-top: 5px;}
+.qq-upload-button                                                               {font-size: 0.9em; padding-top: 10px; height: 30px!important; }
+.qq-upload-list                                                                 {margin-left: 280px; position: absolute}
+.container_file_input                                                           {cursor: pointer}
+
+#Pagination                                                                     {position: absolute; left: 50%; }
+.pagination                                                                     {margin-bottom: 20px; height: 30px;}
+.pagination a                                                                   {text-decoration: none;border: solid 1px #444; color: #000; background:#ccc; font-size: 7pt!important;}
+.pagination a, .pagination span                                                 {display: block;float: left; padding: 0.3em 0.5em; margin-right: 5px;margin-bottom: 5px;min-width:1em;text-align:center; font-size: 7pt!important;}
+.pagination .current                                                            {background: #777; color: #fff;border: solid 1px #888; cursor:pointer}
+.pagination .current.prev                                                       {color:#ccc;border-color:#999;background:#333;}
+.pagination .current.next                                                       {color:#ccc;border-color:#999;background:#333;}
+.text_float                                                                     { float: left; width: 130px;}
+.text_helper_file  input                                                        { width: 200px; border: none; background: none; }
+#bt_ver, .bt_ver                                                                { background: url('/media/images/icons/icon_eye.png') no-repeat; cursor: pointer; width: 23px; height: 23px; border: none;}
+#bt_edit, .bt_edit, .bt_edit_no                                                 { background: url('/media/images/icons/editar.gif') no-repeat; cursor: pointer; width: 23px!important; height: 23px; border: none; display: block}
+#bt_edit_plus, .bt_edit_plus                                                    { background: url('/media/images/buttons/bt_editar_plus.png') no-repeat; cursor: pointer; width: 23px; height: 23px; border: none; display: block}
+#bt_plus, .bt_plus                                                              { background: url('/media/images/icons/bt_plus.png') no-repeat; cursor: pointer; width: 23px; height: 23px; border: none; display: block}
+#bt_listar, .bt_listar                                                          { background: url('/media/images/icons/bt_list.png') no-repeat; cursor: pointer; width: 23px; height: 23px; border: none; display: block}
+#bt_edit_plus2, .bt_edit_plus2                                                  { background: url('/media/images/buttons/bt_editar_plus2.png') no-repeat; cursor: pointer; width: 23px; height: 23px; border: none; display: block}
+#bt_link, .bt_link                                                              { background: url('/media/images/buttons/bt_link.png') no-repeat; cursor: pointer; width: 23px; height: 23px; border: none;}
+#bt_delete, .bt_delete, .bt_delete_no                                           { background: url('/media/images/icons/excluir.gif') no-repeat; cursor: pointer; width: 23px; height: 23px; border: none;}
+#bt_delete_disable, .bt_delete_disable                                          { background: url('/media/images/icons/excluir_disable.gif') no-repeat; cursor: pointer; width: 23px; height: 23px; border: none;}
+
+/*
+* Customizer Components
+*/
+.checkbox, .radio                                               {width: 19px; height: 25px; padding: 0 5px 0 0; background: url(/media/images/icons/radio.png) no-repeat;display: block;clear: left; float: left;}
+.radio                                                          {background: url(/media/images/icons/radio.png) no-repeat;}
+.select                                                         {position: absolute; width: 158px; height: 21px;padding: 0 24px 0 8px;color: #000;font: 12px/21px arial,sans-serif;background: url(/media/images/icons/select.gif) no-repeat;overflow: hidden;}
+
+/*
+* Adiciona Fotos
+*/
+.label_text_Admin                                               {float:left; margin-right:10px; width: 120px; text-align: right;}
+.rows                                                           {margin-left:25px; width:auto; margin-top:10px; clear: both;}
+.combo_categorias_fotos                                         {float:left; margin-bottom: 10px; margin-right: 10px;}
+.combo_categorias_fotos_listar                                  {float:left; width: 310px; height: 45px; background: url(/media/images/layout/tab_fancy.png) no-repeat;}
+
+.titleContent_listar                                            {float:left; width: 600px; height: 20px; font-size: 1.5em; font-weight: bold;}
+
+.sizePicker                                                     { width: 120px; height: 45px; background: url(/media/images/layout/size_container_fancybox.png) no-repeat; margin-top: 75px; display: none; margin-left: 3px;}
+.size-buttons-container                                         { width: 120px; padding-top: 6px; margin-left: 2px; }
+.container_empty                                                {background: url(/media/images/layout/empty.png) no-repeat; width: 120px; height: 120px; border: none; float: left; position: absolute; z-index: 24; cursor: pointer;}
+.select_miniaturas                                                              {width: 20px; float: left; margin-right: 10px; margin-bottom: 5px;}
+.buttons_right                                                  {border-top: 2px dotted #ccc}
+.bt_right                                                       {background:url(/media/images/buttons/bt_ear_down.png) no-repeat center; width: 150px; margin-right:25px;border: none; color: #fff; height: 25px; float: right; cursor: pointer}
+.botao                                                          {background: url(/media/images/textures/botao/bt_square_transparent.png) no-repeat; width: 120px; height: 40px;}
+
+/*Banner Fancy */
+.label_text_banner                                              {float:left; margin-left:7px; margin-top: 6px; width:140px; font-weight: bold;}
+.label_text_banner_fancy                                        {float:left; margin-left:7px; margin-top: 6px; width:50px; cursor: pointer;}
+
+.swf_fancy_banner, .swf_fancy_topos,  .swf_fancy_rodapes        {margin-left:5px; margin-bottom: 10px; padding-bottom: 25px; float: left; border: 1px solid #fff;}
+.swf_fancy_blocks                                               {float:left; margin-left:10px; margin-bottom: 10px; border: 1px solid #fff;}
+.swf_fancy_spark                                                {width:350px; float:left; margin-left:50px; margin-bottom: 10px; border: 1px solid #fff;}
+
+.layoutAdmin_fancy_blocks                                       {width: 700px;position:relative;left: 50%;margin-left: -350px;}
+.layoutAdmin_fancy_banner                                       {width: 700px; position:relative; left: 50%; margin-left: -350px; margin-top: 15px;}
+.layoutAdmin_fancy_topos, .layoutAdmin_fancy_rodapes            {width: 700px; position:relative; left: 50%; margin-left: -350px; margin-top: 15px;}
+
+.layout_fancy_blocks                                            {margin-bottom:10px; width: 700px; height:300px; position: relative; left: 50%; margin-left: -350px; margin-top: 20px;}
+.layout_fancy_spark, .layout_fancy_corona                       {margin-bottom:10px; width: 700px; height:300px; position: relative; left: 50%; margin-left: -350px;}
+.layout_fancy_banner, .layout_fancy_topos                       {margin-bottom:10px; width: 700px; height:300px; position: relative; left: 50%; margin-left: -350px;}
+.layout_fancy_rodapes                                           {margin-bottom:10px; width: 700px; height:300px; position: relative; left: 50%; margin-left: -350px;}
+
+#html_banners_support .bt_html_support                          {width: 100%; height: 100%; position: absolute; z-index: 2; background: none; border: none; cursor: pointer;}
+.banner_html_support                                            {overflow: hidden; position: relative; margin-bottom: 20px; float: left; margin-right: 40px;}
+.canvas_stage                                                   {overflow: hidden; width: auto; height: 300px;}
+.criarTopos                                                     {height: 300px; overflow: hidden}
+
+.conf_maps_tip                                                  {width: 600px!important; font-size: 10px; white-space: pre-wrap; float: left; color: #555;}
+.conf_maps_tip_general                                          {width: 600px!important; font-size: 10px; float: left; color: #555;}
+.logo_gettyimages_p                                                             {background: url("/media/images/logos/gettyimages.png"); height: 20px; width: 90px; margin-left: 5px;}
+.help_add_foto                                                  {background: url("/media/images/layout/buttons/help_add_photo.png"); height: 46px; width: 183px; margin: 20px 0 0 260px;}
+.textLayout                                                     {margin-left: 10px;}
+
+/*Message result */
+.message_result                                                 {text-align: center; font-weight: bold; margin-top: 60px; width: 100%;}
+
+/*Textures */
+.fake_img_site, .fake_img_paginas                               {width:120px; height:120px; float:left; border: 1px solid #ccc;}
+
+/* Users */
+.userItem                                                       {height: 22px; clear: both; width: 100%; border-bottom: 1px solid #ccc; padding-bottom: 4px;}
+.itemUserLine                                                   {cursor:pointer}
+
+.bt_clear_no_default                                            {background: none; border: none; cursor: pointer; width: 300px; text-align: left;}
+.bt_clear_no_default:hover                                      {background: #d2a2c1}
+.title_user_fancy                                               {margin-top: 5px; margin-left: 10px; margin-bottom: 5px;}
+.title_list_fancy                                               {margin-left: 10px;}
+
+ul                                                              {list-style: none;}
+
+/* Publicar */
+.publicar_item_facebook                                         {margin-bottom: 3px;}
+.publicar_item_facebook_select                                  {margin-top: 7px;}
+.select_fb                                                      {width: 170px; font-size: 0.9em; height: 20px;}
+.mgB                                                            {margin-bottom: 15px}
+.mgT2                                                                           {margin-top: 30px;}
+.mgB2                                                                           {margin-bottom: 30px;}
+.pointer                                                                        {cursor: pointer;}
+
+/* Tabelas */
+.table_support, .table_support_ecommerce, .table_support_caracteristicas        {margin-top: 20px; margin-bottom: 25px; margin-right: 2%;margin-left: 2%;}
+.table_support td, .table_support_ecommerce td                                  {padding-left: 5px;}
+.title_table                                                                    {background: #afafaf; height: 30px; font-weight: bold}
+.title_table td                                                                 {font-weight: bold; padding: 5px}
+.footer_table                                                                   {background: #ccc; height: 22px; font-weight: bold}
+
+.rows_table_0                                                                   {background: #f9f9f9; height: 27px;}
+.rows_table_0:hover                                                             {background: #d2a2c1;}
+.rows_table_1                                                                   {background: #e6e6e6; height: 27px;}
+.rows_table_1:hover                                                             {background: #d2a2c1}
+.rows_table_2                                                                   {background: #f9f9f9; height: 27px;}
+.rows_table_2:hover                                                             {background: #d2a2c1}
+.rows_table_3                                                                   {background: #c6c2b7; height: 27px;}
+.rows_table_4                                                                   {background: #d7bfe4; height: 27px;}
+.value_table                                                                    {padding-right: 15px;}
+
+.bt_ear_up_big                                                                  {background: url("/media/images/buttons/bt_ear_up_2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); border: medium none; color: #fff; cursor: pointer; height: 24px; position: relative;  width: 150px;  z-index: 2;}
+
+.divider_horizontal                                                             {background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;border-bottom: 2px dotted #666;height: 0; width: 100%;}
+.valor                                                                          {font-size: 1.4em; color: #b80573; margin-top: 10px;}
+.ctnValor                                                                       {margin: 20px 0 0 0; }
+.link                                                                           {text-decoration: underline}
+
+.bg-success                                                                     {background-color: #dff0d8; padding: 10px; color: #333;}
+.bg-danger                                                                      {background-color: #f2dede; padding: 10px; color: #333;}
+.bg-info                                                                        {background-color: #fffee6; padding: 10px; color: #333;}
+
+
+/* ToolTip */
+.tip_trigger                                                                    {position: relative; float: right; top: -20px; }
+.tip                                                                            {color: #fff; background:#999; display:none; padding:10px; position:absolute;z-index:1000; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; margin-left: 25px; font-size: 11px;}
+.tip_full                                                                       {white-space: nowrap;}
+.tip_normal                                                                     {width: 300px}
+
+.badge                                                                          {width: 38px; height: 17px; background: url('/media/images/layout/badge.png'); position: relative; float: left; padding-top: 6px; overflow: hidden; text-align: center; margin: -3px 10px;}
+.badge2                                                                         {background-color: #777; border-radius: 10px; color: #fff!important;display: inline-block; font-size: 12px; font-weight: 700;line-height: 1;min-width: 10px;padding: 3px 7px;text-align: center;vertical-align: baseline;white-space: nowrap;}
+.badge3                                                                         {background-color: #f1f1f1; border-radius: 10px; color: #333!important; box-shadow: 0 2px 3px #333; padding: 3px 10px; font-size: 12px;}
+
+.paddingFeature                                                                 {padding: 20px;}
+.paddingFeature h1                                                              {font-size: 3.3em!important; margin: 10px 0px}
+.paddingFeature h4                                                              {font-size: 2.3em!important;  margin: 10px 0px}
+.paddingFeature p                                                               {font-size: 1.3em!important}

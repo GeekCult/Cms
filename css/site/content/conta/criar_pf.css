@@ -1,0 +1,111 @@
+
+/* html, body, main tags */
+
+#cc-main-content                                            { font-size: 12px; overflow-x: hidden}
+
+#cc-main-content .container-title-pj                        { font-size: 14px}
+.container_form_user                                        { border: 1px solid #f1f1f1; margin-bottom: 20px; padding: 10px;}
+
+#cc-main-content                                            { padding: 0px 0px 30px 0px; }/*width: 840px;*/
+#cc-main-content .cc-main-content-halfway                   { width: 0050%; float: left; }
+#cc-main-content .cc-main-content-threeway                  { width: 0060%; float: left; }
+#cc-main-content .cc-main-content-oneway                    { width: 0039%; float: left; }
+#cc-main-content .cc-main-content-fullway                   { width: 100%; clear: both; margin: 0 0 5px 0px; }
+#cc-main-content .cc-main-content-fullway .buttons_right    { float:right;}
+#cc-main-content .cc-main-content-halfway .helper-margin    { margin-left: 80px;}
+#cc-main-content .cc-main-content-fullway .gallery          { width:100%;}
+#cc-main-content .cc-main-content-fullway .info-network     { float: left;}
+#cc-main-content .cc-main-content-fullway .rowtwitter       { width: 70px; padding-top: 20px;}
+#cc-main-content .cc-main-content-fullway .rowfacebook      { width: 170px; padding-top: 5px;}
+#cc-main-content .background-color                          { border: 1px solid  #ccc; background: url(/media/images/textures/paginas/transparent_20.png)}
+#cc-main-content .container-header-pj                       { width: 100%; height: 90px; display: inline-block;}
+#cc-main-content .container-title-pj                        { width: 750px; float: left;}
+#cc-main-content .helper-margin-user                        { margin-left: -123px;}
+#cc-main-content .bt_voltar                                 { background: url("/media/images/layout/form/aaa_buttons_profile_voltar.png") no-repeat; width: 120px; height: 30px; border: none; cursor:pointer;}
+#cc-main-content .bt_voltar:focus                           { background: url("/media/images/layout/form/aaa_buttons_profile_voltar_focus.png") no-repeat; width: 120px; height: 30px; border: none; cursor:pointer;}
+#cc-main-content .bt_voltar:hover                           { background: url("/media/images/layout/form/aaa_buttons_profile_voltar_focus.png") no-repeat; width: 120px; height: 30px; border: none; cursor:pointer;}
+
+#cc-main-content-form                                       { margin: 20px; }
+#cc-main-content-form table                                 { color: #aaa; margin: 0 0 5px 0; }
+#cc-main-content-form table th                              { min-width: 120px; padding: 0px 10px 0 0; font-weight: bold; text-align: right; }
+#cc-main-content-form table tr                              { height: 45px; }
+
+#cc-main-content-form .input                                { width: 168px; height: 030px; padding: 0 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_normal.png) no-repeat; border: none; font-size: 14px; color: #5D5D5D; letter-spacing: -1px; }
+#cc-main-content-form .input:focus                          { width: 168px; height: 030px; padding: 0 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_normal_focus.png) no-repeat; border: none; font-size: 14px; color: #000; letter-spacing: -1px; }
+
+#cc-main-content-form .input-small                          { width: 040px; height: 030px; padding: 0 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_small.png) no-repeat; border: none; font-size: 14px; color: #5D5D5D; letter-spacing: -1px; }
+#cc-main-content-form .input-small:focus                    { width: 040px; height: 030px; padding: 0 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_small_focus.png) no-repeat; border: none; font-size: 14px; color: #000; letter-spacing: -1px; }
+
+#cc-main-content-form .input-mid                            { width: 070px; height: 030px; padding: 0 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_middle.png) no-repeat; border: none; font-size: 14px; color: #5D5D5D; letter-spacing: -1px; }
+#cc-main-content-form .input-mid:focus                      { width: 070px; height: 030px; padding: 0 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_middle_focus.png) no-repeat; border: none; font-size: 14px; color: #000; letter-spacing: -1px; }
+
+#cc-main-content-form .input-long                           { width: 200px; height: 030px; padding: 0 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_long.png) no-repeat; border: none; font-size: 14px; color: #5D5D5D; letter-spacing: -1px; }
+#cc-main-content-form .input-long:focus                     { width: 200px; height: 030px; padding: 0 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_long_focus.png) no-repeat; border: none; font-size: 14px; color: #000; letter-spacing: -1px; }
+
+#cc-main-content-form .input-area                           { width: 340px; height: 110px; padding: 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_area.jpg) no-repeat; border: none; font-size: 14px; color: #5D5D5D; letter-spacing: -1px; }
+#cc-main-content-form .input-area:focus                     { width: 340px; height: 110px; padding: 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_area_focus.jpg) no-repeat; border: none; font-size: 14px; color: #000; letter-spacing: -1px; }
+
+#cc-main-content-form .input-area-termo                     { width: 410px; height: 180px; padding: 0 0 0 3px;  border: none; font-size: 14px; color: #5D5D5D; letter-spacing: -1px; }
+#cc-main-content-form .input-area-termo:focus               { width: 410px; height: 180px; padding: 0 0 0 3px;  border: none; font-size: 14px; color: #000; letter-spacing: -1px; }
+.area_termos_container                                      { width: 420px; height: 270px!important; overflow: auto; margin-bottom: 15px; background: url(/media/images/textures/paginas/transparent_60.png)}
+.p-termo                                                    { font-size: 1em; padding: 7px !important;}
+
+#cc-main-content-form .input-full                           { width: 819px; height: 25px; padding: 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_full.png) no-repeat; border: none; font-size: 14px; color: #5D5D5D; letter-spacing: -1px; }
+#cc-main-content-form .input-full:focus                     { width: 819px; height: 25px; padding: 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_full_focus.png) no-repeat; border: none; font-size: 14px; color: #000; letter-spacing: -1px; }
+
+#cc-main-content-form .input-giant                          { width: 700px; height: 25px; padding: 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_giant.png) no-repeat; border: none; font-size: 14px; color: #5D5D5D; letter-spacing: -1px; }
+#cc-main-content-form .input-giant:focus                    { width: 700px; height: 25px; padding: 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_giant_focus.png) no-repeat; border: none; font-size: 14px; color: #000; letter-spacing: -1px; }
+
+#cc-main-content-form .textarea-giant                       { width: 700px; height: 100px; padding: 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_textarea_giant.png) no-repeat; border: none; font-size: 14px; color: #5D5D5D; letter-spacing: -1px; }
+#cc-main-content-form .textarea-giant:focus                 { width: 700px; height: 100px; padding: 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_textarea_giant_focus.png) no-repeat; border: none; font-size: 14px; color: #000; letter-spacing: -1px; }
+
+#cc-main-content-form .button                               { margin: 20px 0 0 0; cursor: pointer;}
+#cc-main-content-form .button-continuar                     { margin: 20px 0 0 0; background: url(/media/images/layout/form/aaa_buttons_continuar_inativo.png) no-repeat; border: none; width: 122px; height: 40px; cursor: pointer}
+#cc-main-content-form .button-continuar:hover               { margin: 20px 0 0 0; background: url(/media/images/layout/form/aaa_buttons_continuar.jpg) no-repeat; border: none; width: 122px; height: 40px;}
+#cc-main-content-form .button-continuar:focus               { margin: 20px 0 0 0; background: url(/media/images/layout/form/aaa_buttons_continuar.jpg) no-repeat; border: none; width: 122px; height: 40px;}
+#cc-main-content-form .select                               { width: 150px; height: 120px; border: 1px solid #5D5D5D; font-size: 13px; color: #5D5D5D; letter-spacing: -1px; padding: 5px; margin: 0 15px 0 0;  }
+#cc-main-content-form .select_regiao                        { width: 150px; border: 1px solid #5D5D5D; font-size: 13px; color: #5D5D5D; letter-spacing: -1px; padding: 5px; margin: 0 15px 0 0; }
+#cc-main-content-form .image                                { width: 830px; height: 318px; border: 2px solid #5D5D5D; margin: -30px 0 15px 0; }
+#cc-main-content-form .category                             { clear: left; margin-top: 15px;}
+#cc-main-content-form .helper-width-pool-form               { width: 780px;}
+#cc-main-content-form .editor-text                          { width: 790px; border: 1px solid #ccc; padding: 10px; }
+#cc-main-content-form .label-categoria                      { float:left; font-weight: bold; color: #AAA; width: 40px; text-align: right; padding-right: 10px; padding-top: 10px;}
+#cc-main-content-form .paypal-container                     { padding-right: 10px; padding-top: 10px;}
+#cc-main-content-form .cod-afiliacao                        { float:left;}
+
+.no-display                                                 { display: none;}
+.clear                                                      { clear:both;}
+#closeOnSelect                                              {display:none;}
+.container-info-subtitle                                    { width: 300px; text-align: left}
+
+.title_label_cep                                            {margin-top: -3px;}
+.cep_container                                              {float: left; width: 210px;}
+.cep_legend                                                 {height: 17px; margin-top: -24px !important; position: absolute; text-align: right; width: 121px;}
+.legend_cep_ex                                              {font-size: 0.9em; margin-left: 10px; padding-top: 7px; float: right}
+#cc-common-text-center                                      { width: 600px; position: relative; left:50%; margin-left: -300px; text-align: center; font-size: 12px;}
+
+
+/*Frase*/
+.frase_container                                            {width: 100%; margin-left: 0px; display: block; height: 50px; margin-bottom: 40px;}
+.frase                                                      {height: 50px;}
+.container_tipo_cliente                                     {min-height: 80px;}
+.frase_position                                             {margin-top: 10px; margin-left: 20px;}
+
+/*Client Attributes*/
+.container_attibutes_client                                 {width: 100%; margin-left: 0px; display: block; min-height: 90px; margin-bottom: 40px;}
+.tipo_cliente_box                                           {margin-top: 10px; margin-left: 20px; float: right; width: 325px; margin-bottom: 10px; margin-right: 10px;}
+.label_select_attr                                          {float: left; width: 50px; margin-top: 11px;}
+.select_tipo_cliente                                        {width: 150px; float: left;}
+.bt_add_attr                                                {float: right;}
+.container_items_client                                     {padding: 5px 0px 0px 5px; margin-bottom: 6px;}
+.container_cliente_info                                     {float: left;}
+.phrase_info_client                                         {margin-top: 20px; margin-left: 5px; font-weight: bold}
+.item_attr_client                                           {clear: both; margin-bottom: 5px; height: 17px; margin-left: 5px; border-bottom: 1px solid #ccc; margin-right: 10px; background: #f9f9f9; padding: 5px;}
+.bt_close_client                                            {float: right}  
+
+/*ErrrorMessage*/
+#cc-error-screen                                            { margin-left: 0px; margin-top: 15px; margin-bottom: 10px; background: #f9f9f9; border: 1px solid #f1f1f1; padding: 15px;}
+.content_error                                              { background-color:#fffee6; border: 1px solid #ffee36; padding: 10px 10px 10px 10px; width: 97.5%}
+
+/* Bug fix Admin align center*/
+.pan                                                        {left: 50%!important; margin-left: -490px!important;}

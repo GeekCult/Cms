@@ -1,0 +1,44 @@
+/* CSS Document */
+html                                                                            {overflow-x: hidden; overflow-y: hidden;}
+body                                                                            {padding:0px; margin:0px; font-family: Verdana, Arial, sans-serif; overflow: hidden; overflow-y:hidden; background-position: top;}
+
+.overlay                                                                        {overflow: hidden; width: 1500px; height: 600px; float: left; left: 50%; margin-left: -770px; position: absolute; }
+.shadow                                                                         {background-repeat: repeat-y; height: 100%; position: absolute; float: left; overflow: hidden; width: 1020px; left: 50%; margin-left: -510px;}
+.logo                                                                           {width: 400px;height: 150px;position:absolute;float:left;margin-left: -350px;left: 50%;	_position: relative;_float:right;_clear: left;_left: 0%;_rigth: 50%;_padding-right: 490px;}
+
+.container_pan                                                                  {margin-right: 25px; padding-top: 15px;}
+.pan                                                                            {min-height: 470px;}
+.pan p                                                                          {padding:0 0 10px 15px;}
+.pan p.mytexto                                                                  {display:block;	border:1px solid #000;width:535px;margin:2px 0px 5px 0px;padding:2px 17px 15px 10px;}
+
+/*Status*/
+.pan_status                                                                     {width: 100%; height: 100%; position: relative;  vertical-align:middle; _position: absolute;}
+.container_pan_status                                                           {width: 650px; height: 300px; position:relative; margin: 150px auto 0 auto; background-repeat: no-repeat; position: relative; zoom: 1;}
+#error_message .container_pan_status                                            {left: 50%; margin-left: -325px;}
+#login_screen .bg_info_cliente p                                               {text-align: left!important}
+
+.bg_info_cliente                                                                {float: left; position: relative; z-index: 90; margin-top: 80px; font-size: 9pt; margin-left: 30px; width: 280px; height: 200px;}
+.line                                                                           {clear: both; white-space: nowrap}
+
+.status_logo_cliente                                                            {position: relative; z-index: 93; background-size: 40%; margin: 25px 0 0 20px; display: inline-block; height: 20px;}
+.status_logo_cliente img                                                        {height: 50px!important}
+.status_logo_cliente_login                                                      {position: absolute; margin: 15px 0 0 15px; z-index: 93}
+.container_login                                                                {position: relative; margin-top: 100px; float: right; margin-right: 20px; z-index: 93; width: 280px; height: 200px;}
+li a:hover                                                                      {text-decoration:none;}
+.container_error_message                                                        {color: #333; font-weight: bold; height: auto; margin-left: 40px; margin-top: 45px; text-align: left; white-space: normal;width: 550px;}
+.container_error_trace                                                          {margin-top: 10px; width: 650px; height: 120px; font-size: 0.55em; margin-left: 30px}
+.container_error_trace  textarea                                                {font-size: 1.2em!important;}
+.pan_message_status                                                             {z-index: 100; position: absolute; margin-top: 0px; margin-left: 40px;}
+.container_text_copyrights                                                      {position: relative; left: 50%; margin-left: -300px; color: #ccc; font-size: 0.7em; width: 650px;}
+.sF                                                                             {font-size: 0.8em!important;}
+
+.messageEr                                                                      {height: 120px; margin: 40px 0 20px 30px;}
+.messageEr h2                                                                   {font-size: 1.7em!important}
+#message_error                                                                  {display: none;}
+.right                                                                          {float: right}
+.container_buttons_intro                                                        {margin-right: 25px;}
+
+#container_message_login ul li                                                  {height: 36px; margin-bottom: 0px;}
+.pan_message_status_intro                                                       {z-index: 100; position: absolute; margin-left: 30px; bottom: 20px;}
+.botao                                                                          {background: url(/media/images/textures/botao/bt_square_transparent.png) no-repeat; width: 122px!important; height: 40px; color: #333!important}
+.hide                                                                           {display: none}

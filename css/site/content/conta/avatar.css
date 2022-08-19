@@ -1,0 +1,45 @@
+/* 
+    Document   : avatar
+    Created on : 16/10/2011, 14:57:09
+    Author     : carlosgarcia
+    Description: Avatar style - CSS
+    Purpose of the stylesheet follows.
+*/
+
+h3                                                                              {margin-bottom: 10px;}
+
+.avatar_container_avatar                                                        {width: 100%; margin-left: 0px; display: block; height: 210px; margin-bottom: 40px;}
+.avatar_background_color                                                        {border: 1px solid #ccc; height: 240px; background: url(/media/images/textures/paginas/transparent_20.png)}
+.avatar_picture_container                                                       {width: 120px; height: 120px;  float: right; margin-right: 3px; position: relative; margin-right: 15px;}
+#avatar_picture                                                                 {width: 120px; height: 120px; overflow: hidden; background-position: top; margin-top: 10px; border: 1px solid #f1f1f1; padding: 3px; position: relative}
+
+.avatar_container_free                                                          { width: 735px; height: 170px; margin-top: 10px; margin-left: 10px; float: left;}
+.avatar_container_free_icons                                                    { height: 190px; width: 745px; margin-left: 0px;}
+.avatar_divider                                                                 { border-bottom: 2px dotted #ccc; margin-bottom: 10px; margin-left: 0px; margin-right: 15px;}
+.avatar_button_select_picture                                                   { float: right; width: 143px; margin-top: 20px;}
+.avatar_slot_picture                                                            { float: left; padding: 5px; margin-right: 10px; border: 1px solid #ccc; height: 40px; width: 40px; margin-bottom: 10px; cursor: pointer;}
+.bg_image_avatar                                                                {background-color: #fff}
+
+/* Tabs */
+.container_tabs_avatar                                                          {margin-top: 1px; float: left}
+.tab_avatar                                                                     {background: url(/media/images/layout/tab_avatar.png)no-repeat; width: 112px!important; height: 26px; cursor: pointer; overflow: hidden; float: left; border: none; text-align: center; color: #333}
+.tab_avatar:hover                                                               {background-position: 0px -26px; }
+
+ 
+
+#v2 .avatar_container_avatar                                                    {width: 100%; margin-left: 0px; display: block; height: 210px; margin-bottom: 40px;}
+#v2.avatar_background_color                                                     {border: 1px solid #ccc; height: auto; background: url(/media/images/textures/paginas/transparent_20.png); display: flex;}
+#v2 .avatar_picture_container                                                   {width: 120px; height: 120px;  position: relative; display: inline; float: none;}
+#v2 #avatar_picture                                                             {width: 120px; height: 120px; overflow: hidden; background-position: top; margin-top: 10px; border: 1px solid #f1f1f1; padding: 3px; position: relative}
+
+#v2 .avatar_container_free                                                      { width: 735px; height: 170px; margin-top: 10px; margin-left: 10px; float: left;}
+#v2 .avatar_container_free_icons                                                { height: 190px; width: auto; margin-left: 0px; margin-top: 10px;}
+#v2 .avatar_divider                                                             { border-bottom: 2px dotted #ccc; margin-bottom: 10px; margin-left: 0px; margin-right: 15px;}
+#v2 .avatar_button_select_picture                                               { width: 143px; margin-top: 20px; float: none; display: inline-block}
+#v2 .avatar_slot_picture                                                        { float: left; padding: 5px; margin-right: 10px; border: 1px solid #ccc; height: auto; width: auto; margin-bottom: 10px; cursor: pointer;}
+#v2 .bg_image_avatar                                                            {background-color: #fff}
+
+/* Tabs */
+#v2 .container_tabs_avatar                                                      {margin-top: 1px; float: left}
+#v2 .tab_avatar                                                                 {background: url(/media/images/layout/tab_avatar.png)no-repeat; width: 112px!important; height: 26px; cursor: pointer; overflow: hidden; float: left; border: none; text-align: center; color: #333}
+#v2 .tab_avatar:hover                                                           {background-position: 0px -26px; }

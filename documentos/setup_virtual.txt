@@ -1,0 +1,29 @@
+Onde editar para fazer funcionar o YII
+
+sudo edit /etc/hosts
+sudo open -a TextEdit /etc/hosts
+
+copy and paste the last line before 255.255.255
+replace it for the new one domain
+
+edit /Applications/MAMP/conf/apache/httpd.conf
+copy and place a block of text <virtual></virtual>
+replace the values with the new one
+
+
+<VirtualHost *>  
+DocumentRoot "/Applications/MAMP/htdocs/purplepier/www"
+ServerName dev.purplepier.com.br
+ServerAlias dev.purplepier.com.br
+<Directory "/Applications/MAMP/htdocs/purplepier/www">
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Order allow,deny
+    Allow from all
+</Directory>
+</VirtualHost>
+
+IMPORATNT: Restartar o Apache
+
+create webapp
+php /Applications/MAMP/htdocs/yii/framework/yiic.php webapp testdrive

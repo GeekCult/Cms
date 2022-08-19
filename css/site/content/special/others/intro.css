@@ -1,0 +1,285 @@
+/* 
+    Document   : intro
+    Created on : 08/01/2015, 11:24:25
+    Author     : Assuero
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+/* 
+    Document   : intro
+    Created on : 08/01/2015, 11:24:25
+    Author     : Assuero
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+
+
+
+/* Reset Default Browser Style
+================================================== */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code,
+del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+section, header, footer, aside	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+body {
+	color: white!important;
+	background-image: url(/media/images/layout/intro_purplepier.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Lato', sans-serif!important;
+	font-weight: 300;
+	font-size: 180%;
+	margin: 0; 
+	padding: 0;
+	width: 100%;
+	text-align: center;
+}
+.hide {display: none!important}
+
+
+/* ------- General Style ------- */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lato', sans-serif;
+}
+h1 {
+	font-weight: 100;
+	font-size: 3.5em;
+}
+h2 {
+	font-weight: 100;
+	font-size: 3em;
+}
+
+p { padding: 15px; }
+.col-sm-6 { margin: 2em 0; padding: 1em; }
+.col-sm-4 { margin: 2em 0; }
+
+navbar-brand img { margin: 0; }
+
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+#main {
+	padding-top: 1em;
+}
+
+.line {
+	margin: 1em auto;
+	border-bottom: 1px solid white;
+	width: 100px;
+}
+
+.services ul {margin: 0px!important}
+
+
+/* ------- CountDown Style ------- */
+ul.countdown {
+	list-style: none;
+	margin: 1em 0;
+	padding: 1em 0;
+	display: block;
+	text-align: center;
+}
+
+ul.countdown li {
+	display: inline-block;
+	padding: 0 2em;
+}
+
+ul.countdown li span {
+	font-size: 4.8em;
+	font-weight: 100;
+	line-height: 80px;
+        color: #333;
+}
+
+ul.countdown li.seperator {
+	font-size: 5em;
+	line-height: 70px;
+	vertical-align: top;
+}
+
+ul.countdown li p {
+	padding: 0.6em 0;
+	font-size: 0.9em;
+	font-weight: 700;
+	text-transform: uppercase;
+        color: #333;
+}
+
+
+.titulo                                                                         {color:#333;}
+.ctn_info_user                                                                  {color:#333;}
+
+
+/* SOCIAL NETWORK */
+section .services {
+	margin-top: 1em;
+	padding-top: 1em;
+	text-align: center;
+    transform: translatez(0);
+}
+
+section .services li {
+	width: 100px;
+	height: 60px;
+	display: inline-block;
+	margin: 20px;
+	list-style: none;
+}
+
+section .services li div {
+	width: 55px;
+	height: 55px;
+	color: #999;
+	font-size: 1em;
+	text-align: center;
+	line-height: 55px;
+	border: 1px solid #999;
+	transition: all 0.5s ease;
+	border-radius: 100px;
+}
+
+section .services li div:hover {
+	transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+}
+
+section .services li .caption {
+	width: 100px;
+	height: 20px;
+	display: block;
+	padding: 10px 0;
+	color: #ccc;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.8em;
+	text-align: center;
+        background: none!important;
+       
+}
+
+.overlay, .shadow {
+    display: none!important;
+}
+
+/* NAV BAR*/
+.navbar-default {
+	background: #00c0e4;
+	border: 0px;
+	padding: 5px;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+  padding-right: 100px;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #eeeeee;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-text {
+  color: #eeeeee;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #eeeeee;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #eeeeee;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #dddddd;
+}
+
+.navbar-default .navbar-toggle { width: 45px; }
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #eeeeee;
+}
+
+
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+  border-top-color: #eeeeee;
+  border-bottom-color: #eeeeee;
+}
+
+.navbar-default .navbar-nav > .dropdown > a .caret {
+  border-bottom-color: #eeeeee;
+}
+
+@media (max-width: 767px) {
+	.navbar-collapse { text-align: left; }
+	.container { margin: 0; padding: 3px;}
+	#main { margin: 0; padding: 0;}
+	form input[type="email"] { width: 17em; }
+}
+@media (max-width: 486px) {
+	#main { margin: 0; padding: 0;}
+	form input[type="email"]{ width: 95%; }
+	form input[type="submit"] { width: 95%; }
+}
+
+
+
+
+
+
+
+
+

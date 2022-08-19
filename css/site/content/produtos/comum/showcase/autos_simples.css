@@ -1,0 +1,151 @@
+/* 
+    Document   : produto_listar
+    Created on : 30/05/2011, 13:13:27
+    Author     : carlosgarcia
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+.main_menu_store                                                                {}
+
+.main_menu_store_middle                                                         {height: 100%; background: none!important;}
+
+.container_produtos_ecommerce                                                   {}
+.result-message                                                                 {margin-top: 100px!important; margin-bottom: 50px; height: 25px}
+.botao_carrinho                                                                 {width: 60px !important; height: 30px; border: none;}
+.botao_carrinho:hover                                                           {background-position: 0 -30px;}
+
+/* Item inline */
+#inline2 .container_item_produto                                                         {margin-left: 0px; margin-bottom: 20px;}
+#inline2 .item_produto                                                                   {min-height: 140px; margin: 10px 0px 10px 0px;}
+
+#inline2 .item_produto .container_picture_produtos                                       {margin-right: 0px; padding: 3px; background: url(/media/images/textures/paginas/transparent_20.png) repeat}
+#inline2 .item_produto .container_foto_produto                                           {}
+
+#inline2 .item_produto .line_1                                                           {margin-top: 10px; }
+#inline2 .item_produto .line_2                                                           {margin-top: 0px; }
+
+#inline2 .item_produto .container_left                                                   {width: 100px; float: left; text-align: right!important; height: 25px}
+#inline2 .item_produto .nome_produto                                                     {margin-top: 0px;height: 25px}
+
+#inline2 .item_produto .tipo_produto                                                     {margin-top: 0px; height: 25px}
+#inline2 .item_produto .text_tipo_produto                                                {margin-top: 0px; height: 25px}
+
+#inline2 .item_height                                                                    {height: 10px;}
+
+#inline2 .item_produto .text_produto                                                     {margin-top: 0px; height: 25px; height: 25px }
+#inline2 .item_produto .descricao                                                        {margin-top: 0px; margin-left: 0px; height: 25px;}
+#inline2 .item_produto .text_descricao                                                   {margin-top: 0px; margin-left: 0px; min-height: 25px; margin-bottom: 15px; line-height: 22px;}
+#inline2 .item_produto .data                                                             {margin-top: 20px; margin-left: 10px;}
+#inline2 .item_produto span.data                                                         {font-size: 16px;}
+#inline2 .title_qtd                                                                      {width: 25px; font-size: 0.7em; float: left;}
+
+#inline2 .item_produto .divider_vertical                                                 {float: left; min-height: 120px;}
+
+#inline2 .item_produto .container_right                                                  {float: left; margin-right: 10px; width: 180px;}
+#inline2 .item_produto .container_prices_middle                                          {float: left; margin-right: 10px; min-width: 150px;}
+#inline2 .item_produto .container_button_buy                                             {float: right; margin-right: 0px; width: 130px;}
+#inline2 .item_produtos_estoque                                                          {width: 190px; margin-top: 10px; clear: both}
+#inline2 .item_estoque_inline                                                            {display: block; font-size: 0.8em; margin-bottom: 10px; width: 170px; clear: both; height: 15px;}
+#inline2 .qtd_item                                                                       {width: 40px;}
+
+#inline2 .product_price                                                                  {font-size: 1.7em; margin-left: 10px; margin-bottom: 20px; font-family: Helvetica, Verdana, Arial; text-align: right; margin-top: 13px;}
+#inline2 .item_produto .marca                                                            { margin-bottom: 0px; clear: both; height: 25px}
+#inline2 .item_produto .text_marca                                                       { margin-bottom: 0px; clear: both; height: 25px}
+#inline2 .total_qtd                                                                      {float: right; text-align: right; font-size: 0.8em; margin-top: 10px;}
+
+/* Item blocks */
+#blocks2 .container_item_produto                                                         {margin-bottom: 10px;}
+#blocks2 .item_produto                                                                   {}
+
+#blocks2 .item_produto .container_picture_produtos                                       {float: left; width: 120px; height: 120px; margin-right: 0px; border: 1px solid #ccc; padding: 3px; background: #f1f1f1}
+#blocks2 .item_produto .container_foto_produto                                           {margin-left: 0px; margin-right: 0px; margin-top: 0px; overflow: hidden}
+
+#blocks2 .item_produto .line_1                                                           {margin-top: 10px; }
+#blocks2 .item_produto .line_2                                                           {margin-top: 0px; }
+
+#blocks2 .item_produto .container_left                                                   {width: 100px; float: left; text-align: right!important; height: 25px; display: none}
+#blocks2 .item_produto .nome_produto                                                     {margin-top: 0px; text-align: right; width: 120px; height: 25px}
+
+#blocks2 .item_produto .tipo_produto                                                     {margin-top: 0px; height: 25px}
+#blocks2 .item_produto .text_tipo_produto                                                {margin-top: 0px; height: 25px}
+
+#blocks2 .item_height                                                                    {height: 10px;}
+
+#blocks2 .item_produto .text_produto                                                     {margin-top: 0px; height: 25px; height: 25px; font-size: 0.9em}
+#blocks2 .item_produto .descricao                                                        {margin-top: 0px; margin-left: 0px; height: 25px;}
+#blocks2 .item_produto .text_descricao                                                   {margin-top: 0px; margin-left: 0px; min-height: 25px; margin-bottom: 15px; line-height: 22px;}
+#blocks2 .item_produto .data                                                             {margin-top: 20px; margin-left: 10px;}
+#blocks2 .item_produto span.data                                                         {font-size: 16px;}
+
+#blocks2 .item_produto .divider_vertical                                                 {float: left; min-height: 120px;}
+
+#blocks2 .item_produto .container_right                                                  {float: left; margin-right: 10px;}
+#blocks2 .item_produto .container_prices_middle                                          {float: left; margin-right: 10px;}
+#blocks2 .item_produto .container_button_buy                                             {width: 130px;}
+
+#blocks2 .item_produtos_estoque                                                          {width: 190px; margin-top: 10px; clear: both; display: none}
+#blocks2 .item_estoque_inline                                                            {display: block; font-size: 0.8em; margin-bottom: 10px; width: 170px; clear: both; height: 15px;display: none}
+#blocks2 .title_qtd                                                                      {width: 100%; font-size: 0.7em; color: #ccc}
+#blocks2 .qtd_item                                                                       {width: 40px}
+
+#blocks2 .product_price                                                                  {font-size: 1.7em; margin-bottom: 15px; font-family: Helvetica, Verdana, Arial; text-align: center;}
+#blocks2 .item_produto .marca                                                            { clear: both; height: 25px; }
+#blocks2 .item_produto .text_marca                                                       { clear: both; height: 25px; display: none}
+#blocks2 .total_qtd                                                                      {font-size: 0.9em; width: 100%; text-align: center}
+#blocks2 .botao                                                                          {margin-left: 5px;}
+
+.buttons_right_produtos                                                         {float: right;}
+.button_details                                                                 {margin-bottom: 7px;}
+.button_buy                                                                     {}
+.label_produto                                                                  {text-transform: capitalize; margin-right: 3px; float: left; width: 80px;}
+.arrow_divider                                                                  {background: url(/media/images/layout/arrows/arrow_dotted.png) no-repeat; width: 15px; height: 15px; float: left; margin: 5px 5px 0 0;}
+
+
+.item_produto_checkbox                                                          {float: left; margin-right: 7px;}
+.item_produto_estoque                                                           {float: left; margin-right: 7px; margin-top: 2px;}
+.item_produto_estoque_valor                                                     {float: right; margin-right: 0px; margin-top: 2px;}
+.item_produto_estoque_cor                                                       {float: left; margin-right: 7px; width: 10px; height: 10px; background: #ff9900; margin-top: 2px;}
+
+
+/* Pagination */
+.ct_pgnt                                                                        {width: 400px; position: relative; left: 50%; margin-left: -200px;}
+
+/* Title */
+.title_category                                                                 {width: 100%; margin-bottom: 15px;}
+.title_menu_category                                                            {margin: 0px 0 25px 10px;}
+
+/* Style Store */
+.container_style_store                                                          {float: right; width: 60px;}
+.bt_style_lines                                                                 {width: 20px; height: 20px; background: url(/media/images/layout/buttons/bt_lines.png) no-repeat;; border: 1px solid #ccc; float: left; cursor: pointer; margin-right: 5px; margin-top: 6px;}
+.bt_style_blocks                                                                {width: 20px; height: 20px; background: url(/media/images/layout/buttons/bt_blocks.png) no-repeat;; border: 1px solid #ccc; float: left; cursor: pointer; margin-top: 6px;}
+
+
+
+/* Settings bar */
+.ecommerce_bar_settings                                                         {margin-bottom: 15px; height: 30px;}
+.container_total_bar_settings                                                   {width: 100%; margin-left: 0px; height: 30px; margin-bottom: 5px; margin-right: 5px; margin-top: 5px;}
+.display_settings                                                               {float: left; width: auto; margin-right: 10px;}
+.display_line                                                                   {margin-top: 10px;}
+.select_settings                                                                {float: left; width: 610px;}
+.item_select                                                                    {float: left; margin-left: 10px; }
+
+/* Menu Ecommerce */
+.container_menu_total_items                                                     {margin-top: 10px;}
+.titulo_menu_ecommerce                                                          {margin-top: 5px; font-weight: bold; margin-right: 10px; height: auto; margin-bottom: 25px!important; border-bottom: 7px solid; margin-left: 5px;}
+.menu_item_ecommerce                                                            {border-bottom: 2px solid; margin-bottom: 8px; padding: 0 0 10px 7px}
+.menu_item_ecommerce_no_border                                                  {height: 25px;}
+.menu_item_cat                                                                  {margin-bottom: 8px; border: none; background: none; cursor: pointer;padding-bottom: 3px; text-align: left}
+.menu_item_subcat                                                               {margin-bottom: 3px; padding-left: 15px; background: none; border: none; cursor: pointer; text-align: left; width: 190px; margin-left: 5px; padding-bottom: 3px; padding-top: 4px;}
+.menu_item_subitem                                                              {margin-bottom: 5px; margin-left: 30px; font-size: 0.85em; cursor: pointer; padding: 5px; margin-right: 5px;}
+.menu_support_items                                                             {display: none; margin-top: 10px; margin-bottom: 5px;}
+.subcat_items                                                                   {margin-top: 8px;}
+
+/* Bread crumb */
+.container_bread_crumb                                                          {margin-bottom: 5px; height: 20px; margin-top: 10px;}
+.item_bread                                                                     {float: left; margin-right: 10px; color: #000!important;}
+.item_bread_span                                                                {float: left!important; margin-right: 5px; color: #000!important; margin-top: 1px; margin-left: 5px; font-size: 0.9em; text-decoration: underline; width: auto!important;}
+
+.ctn_banners_adv                                                                {width: 200px; height: auto; margin-left: 10px; clear: left}
+.ctn_store_right                                                                {float: right; width: 750px}
+.ctn_store_left                                                                 {width: 200px; float: left;}

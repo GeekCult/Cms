@@ -1,0 +1,248 @@
+
+/* html, body, main tags */
+
+
+
+a                                                                           { text-decoration: none; color: #000;}
+a:hover                                                                     { color: #8abb8a; }
+p                                                                           { color: #aaa; text-indent: 0; line-height: 16px; }
+ul li                                                                       {display: list-item; list-style: none; margin: 15px 0 15px 0; font-size: 14px; letter-spacing: -1px;}
+
+.title_howto                                                                {font-size: 14pt; margin-bottom: 15px; font-weight: bold;}
+.desc_howto                                                                 {font-size: 10pt; margin-bottom: 15px;}
+.info_howto                                                                 {font-size: 10pt;}
+
+#cc-main-how-to .container-background                                       { background: url("/media/images/howto/images/background.jpg") no-repeat; width: 980px; height: 83px; z-index: 0; float: left; margin-top: 40px; left: 50%; margin-left: -490px; position: absolute}
+#cc-main-how-to .container-title_howto                                      { z-index: 1; margin-top: 10px; position: absolute; margin-left: 10px;}
+#cc-main-how-to .container-title_tag                                        { z-index: 1; margin-top: 0px; position: relative; margin-left: 0px;}
+#cc-main-how-to #how-to-close-button                                        { position: absolute; left: 810px; top: 30px; cursor: pointer; font-weight: bold; font-size: 14px; color: #444;}
+#cc-main-how-to #how-to-close-button:hover                                  { color: #8abb8a;}
+
+/* menu */
+#cc-main-how-to .container-step-menu                                        { position: absolute; width: 760px; margin-top: 40px; left:50%; margin-left: -340px; }
+#cc-main-how-to .container-step-menu  li                                    { float: left;}
+#cc-main-how-to .container-step-menu  li.arrow                              { width: 20px;}
+#cc-main-how-to .container-step-menu  li.bubble                             { width: 42px; margin-left: 44px; margin-right: 44px;}
+#cc-main-how-to #how-to-arrow-left                                          { background: url("/media/images/howto/images/bt_arrow_left.png") no-repeat;  width: 20px; height: 33px; cursor: pointer;}
+#cc-main-how-to #how-to-arrow-right                                         { background: url("/media/images/howto/images/bt_arrow_right.png") no-repeat; z-index: 4; width: 20px; height: 33px; cursor: pointer;}
+#cc-main-how-to #how-to-arrow-left:hover                                    { background: url("/media/images/howto/images/bt_arrow_left_hover.png") no-repeat;  width: 20px; height: 33px;}
+#cc-main-how-to #how-to-arrow-right:hover                                   { background: url("/media/images/howto/images/bt_arrow_right_hover.png") no-repeat; width: 20px; height: 33px;}
+
+
+#cc-main-how-to #how-to-bubble-1                                            { background: url("/media/images/howto/images/bubble1.png") no-repeat; width: 42px; height: 42px; z-index: 5; cursor: pointer;}
+#cc-main-how-to #how-to-bubble-2                                            { background: url("/media/images/howto/images/bubble2.png") no-repeat; width: 42px; height: 42px; z-index: 5; cursor: pointer;}
+#cc-main-how-to #how-to-bubble-3                                            { background: url("/media/images/howto/images/bubble3.png") no-repeat; width: 42px; height: 42px; z-index: 5; cursor: pointer;}
+#cc-main-how-to #how-to-bubble-4                                            { background: url("/media/images/howto/images/bubble4.png") no-repeat; width: 42px; height: 42px; z-index: 5; cursor: pointer;}
+#cc-main-how-to #how-to-bubble-5                                            { background: url("/media/images/howto/images/bubble5.png") no-repeat; width: 42px; height: 42px; z-index: 5; cursor: pointer;}
+
+#cc-main-how-to #how-to-bubble-1:hover                                      { background: url("/media/images/howto/images/bubble1_hover.png") no-repeat; width: 42px; height: 42px;}
+#cc-main-how-to #how-to-bubble-2:hover                                      { background: url("/media/images/howto/images/bubble2_hover.png") no-repeat; width: 42px; height: 42px;}
+#cc-main-how-to #how-to-bubble-3:hover                                      { background: url("/media/images/howto/images/bubble3_hover.png") no-repeat; width: 42px; height: 42px;}
+#cc-main-how-to #how-to-bubble-4:hover                                      { background: url("/media/images/howto/images/bubble4_hover.png") no-repeat; width: 42px; height: 42px;}
+#cc-main-how-to #how-to-bubble-5:hover                                      { background: url("/media/images/howto/images/bubble5_hover.png") no-repeat; width: 42px; height: 42px;}
+
+.focused                                                                    { background: url("/media/images/howto/images/bubble5_hover.png") no-repeat; width: 42px; height: 42px;}
+/*Steps*/
+#how-to-steps #step-1                                                       { }
+#how-to-steps #step-2, #step-3, #step-4, #step-5                            { display: none}
+#how-to-steps #container-steps                                              { position: absolute; z-index: 7; height: 300px; width: 700px; left: 50%; margin-left: -350px; margin-top: 180px;}
+#how-to-steps .step-icon                                                    { float: left; margin-right: 20px; margin-bottom: 15px;}
+#how-to-steps .step-title                                                   { font-size: 20pt; font-weight: bold; letter-spacing: -1px; color: #222;}
+#how-to-steps .step-text                                                    { clear: both; margin-top: 15px; text-align: justify;}
+.step-1                                                                     { position: absolute; z-index: 7;}
+.mgB                                                                        {margin-bottom: 10px;}
+.mgB2                                                                       {margin-bottom: 30px;}
+.mgT                                                                        {margin-top: 10px}
+
+/* Wiki */
+#how-to-wiki p                                                                  {color: #333; line-height: 25px;}
+#how-to-wiki .subtitulo_materia                                                 {color: #999; font-style: italic; margin: 15px 0;}
+#how-to-wiki .dataMateria                                                       {color: #b80573; font-style: italic; margin: 10px 10px; float: right; font-size: 0.8em;}
+
+
+/*Tags*/
+#how-to-steps #container-tags                                               { position: relative; z-index: 7;margin-top: 10px; height: 430px; }
+.textarea-tags                                                              {background: none; border: none; height: 420px; overflow-y: auto; margin: 0 0 0 10px; overflow-x: hidden}
+.textarea-wiki                                                              {background: none; border: none; overflow-y: auto; margin: 0px 0 0 10px; overflow-x: hidden}
+.textarea_simples                                                           {background: none; border: none; text-align: left; height: 20px; resize:none; }
+
+
+/* Code */
+
+
+    *, *:before, *:after {
+    -moz-box-sizing: border-box;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+}
+.article div.syntaxhighlighter {
+    font-size: 1em !important;
+}
+.article div.syntaxhighlighter {
+    font-size: 0.8em !important;
+    padding-left: 0;
+    padding-right: 0;
+}
+.syntaxhighlighter {
+    background-color: #FFFFFF !important;
+}
+.syntaxhighlighter {
+    font-size: 1em !important;
+    margin: 1em 0 !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    position: relative !important;
+    width: 100% !important;
+}
+.panel, pre, .syntaxhighlighter, .article_series-box, .article_series-footer, .promo-panel {
+    padding: 1.875em;
+}
+.panel, pre, .syntaxhighlighter, .article_series-box, .article_series-footer, .promo-panel {
+    border-radius: 2px;
+    padding: 1.25em;
+}
+pre, .syntaxhighlighter {
+    border-radius: 0;
+    border-width: 1px 0;
+    font-family: Consolas,Monaco,'Andale Mono',monospace !important;
+    line-height: 24px !important;
+    overflow: auto;
+    width: 98% !important;
+}
+.panel, pre, .syntaxhighlighter, .article_series-box, .article_series-footer, .promo-panel {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #EEEEEE;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 1.875em;
+    padding: 1.875em;
+}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+    direction: ltr;
+    margin: 0;
+    padding: 0;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+}
+
+.article div.syntaxhighlighter a, .article div.syntaxhighlighter div, .article div.syntaxhighlighter code, .article div.syntaxhighlighter table, .article div.syntaxhighlighter table td, .article div.syntaxhighlighter table tr, .article div.syntaxhighlighter table tbody, .article div.syntaxhighlighter table thead, .article div.syntaxhighlighter table caption, .article div.syntaxhighlighter textarea {
+    font-family: Consolas,Monaco,'Andale Mono',monospace !important;
+    line-height: 24px !important;
+}
+.syntaxhighlighter .gutter {
+    color: #AFAFAF !important;
+}
+.syntaxhighlighter a, .syntaxhighlighter div, .syntaxhighlighter code, .syntaxhighlighter table, .syntaxhighlighter table td, .syntaxhighlighter table tr, .syntaxhighlighter table tbody, .syntaxhighlighter table thead, .syntaxhighlighter table caption, .syntaxhighlighter textarea {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 0 none !important;
+    bottom: auto !important;
+    direction: ltr !important;
+    float: none !important;
+    font-family: "Consolas","Bitstream Vera Sans Mono","Courier New",Courier,monospace !important;
+    font-size: 1em !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    height: auto !important;
+    left: auto !important;
+    line-height: 1.1em !important;
+    margin: 0 !important;
+    outline: 0 none !important;
+    overflow: visible !important;
+    padding: 0 !important;
+    position: static !important;
+    right: auto !important;
+    text-align: left !important;
+    top: auto !important;
+    vertical-align: baseline !important;
+    width: auto !important;
+}
+table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td {
+    display: table-cell;
+    line-height: 1.125em;
+}
+table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td {
+    display: table-cell;
+    line-height: 1.125em;
+}
+table tr th, table tr td {
+    color: #262626;
+    font-size: 0.875em;
+    padding: 0.5625em 0.625em;
+}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+    direction: ltr;
+    margin: 0;
+    padding: 0;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+}
+
+.syntaxhighlighter .gutter {
+    color: #AFAFAF !important;
+}
+
+.syntaxhighlighter table td.code .container {
+    position: relative !important;
+    padding-left: 10px!important;
+}
+
+pre code, .syntaxhighlighter code {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 0;
+    font-size: 1em;
+    padding: 0;
+}
+code {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-radius: 2px;
+    font-size: 0.9375em;
+    padding: 2px 8px;
+}
+code {
+    color: #333333;
+    font-family: Consolas,"Liberation Mono",Courier,monospace;
+    font-weight: 400;
+}
+code, kbd, pre, samp {
+    font-family: monospace,serif;
+    font-size: 1em;
+}
+
+.syntaxhighlighter table td.gutter .line {
+    padding: 0 0.5em 0 1em !important;
+    text-align: right !important;
+}
+.syntaxhighlighter .gutter .line {
+    border-right: 3px solid #6CE26C !important;
+}
+.syntaxhighlighter .line.alt1 {
+    background-color: #FFFFFF !important;
+}
+
+.syntaxhighlighter .keyword {
+    font-weight: bold !important;
+}
+.syntaxhighlighter .keyword {
+    color: #006699 !important;
+}
+.syntaxhighlighter code {
+    display: inline !important;
+}
+
+.syntaxhighlighter .keyword_green {
+    color: #80b86e !important;
+}
+
+.syntaxhighlighter .keyword_orange {
+    color: #ff9900 !important;
+}
+
+
+.line {
+    outline: 1px dashed #FF0000;
+}
+
+.mgFooter                                                                       {margin-bottom: 40px;}

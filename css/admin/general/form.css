@@ -1,0 +1,710 @@
+/* 
+    Document   : form
+    Created on : 12/05/2011, 09:50:43
+    Author     : carlosgarcia
+    Description: Form to admin layout
+
+*/
+
+h2                                                                              {font-size: 1.4em; margin: 0px;}
+p                                                                               {margin: 0px; font-size: 0.8em;}
+.adminFormContent                                                               {width:750px; left:50%; position: relative;  margin-left: -550px; float:left;white-space:nowrap; margin-top: 15px; clear: both}
+.adminFormContentPagination                                                     {width:600px; left:50%; position: relative;  margin-left: -330px; float:left;white-space:nowrap;}
+.adminFormContentCool                                                           {width:450px; left:50%; position: relative;  margin-left: -375px; float:left;white-space:nowrap; margin-top: 20px;}
+#adminFormContentGeneral                                                        {width:400px; left:50%; position: relative;  margin-left: -330px; float:left;white-space:nowrap;}
+#adminFormContentGeneral ul                                                     {width:400px; left:50%; position: relative;  margin-left: -230px; float:left;white-space:nowrap;}
+.middleFormContent                                                              {width:720px; left:50%; position: relative;  margin-left: -360px; float:left;white-space:nowrap; margin-top: 15px; clear: both}
+.adminFormStore                                                                 {width:720px; left:10%; position: relative;  float:left;white-space:nowrap; margin-top: 15px;}
+
+.result-message                                                                 { height: 30px; font-weight: bold; width: 500px; position: relative; left: 50%; margin-left: -250px; margin-top: 150px; text-align: center; margin-bottom: 150px}
+.result-message span                                                            { text-align: center; font-size: 9pt;}
+.message_result_empty                                                           { height: 60px;}
+#resultAlertMessage                                                             { font-size: 9pt;}/*TODO: colocar isso no widget alertDim */
+
+.bug_tracker                                                                    {background: url("/media/images/layout/buttons/bt_bug.png") no-repeat; width: 35px; height: 35px; float: right; cursor: pointer;}
+
+.half                                                                           {width: 50%;}
+
+/* FORM */
+.textarea_giant                                                                 {width: 830px!important; height: 155px;}
+.textarea_giant_fat                                                             {width: 820px!important; height: 585px;}
+.textarea_giant_thin                                                            {width: 830px!important; height: 108px;}
+.textarea_big                                                                   {width: 597px!important; min-width: 599px!important; height: 147px;}
+.textarea_big_thin                                                              {width: 597px!important; min-width: 599px; height: 76px;}
+.textarea_normal                                                                {width: 400px!important; min-width: 400px; height: 102px;}
+.textarea_small                                                                 {width: 300px!important; height: 80px;}
+.input_giant                                                                    {width: 830px!important; height: 20px;}
+.input_big                                                                      {width: 596px!important; height: 20px;}
+.input_normal                                                                   {width: 400px!important; height: 20px;}
+.input_small                                                                    {width: 193px!important; height: 20px;}
+.input_mini                                                                     {width: 52px!important; height: 20px; }
+.input_small0                                                                   {width: 150px!important; height: 20px; }
+
+.styled-select select                                                           {background: transparent !important; width: 200px!important; padding: 5px; font-size: 16px; border: 1px solid #ccc!important; height: 30px;}
+.styled-select                                                                  {width: 200px; height: 30px; overflow: hidden; background: url(/media/images/utils/arrow_select.png) no-repeat right #f9f9f9;}
+
+.styled-select2 select                                                          {background: url(/media/images/textures/paginas/transparent_40.png) repeat!important; width: 150px!important; padding: 5px; font-size: 16px; border: 1px solid #ccc!important; height: 30px;}
+.styled-select2                                                                 {width: 150px; height: 30px; overflow: hidden; background: url(/media/images/utils/arrow_select.png) no-repeat right #f9f9f9;}
+
+.styled-select-small select                                                     {background: url(/media/images/textures/paginas/transparent_40.png) repeat!important; width: 75px!important; padding: 5px; font-size: 16px; border: 1px solid #ccc!important; height: 30px;}
+.styled-select-small                                                            {width: 75px; height: 30px; overflow: hidden; background: url(/media/images/utils/arrow_select.png) no-repeat right #f9f9f9;}
+
+.styled-select-uf select                                                        {background: url(/media/images/textures/paginas/transparent_40.png) repeat !important; width: 50px!important; padding: 5px; font-size: 16px; border: 1px solid #ccc!important; height: 30px;}
+.styled-select-uf                                                               {width: 50px; height: 30px; overflow: hidden; background: url(/media/images/utils/arrow_select.png) no-repeat right #f9f9f9;}
+
+.styled-select.transparent, .styled-select2.transparent, 
+.styled-select-small.transparent, .styled-select-uf.transparent                 {background: url("/media/images/textures/paginas/transparent_40.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important; border: 1px solid #CCCCCC !important; }
+
+.styled-select.thin select                                                      {height: 25px; padding: 0px 5px!important;}
+.styled-select.thin                                                             {height: 25px;}
+.styled-select_big  select                                                      {background: url("/media/images/textures/paginas/transparent_40.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important; border: 1px solid #ccc !important;font-size: 16px;height: 30px;padding: 5px;width: 220px !important;}
+.styled-select_giant  select                                                    {background: url("/media/images/textures/paginas/transparent_40.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important; border: 1px solid #ccc !important;font-size: 16px;height: 30px;padding: 5px;width: 300px !important;}
+
+.styled-select_giant2 select                                                    {background: url("/media/images/textures/paginas/transparent_40.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important; border: 1px solid #ccc !important;font-size: 16px;height: 30px;padding: 5px;width: 400px !important;}
+
+.transSel                                                                       {background-color: transparent;}
+
+.styled-textbox																	{padding: 5px; border: none;}
+
+a img{
+	border: none !important;
+	margin:0;
+}
+
+form ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	width:100%;
+}
+form li{
+	display:block;
+	margin:0;
+	padding:6px 5px 9px 9px;
+	clear:both;
+}
+
+form li:after, form li div:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+* html form li{height: 1%;}
+* html form li div{display:inline-block;}
+*+html form li div{display:inline-block;}
+
+form li div, form li span{
+	margin:0 .0em 0 0;
+	padding:0;
+}
+
+form li span{
+	float:left;
+}
+
+.center,
+form li span.center input.text, form li span.center label,
+form li.name input.text, form li.name span label,
+form li.date input.text, form li.date span label,
+form li.phone input.text, form li.phone span label,
+form li.time input.text, form li.time span label{
+	text-align:center;
+}
+form li.time select.select{
+	margin-left:5px;
+}
+
+form li div.col span{
+	display:block;
+	width:100%;
+	float:left;
+	padding:0;
+}
+li.twoColumns div.col span{
+	width:48%;
+	margin:0 5px 0 0;
+}
+li.threeColumns div.col span{
+	width:30%;
+	margin:0 5px 0 0;
+}
+li.notStacked div.col span{
+	width:auto;
+	margin:0 7px 0 0;
+}
+
+
+.form li.complex{
+	padding-bottom:0;
+}
+.form li div span.left, form li div span.right{
+	margin:0;
+	width:47%;
+}
+
+.form li div span.Small{
+	margin:0;
+	width:84% !important;
+}
+
+.form li div span.Midle{
+	margin:0;
+	width:10% !important;
+
+}
+
+.form li div span.full input,
+.form li div span.full select,
+.form li div span.left input,
+.form li div span.right input,
+.form li div span.left select,
+.form li div span.right select{
+	width:100%;
+}
+
+
+.form li div span.half input,
+.form li div span.half  select,
+.form li div span.half  input,
+.form li div span.half  input,
+.form li div span.half  select,
+.form li div span.half  select{
+	width:85%;
+}
+
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.clear{
+	clear:both !important;
+}
+
+
+.form li div label, form li span label{
+	margin:0;
+	padding-top:6px;
+	clear:both;
+	
+	line-height:100%;
+	display:block;
+}
+
+select {
+        font-family: Verdana;
+        font-size: 0.9em!important;
+}
+
+select.Small{
+	width: 55px;
+}
+
+.marg_bottom                                                                    {margin-bottom: 7px;}
+.text                                                                           {width: 100%;}
+.text2                                                                          {width: 80%; float: left}
+.adminFormContent2                                                              {margin-left: -490px; position: relative; width: 980px; clear: both; left: 50%;}
+
+.title-divider                                                                  { margin-bottom: 10px;}
+
+.rigth_total                                                                    { float: right;}
+
+.symbol                                                                         { width: 5px; margin-right: 10px; margin-left: 10px;}
+
+.cep_middle                                                                     { width: 80px; margin-left: 20px; height: 30px;}
+
+/* ----- FIELDS ----- */
+
+input.text, input.search, input.file, textarea, select.select, input.file{
+	font-family:"Lucida Grande", Tahoma, Arial, sans-serif;
+	font-size:100%;
+	margin:0;
+	padding:2px 2px;
+
+}
+input.text, input.search, textarea, input.file{
+	border-top:1px solid #7c7c7c;
+	border-left:1px solid #c3c3c3;
+	border-right:1px solid #c3c3c3;
+	border-bottom:1px solid #ddd;
+
+}
+select.select{
+	padding:1px 0 0 0;
+}
+input.search{
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	padding-left:6px;
+}
+input.checkbox, input.radio{
+	display:block;
+	margin-top:-2px!important;
+	padding:0;
+	width:13px;
+	height:13px;
+}
+input.other{
+	margin:0 0 8px 25px;
+}
+
+.safari select.select{
+	font-size:120% !important;
+	margin:0 0 1px 0;
+}
+* html select.select{
+	margin:1px 0;
+}
+*+html select.select{
+	margin:1px 0;
+	border:1px solid red;
+}
+
+
+/* ----- BUTTONS ----- */
+
+.form li.buttons{
+	position:relative;
+	clear:both;
+	padding-top:10px;
+	width:97% !important;
+}
+.form li.buttons input{
+	font-size:100%;
+	margin-right: 5px;
+}
+
+button.link{
+	display:inline-block;
+	border:none;
+	background:none;
+	color:blue;
+	text-decoration:underline;
+	cursor:pointer;
+	padding:0;
+	font-size:100%;
+}
+button.link:hover{
+
+}
+
+/* ----- TEXT DIRECTION ----- */
+
+.rtl .info h2, .rtl .info div, .rtl label.desc, .rtl label.choice,
+.rtl div label, .rtl span label, .rtl input.text,
+.rtl textarea.textarea, .rtl select.select, .rtl p.instruct,
+.rtl .section h3, .rtl .section div, .rtl input.btTxt{
+	direction:rtl;
+}
+
+.desc{
+
+    font-size: 0.9em;
+}
+
+.info_form {
+
+    font-size: 0.75em;
+    padding-top: 0px;
+    margin-bottom: 8px;
+}
+
+/* ----- SIZES ----- */
+
+.third{
+	width:32% !important;
+}
+.half{
+	width:48% !important;
+}
+.full{
+	width:100% !important;
+}
+
+input.small, select.small{
+	width:25%;
+	min-width:25%;
+}
+input.medium, select.medium{
+	width:50%;
+	min-width:50%;
+}
+input.large, select.large, textarea{
+	width:100%;
+	min-width:100%;
+}
+select.ieSelectFix{ /* IE8 */
+	width:auto\9;
+}
+* html select.ieSelectFix{ /* IE6 Only */
+	width:100%;
+}
+*+html select.ieSelectFix{ /* IE7 Only */
+	width:100%;
+}
+
+textarea.small{
+	height:5.5em;
+}
+textarea.medium{
+	height:10em;
+}
+textarea.large{
+	height:20em;
+}
+
+
+/* ----- REQUIRED ----- */
+
+.form span.req{
+	display:inline;
+	float:none;
+	color:red !important;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+}
+
+
+/*<fieldset>*/
+
+fieldset{
+	margin-right:2px;
+	border:none;
+        margin-bottom: 20px;
+
+}
+
+fieldset ul{
+
+	white-space:nowrap;
+
+}
+
+fieldset ul li{
+	width:100%;
+	margin:0 5px 0 5px;
+	white-space: nowrap;
+	list-style:none !important;
+}
+
+ul li.float{
+	width:auto;
+	margin:0 5px 0 5px;
+	float:left;
+	white-space: nowrap;
+	text-decoration:none;
+	list-style:none;
+}
+
+fieldset ul li label{
+	float:left;
+	white-space:nowrap;
+	text-align:right;
+        width: 100px;
+
+}
+
+fieldset ul li input{
+	width:100%;
+	white-space: nowrap;
+
+}
+
+fieldset ul li textarea{
+	width:100%;
+	_padding-top:15px;
+}
+
+fieldset ul li input.file{
+	width:100%;
+	white-space: nowrap;
+	_padding-top:15px;
+}
+
+fieldset .block{
+	display:block;
+	background:#00FF33;
+}
+
+.links{
+	width: 750px;
+	position:relative;
+	left: 50%;
+	margin-left: -375px;
+	margin-bottom:25px;
+	margin-top: 10px;
+
+}
+
+textarea {font-size: 9pt;}
+
+/*</fieldset>*/
+
+.html_banner_checkbox                                                           {margin-top: 5px;}
+
+.semi_full_80                                                                   {width: 80%;}
+.semi_full_75                                                                   {width: 75%;}
+.semi_full_65                                                                   {width: 75%;}
+.truncate                                                                       { width: 90%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; -o-text-overflow: ellipsis; -ms-text-overflow: ellipsis;}
+.table_support .truncate                                                        {display: -moz-box}
+table, tr, th, td                                                                        {vertical-align: middle!important}
+table                                                                           {border-spacing: 1px;}
+
+.mgR0 {margin-right: 7px;}
+.mgR  {margin-right: 15px;}
+.mgR2 {margin-right: 30px;}
+.mgR40{margin-right: 40px;}
+
+.mgL0 {margin-left: 7px;}
+.mgL  {margin-left: 15px;}
+.mgL2 {margin-left: 30px;}
+
+.mgB0 {margin-bottom: 7px!important;}
+.mgB  {margin-bottom: 15px;}
+.mgB0 {margin-bottom: 30px;}
+
+.mgT0 {margin-top: 5px;}
+.mgT  {margin-top: 15px!important;}
+.mgT2 {margin-top: 30px!important;}
+.mgTNegative {margin-top: -10px!important;}
+
+.pdL0 {padding-left: 0px!important}
+
+.red    {color: red}
+.green {color: green}
+.gray {color: #666}
+.black {color: #333;}
+.opacity {opacity: 0.2}
+.txt_center {text-align: center!important;}
+.txt_left {text-align: left!important;}
+.txt_right {text-align: right!important;}
+.no-bold    {font-weight: normal!important}
+.no-border  {border: none!important;}
+.no-background  {background: none!important;}
+.pointer {cursor: pointer}
+.relative {position: relative}
+.font09, .font09 select {font-size: 0.9em!important;}
+.font08     {font-size: 0.8em!important;}
+.checkbox {width: 25px;}
+.capitalize {text-transform: capitalize}
+.uppercase {text-transform: uppercase}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {color: #000!important; line-height: 18px;}
+
+/* Menu */
+
+#menuGroup, #menuGroup ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu-wrap {
+   width: 980px;
+   height: 40px;
+   position: relative;
+   left: 50%;
+   margin: 0 0 0 -490px;
+   z-index: 0;
+}
+
+#menuGroup {
+    width: 100%;
+    margin: 0px auto;
+    position: absolute;
+    /*
+    border: 1px solid #222;
+    background-color: #111;
+    background-image: -moz-linear-gradient(#444, #111);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#444), to(#111));
+    background-image: -webkit-linear-gradient(#444, #111);
+    background-image: -o-linear-gradient(#444, #111);
+    background-image: -ms-linear-gradient(#444, #111);
+    background-image: linear-gradient(#444, #111);
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+    -webkit-box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+    box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+    */
+}
+
+#menuGroup:before,
+#menuGroup:after {
+    content: "";
+    display: table;
+}
+
+#menuGroup:after {
+    clear: both;
+}
+
+#menuGroup {
+    zoom:1;
+}
+
+#menuGroup li {
+    float: left;
+    border-right: 1px solid #222;
+    -moz-box-shadow: 1px 0 0 #444;
+    -webkit-box-shadow: 1px 0 0 #444;
+    box-shadow: 1px 0 0 #444;
+    position: relative;
+}
+
+#menuGroup a {
+    float: left;
+    padding: 12px 30px;
+    color: #999;
+    text-transform: uppercase;
+    font: bold 12px Arial, Helvetica;
+    text-decoration: none;
+}
+
+
+#menuGroup ul {
+    margin: 20px 0 0 0;
+    _margin: 0; /*IE6 only*/
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    z-index: 1;
+    -moz-box-shadow: 0 -1px rgba(255,255,255,.3);
+    -webkit-box-shadow: 0 -1px 0 rgba(255,255,255,.3);
+    box-shadow: 0 -1px 0 rgba(255,255,255,.3);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+#menuGroup li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    margin: 0;
+}
+
+#menuGroup ul ul {
+    top: 0;
+    left: 150px;
+    margin: 0 0 0 20px;
+    _margin: 0; /*IE6 only*/
+    -moz-box-shadow: -1px 0 0 rgba(255,255,255,.3);
+    -webkit-box-shadow: -1px 0 0 rgba(255,255,255,.3);
+    box-shadow: -1px 0 0 rgba(255,255,255,.3);
+}
+
+#menuGroup ul li {
+    float: none;
+    display: block;
+    border: 0;
+    height: 40px;
+    position: relative;
+}
+
+#menuGroup li:last-child {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-right: none;
+}
+
+#menuGroup ul a {
+    padding: 10px 0 10px 10px;
+    width: 130px;
+    _height: 10px; /*IE6 only*/
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+}
+
+#menuGroup ul a:hover {
+    width: 96%;
+}
+
+#menuGroup ul li:first-child > a {
+    -moz-border-radius: 3px 3px 0 0;
+    -webkit-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+}
+
+#menuGroup ul li:first-child > a:after {
+    content: '';
+    position: absolute;
+   
+    top: -6px;
+
+    border-bottom: 6px solid #444;
+}
+
+#menuGroup ul ul li:first-child a:after {
+    left: -6px;
+    top: 50%;
+    margin-top: -6px;
+    border-left: 0;
+    border-bottom: 6px solid transparent;
+    border-top: 6px solid transparent;
+    border-right: 6px solid #3b3b3b;
+}
+
+#menuGroup ul li:first-child a:hover:after {
+    border-bottom-color: #04acec;
+}
+
+#menuGroup ul ul li:first-child a:hover:after {
+    border-right-color: #0299d3;
+    border-bottom-color: transparent;
+}
+
+#menuGroup ul li:last-child > a {
+    -moz-border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+}
+
+/* iPad */
+.no-transition {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+    opacity: 1;
+    visibility: visible;
+    display: none;
+}
+
+#menuGroup li:hover > .no-transition {
+    display: block;
+}
+
+/* Paginação */
+.ctn_title_painel                                                               {margin-top: -5px; font-size: 0.8em; float: left; width: 310px; height: 31px;}
+.ctn_painel_paginador                                                           {height: 25px; margin: 0 0 30px 10px;}
+.ctn_paginador_items                                                            {text-align: center;}
+.ctn_it_pag                                                                     {display: inline-block; width: auto; height: 26px; white-space: nowrap; overflow: hidden;}
+.item_paginador                                                                 {float: left;  padding: 0px 10px 0px 10px; height:26px; font-size: 0.8em;  min-width: 10px; color: #fff;}
+
+
+.item_paginador                                                                 {background: #666; color: #f1f1f1;}
+.ctn_it_pag                                                                     {border: 1px solid #ccc;}
+.item_paginador:hover                                                           {background: #333; color: #f1f1f1;}
+.item_paginador.active 						                {background:#b80573 !important; color: #fff !important; cursor: default}
+
+.ctn_paginador_items a                                                          {text-decoration: none!important;}
+.text_it_pag                                                                    {padding: 6px 0px 4px 0px; text-align: center;}
+.ctn_pag_total                                                                  {position: absolute; margin: -25px 25px 0 0; font-size: 0.9em; right: 0;}
+.ctn_pag_records_total                                                          {position: absolute; margin: 10px 0px 0 25px; font-size: 0.9em; left: 0;}

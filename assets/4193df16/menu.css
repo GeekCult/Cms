@@ -1,0 +1,155 @@
+/**
+ *********************************************
+ * Prototype of styles for horizontal CSS-menu
+ * @data 30.06.2009
+ *********************************************
+ * (X)HTML-scheme:
+ *  <div id="menu">
+ *      <ul class="menu">
+ *          <li><a href="#" class="parent"><span>level 1</span></a>
+ *              <ul>
+ *                  <li><a href="#" class="parent"><span>level 2</span></a>
+ *                      <ul><li><a href="#"><span>level 3</span></a></li></ul>
+ *                  </li>
+ *              </ul>
+ *          </li>
+ *          <li class="last"><a href="#"><span>level 1</span></a></li>
+ *      </ul>
+ *  </div>
+ *********************************************
+ */
+
+/* menu::base */
+div#menu_admin {
+    height:40px;
+    background:url(/media/images/layout/menu_admin/main_bg.png) #000 repeat-x;
+}
+
+div#menu_admin ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+
+div#menu_admin li {
+    position: relative;
+    z-index: 9;
+    margin: 0;
+    padding: 0 5px 0 0;
+    display: block;
+    float: left;
+}
+div#menu_admin li:hover>ul {
+    left: -2px;
+}
+
+div#menu_admin a {
+    position: relative;
+    z-index: 10;
+    height: 45px;
+    display: block;
+    float: left;
+    text-decoration: none;
+    font: normal 12px Trebuchet MS;
+}
+div#menu_admin a:hover, div#menu_admin a:hover span { color: #fff; }
+div#menu_admin li.current a {}
+
+div#menu_admin span {
+    display: block;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: 95% 0;
+    color: #f1f1f1!important;
+}
+div#menu_admin ul ul a.parent span {
+    background-position:95% 10px;
+    background-image: url(/media/images/layout/menu_admin/item-pointer.gif);
+}
+div#menu_admin ul ul a.parent:hover span {
+    background-image: url(/media/images/layout/menu_admin/item-pointer-mover.gif);
+}
+
+.simple-width{
+    width: 50px!important;
+}
+
+/* menu::level1 */
+div#menu_admin a {
+    padding: 0 10px 0 10px;
+    line-height: 30px;
+    color: #e5e5e5;
+}
+div#menu_admin span {
+    margin-top: 5px;
+}/**@replace#1*/
+div#menu_admin li { background: url(/media/images/layout/menu_admin/main-delimiter.png) 98% 4px no-repeat; }
+div#menu_admin li.last { background: none; }
+
+/* menu::level2 */
+div#menu_admin ul ul li { background: none; }
+div#menu_admin ul ul {
+    position: absolute;
+    top: 38px;
+    left: -999em;
+    width: 163px;
+    padding: 0px 0 0 0;
+    background: rgb(45,45,45);
+    margin-top:1px;
+    
+}
+div#menu_admin ul ul a {
+    padding: 5px 0 5px 15px;
+    height: auto;
+    float: none;
+    display: block;
+    line-height: 24px;
+    color: rgb(169,169,169);
+    border-bottom: 1px solid #444; 
+}
+div#menu_admin ul ul span {
+    margin-top: 0;
+    padding-right: 15px;
+    _padding-right: 20px;
+    color: rgb(169,169,169);
+    
+}
+div#menu_admin ul ul a:hover span {
+    color: #fff;
+}
+div#menu_admin ul ul li.last { background: none; }
+div#menu_admin ul ul li {
+    width: 100%;
+    
+}
+
+/* menu::level3 */
+div#menu_admin ul ul ul {
+    padding: 0;
+    margin: -38px 0 0 163px !important;
+    margin-left:172px;
+}
+
+/* colors */
+div#menu_admin ul ul ul { background: rgb(41,41,41); }
+div#menu_admin ul ul ul ul { background: rgb(38,38,38); }
+div#menu_admin ul ul ul ul { background: rgb(35,35,35); }
+
+/* lava lamp */
+div#menu_admin li.back {
+    background: url() no-repeat right -44px !important;
+    background-image: url();
+    width: 13px;
+    height: 40px;
+    z-index: 8;
+    position: absolute;
+    margin: -1px 0 0 -5px;
+}
+div#menu_admin li.back .left {
+    background: url(/media/images/layout/lava.png) no-repeat top left !important;
+    background-image: url();
+    height: 40px;
+    margin-right: 8px;
+}
+

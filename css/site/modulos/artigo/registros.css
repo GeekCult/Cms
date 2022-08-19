@@ -1,0 +1,18 @@
+/* 
+    Document   : registros
+    Created on : 30/03/2015, 17:27:41
+    Author     : Assuero
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.www_box                                                                        {background: none repeat scroll 0 0 #d3d2c9;  float: left; line-height: 60px; padding: 0 20px 0 24px; height: 60px;}
+input.input_box_sub                                                             {height: 50px!important; width: 90%; border-radius: 0; font-size: 1.3em;}
+.input_support_rb                                                               {display: inline-block; width: 100%; white-space: nowrap}
+
+.domain-registration-top-level  select                                          {float: left; height: 60px; width: 150px;}
+
+.domain-registration-submit                                                     {background: none repeat scroll 0 0 #ff9100; border: 0 none; color: #ffffff; font-size: 18px; font-weight: 700;  height: 60px;  text-transform: uppercase;  width: 170px;}
+@media (max-width: 480px) {    
+    .input_support_rb                                                           { width: 100%; display: flex;}
+}

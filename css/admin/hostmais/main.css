@@ -1,0 +1,10 @@
+/* 
+    Document   : HostMais
+    Created on : 19/10/2009, 09:59:34
+    Author     : carlosgarcia
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+.ctnLogin                                                                       {background: rgba(0, 0, 0, 0) url("/media/images/layout/admin/base_hostmais.png") no-repeat scroll 0 0!important;}
+.logo_main                                                                      {background-image: url("/media/images/logos/logo_hostmais_horizontal_p.png");}

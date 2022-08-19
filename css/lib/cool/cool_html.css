@@ -1,0 +1,197 @@
+/* 
+    Document   : cool_html
+    Created on : 10/05/2011, 21:38:44
+    Author     : Assuero
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.s_cool                                                         {position: absolute; width: auto; height: auto; z-index: 2}
+.s_background                                                   {width: 100%; height: 100%; z-index: 0; position: absolute; float: left;}
+.s_overlay                                                      {width: 100%; height: 100%; z-index: 1; position: absolute; float: left;}
+.text_textarea_cool                                             {resize: none;}
+
+#loader                                                         {position: relative;}
+
+.share_facebook_icon                                            {background: url(/media/images/layout/html_components/bt_facebook.png) no-repeat; height: 24px; width: 24px; overflow: hidden; border: none; cursor: pointer;}
+.share_facebook_icon:hover                                      {background-position: 0px -24px;}
+
+.share_twitter_icon                                             {background: url(/media/images/layout/html_components/bt_twitter.png) no-repeat; height: 24px; width: 24px; overflow: hidden; border: none; cursor: pointer;}
+.share_twitter_icon:hover                                       {background-position: 0px -24px;}
+
+.share_orkut_icon                                               {background: url(/media/images/layout/html_components/bt_orkut.png) no-repeat; height: 24px; width: 24px; overflow: hidden; border: none; cursor: pointer;}
+.share_orkut_icon:hover                                         {background-position: 0px -24px;}
+
+.share_mail_icon                                                {background: url(/media/images/layout/html_components/bt_mail.png) no-repeat; height: 24px; width: 24px; overflow: hidden; border: none; cursor: pointer;}
+.share_mail_icon:hover                                          {background-position: 0px -24px;}
+
+.share_facebook_small_gray, .share_facebook_small_color         {background: url(/media/images/icons/icon_share_facebook_small_gray.png) no-repeat; height: 18px; width: 19px; overflow: hidden; border: none; cursor: pointer;}
+.share_facebook_small_gray:hover                                {background-position: 0px -18px;}
+.share_facebook_small_color                                     {background: url(/media/images/icons/icon_share_facebook_small_color.png); height: 22px; width: 22px;}
+
+
+.share_twitter_small_gray, .share_twitter_small_color           {background: url(/media/images/icons/icon_share_twitter_small_gray.png) no-repeat; height: 18px; width: 19px; overflow: hidden; border: none; cursor: pointer;}
+.share_twitter_small_gray:hover                                 {background-position: 0px -18px;}
+.share_twitter_small_color                                      {background: url(/media/images/icons/icon_share_twitter_small_color.png); height: 22px; width: 22px;}
+
+.share_linkedin_small_gray, .share_linkedin_small_color         {background: url(/media/images/icons/icon_share_linkedin_small_gray.png) no-repeat; height: 18px; width: 19px; overflow: hidden; border: none; cursor: pointer;}
+.share_linkedin_small_gray:hover                                {background-position: 0px -18px;}
+.share_linkedin_small_color                                     {background: url(/media/images/icons/icon_share_linkedin_small_color.png); height: 22px; width: 22px;}
+
+.share_youutbe_small_gray, .share_youtube_small_color           {background: url(/media/images/icons/icon_share_youutbe_small_gray.png) no-repeat; height: 18px; width: 19px; overflow: hidden; border: none; cursor: pointer;}
+.share_youtube_small_color                                      {background: url(/media/images/icons/icon_share_youtube_small_color.png); height: 22px; width: 22px;}
+
+.google_maps_icon                                               {background: url(/media/images/layout/html_components/bt_googlemaps.png) no-repeat; height: 23px; width: 109px; overflow: hidden; border: none; cursor: pointer;}
+.google_maps_icon:hover                                         {background-position: 0px -23px;}
+
+.des_purplepier                                                 {background: url(/media/images/layout/html_components/bt_purplepier_dev.png) no-repeat; height: 30px; width: 230px; overflow: hidden; border: none; cursor: pointer;}
+.des_purplepier:hover                                           {background-position: 0px -30px;}
+
+
+/* Menu Component */
+.menu_cool                                                      {height:35px; display: inline-block; position: relative;}
+ul.menu_cool                                                    {height:35px; min-width: 700px; display: inline-block;}
+li.menu_cool                                                    {float:left!important; margin-top:5px; text-align:center; padding-top: 0px!important; white-space: nowrap; min-width: 70px!important; font-size: 10pt!important;}
+a.menu_cool                                                     {margin:0px 10px 0 10px; text-align:center; text-decoration:none; font-weight:bold; white-space:nowrap; font-size: 10pt!important; float: left!important; font-family: Helvetica, Tahoma, Verdana, Arial!important;min-width: 70px!important;}
+a.menu_cool:hover                                               {text-decoration:none;}
+
+.mn2_cols4_html                                                 {width: 980px; height: 30px; display: none;}
+.mn2_line_html_component, .mn3_line_html_component,
+.login_person_compontent_html                                   {display: none;}
+ 
+.mn2_cols4_column                                               {width: 200px; height: auto; float: left; margin-right: 20px;}
+.container_link_mn2_cols4                                       {height: 25px; margin-bottom: 10px;}
+
+.icon_mn2                                                       {height: 15px; width: 15px; float: left; margin-right: 6px; margin-top: 0px;}
+.mn2_line, .mn1_line                                            {width: 960px; height: 50px; text-align: center;}
+
+/* Login Component */
+.login_person_compontent_html                                   {display: none}
+.login_compontent_html                                          {height: 65px; width: 420px;}
+.login_container_login                                          {position: absolute; height: 20px; width: 400px; display: block}
+.input_login_text                                               {background: url(/media/images/layout/user/viaja123/input_login_user.png) no-repeat; height: 35px; width: 140px; margin-right: 5px; float: left}
+.login_component_user                                           {background: none; height: 35px; width: 125px; border: none; padding-left: 10px; padding-top: 0px;}
+.login_component_senha                                          {background: none; height: 35px; width: 125px; border: none; padding-left: 10px; padding-top: 0px;}
+.login_button_logar                                             {border: none; overflow: hidden; cursor: pointer; display: none}
+.login_button_logar:hover                                       {background-position: 0px -33px;}
+
+/* Login block */
+.login_component_message                                        {display:none; width: 300px; height: 25px; font-size: 13px; text-align: right; float: right; position: relative; margin-right: 10px; margin-top: 10px;}
+.login_container_signed                                         {width: 410px; display: none; position: relative;font-size: 12px; white-space: nowrap;}
+.login_container_texts                                          {height: 65px; float: left; position: relative; text-align: right; margin-right: 10px; width: 260px; white-space: normal}
+.login_container_link                                           {display: inline-block; width: 90px; float: right;}
+.login_component_picture                                        {float: left;}
+.login_minha_conta                                              {float: left; font-size: 7pt!important; text-decoration:underline; margin-right: 8px; cursor: pointer}
+.login_sair_conta                                               {float: left; font-size: 7pt!important; text-decoration:underline; cursor: pointer}
+.login_container_signed p                                       {font-size: 9pt;}
+.login_container_signed span                                    {font-size: 9pt; font-weight: bold; padding-left: 3px; }
+
+/* Login inline */
+.name_login_line                                                {float: left; margin-bottom: 3px;}
+.login_component_message                                        {display:none; width: 300px; height: 25px; font-size: 13px; text-align: right; float: right; position: relative; margin-right: 10px;}
+.login_container_texts_line                                     {width: 310px; height: 30px; float: left; position: relative; text-align: left; margin-right: 10px; margin-top: -3px;}
+.login_container_link_line                                      {clear: left;}
+.login_component_picture_line                                   {width: 26px; height: 26px; float: left; margin-right: 10px;}
+.login_minha_conta_line                                         {float: left; font-size: 7pt!important; text-decoration:underline; margin-right: 8px; cursor: pointer}
+.login_sair_conta_line                                          {float: left; font-size: 7pt!important; text-decoration:underline; cursor: pointer}
+.login_container_signed_line p                                  {font-size: 9pt;}
+.login_container_signed_line span                               {font-size: 9pt; font-weight: bold; padding-left: 3px; }
+.margin_picture_login_line                                      {margin-left: 1px; margin-top: 1px; }
+.inline_loggin_conta                                            {float: left;}
+
+.container_login_options                                        {display: inline-block; font-size: 10px; white-space: nowrap; width: 225px; float: right; margin-right: 0px;}
+.login_component_nao_cadastrado                                 {float: left; margin-right: 10px; cursor: pointer}
+.login_component_nao_cadastrado:hover                           {text-decoration:underline}
+.login_component_esqueci_senha                                  {cursor: pointer}
+.login_component_esqueci_senha:hover                            {text-decoration:underline}
+
+
+/* Login Component Guest */
+.login_guest_compontent_html                                    {height: 30px; width: 290px; color: #fff}
+.login_guest_phrase_init                                        {float: left; width: auto; font-size: 9pt; margin-right: 5px;}
+.login_guest_phrase_init2                                       {float: left; width: 155px; font-size: 9pt; padding-top: 10px; color: brown}
+.login_guest_phrase_end                                         {float: left; font-size: 9pt;}
+.login_guest_link_associese                                     {float: left; margin-right: 5px; text-decoration: underline; font-size: 9pt; color: #fff!important}
+.login_guest_divider                                            {float: left; margin-right: 5px; font-size: 9pt; color: #fff!important}
+.login_guest_link_login                                         {float: left; text-decoration: underline; margin-right: 5px; font-size: 9pt; color: #fff!important}
+.login_guest_link_login a                                       {color: #fff!important}
+.color_guest_name p, .color_guest_name p span                   {color: #fff!important;}
+
+/* Smile */
+.smile                                                          {background: url(/media/images/icons/excluir.gif) no-repeat; width: 20px; height: 20px;}
+
+
+/* Searchbar */
+.searchbar_big_green_compontent_html,.searchbar_big_green_button{display: none;}
+.ctn_login_cp,.searchbar_choices_compontent_html, .login_signed_Simple
+                                                                {display: none;}
+                                     
+.search_input                                                   {background: none!important; border: none!important;}
+.search_bar                                                     {background: url(/media/images/layout/html_components/search_bar.png) no-repeat; height: 35px; width: 225px; position: absolute;}
+.bt_cadastrar_user                                              {background: url(/media/images/layout/html_components/bt_cadastrar_se.png) no-repeat; height: 40px; width: 152px; position: absolute; overflow: hidden}
+.bt_cadastrar_user:hover                                        {background-position: 0px -40px}
+
+/* Links */
+.link_ecommerce_compontent_html                                 {width: 155px; height: 27px;}
+.link_ecommerce_icon                                            {float: left; background: url(/media/images/layout/html_components/icons/icon_ecommerce_line.png) no-repeat; height: 32px; width: 32px; margin-right: 5px;}
+.link_outras_infos_icon                                         {float: left; background: url(/media/images/layout/html_components/icons/icon_outras_infos_line.png) no-repeat; height: 32px; width: 32px; margin-right: 5px;}
+.link_pos_vendas_icon                                           {float: left; background: url(/media/images/layout/html_components/icons/icon_pos_vendas_line.png) no-repeat; height: 32px; width: 32px; margin-right: 5px;}
+.link_ecommerce_label                                           {float: left; padding-top: 7px; font-size: 9pt;}   
+.link_ecommerce_hiperlink                                       {text-decoration: underline; font-size: 9pt;} 
+
+/* Lines */
+.line_component_html                                            {height: 5px; width: 98%;}
+.line_white_bevel                                               {height: 2px; width: 100%; background: url(/media/images/layout/html_components/lines/line_bevel_white.png) repeat-x;}
+.line_dotted_gray                                               {height: 2px; width: 100%; background: url(/media/images/layout/html_components/lines/line_dotted_gray.png) repeat-x;}
+
+/* Shapes */
+.shape_component_html                                           {height: 90%; width: 98%;}
+.shape_orange_transparent                                       {height: 90%; width: 98%; background: url(/media/images/layout/html_components/shapes/orange_transparent.png) repeat;}
+.shape_black_transparent                                        {height: 90%; width: 98%; background: url(/media/images/layout/html_components/shapes/black_transparent.png) repeat;}
+.shape_white_transparent                                        {height: 90%; width: 98%; background: url(/media/images/layout/html_components/shapes/white_transparent.png) repeat;}
+
+/* User form */
+.form_cadastrar_user, .button_colorful_cp_html, .mn1_line_html  {display: none;}
+
+/* Texts */
+.text_compontent_html                                           {height: 27px; width: auto}
+.component_text_verdana                                         {font-size: 1em; }
+input.text_cool                                                 {background: none; border: none;  font-size: 1em; margin: 0px!important; padding: 0px!important; font-family: Verdana}
+input.text_cool_link                                            {background: none; border: none;  font-size: 1em; margin: 0px!important; padding: 0px!important; font-family: Verdana; cursor: pointer;}
+input a.text_cool_link                                          {background: none; border: none;  font-size: 1em; margin: 0px!important; padding: 0px!important; font-family: Verdana; cursor: pointer;}
+input.text_cool_link:hover                                    {text-decoration: underline!important;}
+
+.text_textarea_cool                                             {width: 100%; height: 100%; font-size: 1em; white-space: normal}
+textarea.text_textarea_cool                                     {background: none; border: none; width: 100%; height: 100%; font-size: 1em; overflow: hidden;}
+
+/* E-commerce */
+.bt_shopping_cart_pay_it, #popup_payment                        {display: none;}
+.bt_loja_limpar_lista, .item_sh_c_empty                         {display: none;}
+
+/* Drag ad drop */
+#dragger                                                        {display: none; z-index: 700; position: absolute;}
+.regular                                                        {background: url(/media/images/widget/color_pallete.png) no-repeat center; height: 270px; width: 270px;}
+.drag_point                                                     {cursor: move; background: url(/media/images/icons/arrow_dragger.png) no-repeat; width: 30px; height: 30px; float: left; z-index: 45; position: relative;}
+.drag                                                           {background: url(/media/images/widget/color_pallete.png) no-repeat center; height: 270px; width: 270px;}
+#bt_close_picker                                                {position: absolute; width: 40px; height: 35px; background: url(/media/images/buttons/bt_close_message.png) no-repeat; margin-left: 235px; z-index: 701; cursor: pointer;}
+
+
+/* Fonts Family */
+@font-face                                                      {font-family: Lobster; src: url("/css/lib/fonts/Lobster.otf") format("opentype");}
+@font-face                                                      {font-family: Army; src: url("/css/lib/fonts/Army.ttf") format("truetype");}
+@font-face                                                      {font-family: Bank; src: url("/css/lib/fonts/Bank.ttf") format("opentype");}
+@font-face                                                      {font-family: Burrito; src: url("/css/lib/fonts/Burrito.ttf") format("openype");}
+@font-face                                                      {font-family: Cooper; src: url("/css/lib/fonts/Cooper.ttf") format("opentype");}
+@font-face                                                      {font-family: Impact; src: url("/css/lib/fonts/Impact.ttf") format("opentype");}
+@font-face                                                      {font-family: Rage; src: url("/css/lib/fonts/Rage.ttf") format("opentype");}
+@font-face                                                      {font-family: Din; src: url("/css/lib/fonts/Din.ttf") format("opentype");}
+
+/* Dividers */
+.divider_dotted                                                 {width: 100%; border-bottom: 1px dotted #000; height: 1px;}
+.divider_dashed                                                 {width: 100%; border-bottom: 1px dashed #000; height: 1px;}
+.divider_groove                                                 {width: 100%; border-bottom: 1px  groove #000; height: 1px;}
+.divider_ridge                                                  {width: 100%; border-bottom: 1px  ridge #000; height: 1px;}
+
+.divider_limiter_shadow                                         {width: 100%; height: 7px; background: url(/media/images/layout/dividers/limiter.png) repeat-x;}
+.divider_decorativo_1                                           {width: 100%; height: 7px; background: url(/media/images/layout/dividers/decorativo.png) repeat-x;}
+.divider_decorativo_dotted, .divider_bubbles                    {width: 100%; height: 10px; background: url(/media/images/layout/dividers/decorativo_dotted.png) repeat-x;}

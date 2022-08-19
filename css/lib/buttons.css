@@ -1,0 +1,260 @@
+/*
+Document   : buttons
+Created on : 09/12/2010, 09:25:03
+Author     : carlosgarcia
+Description:
+Purpose of the stylesheet follows.
+*/
+
+a                                                                               {text-decoration:none; border: none;cursor:pointer;}
+a:hover                                                                         {text-decoration:underline;}
+
+input[type="submit"], input[type="reset"], input a, buttons a                   {margin:2px 0 2px 0;padding:10px 10px 15px 10px; cursor:pointer;border:none;}
+input:hover[type="submit"], input:hover[type="reset"]                           {border:none;}
+
+.buttons                                                                        {width:200px;margin-bottom:15px!important;left:65%;margin-right:30px;position:relative;white-space:nowrap;}
+.buttons_right                                                                  {height: 40px;white-space:nowrap;clear: both;padding-bottom: 10px; padding-bottom: 25px;}
+.buttons_right_site                                                             {white-space:nowrap;clear: both;padding-bottom: 10px;margin-bottom: 25px;}
+
+#bt_user, .bt_user                                                              {background: url('/media/images/buttons/bt_small_transp_user.png') no-repeat; cursor: pointer; width: 45px; height:45px; border: none;}
+#bt_group, .bt_group                                                            {background: url('/media/images/buttons/bt_small_transp_group.png') no-repeat; cursor: pointer; width: 45px; height:45px; border: none;}
+
+.bt_rigth                                                                       {float:right;height: 24px; text-align:center;cursor:pointer;}
+.bt_rigth_small                                                                 {float:right;margin-right:25px;height: 24px;width: 60px;background:url(/media/images/buttons/bt_ear_down_small.png) no-repeat center;text-align:center;cursor:pointer; color: #fff!important; border: none;}
+.bt_rigth_small a                                                               {color: #ffffff;}
+.menu_buttons_group                                                             { width: 960px; position: relative; left: 50%; margin-left: -490px;}
+.buttons_banner                                                                 { width: 960px; position: relative; left:50%; margin-left: -490px; height: 25px;}
+.buttons_banner_edit                                                            { width: 800px; position: relative; left:50%; margin-left: -320px; height: 40px; margin-bottom: 25px;}
+.buttons_banner_groups                                                          { width: 330px;  height: 20px; float: right; }
+.buttons_base_groups                                                            { width: 300px; height: 20px; float: left; margin-left: 10px; display: inline-block;}
+.buttons_font_groups                                                            { width: 200px; height: 20px; float: left; margin-left: 30px; display: inline-block;}
+.buttons_base_menu                                                              { width: 80px; height: 20px; float: left; display: inline-block;}
+
+.bt_close_fancy                                                                 {cursor: pointer}
+.bt_banner                                                                      {float:right;margin-right:5px;height: 24px;  width: 110px;background:url(/media/images/layout/banner_maker/bt_ear_small.png) no-repeat center;text-align:center;cursor:pointer;}
+
+.bt_banner_edit                                                                 {float:right; margin-right:5px; cursor:pointer;}
+.bt_base_edit                                                                   {margin-right:5px; cursor:pointer;}
+
+.bt_banner_edit .rotate-left                                                    {height: 35px; width: 35px; background: url(/media/images/icons/arrow_left.png) no-repeat center; border: none; cursor:pointer;}
+.bt_banner_edit .rotate-right                                                   {height: 35px; width: 35px; background: url(/media/images/icons/arrow_right.png) no-repeat center; border: none; cursor:pointer;}
+.bt_banner_edit .size-up                                                        {height: 35px; width: 35px; background: url(/media/images/icons/arrow_increase.png) no-repeat center; border: none; cursor:pointer;}
+.bt_banner_edit .size-down                                                      {height: 35px; width: 35px; background: url(/media/images/icons/arrow_decrease.png) no-repeat center; border: none; cursor:pointer;}
+.bt_banner_edit .trash                                                          {height: 35px; width: 35px; background: url(/media/images/icons/arrow_trash.png) no-repeat center; border: none; cursor:pointer;}
+.bt_banner_edit .selection                                                      {height: 35px; width: 35px; background: url(/media/images/icons/arrow_selection.png) no-repeat center; border: none; cursor:pointer;}
+.bt_banner_edit .filter                                                         {height: 35px; width: 35px; background: url(/media/images/icons/arrow_filter.png) no-repeat center; border: none; cursor:pointer;}
+.bt_banner_edit .pen                                                            {height: 35px; width: 35px; background: url(/media/images/icons/arrow_pen.png) no-repeat center; border: none; cursor:pointer;}
+.bt_banner_edit .text                                                           {height: 35px; width: 35px; background: url(/media/images/icons/arrow_text.png) no-repeat center; border: none; cursor:pointer;}
+.bt_banner_edit .paragraph                                                      {height: 35px; width: 35px; background: url(/media/images/icons/arrow_paragraph.png) no-repeat center; border: none; cursor:pointer;}
+.bt_banner_edit .depth_down                                                     {height: 35px; width: 35px; background: url(/media/images/icons/arrow_deph_down.png) no-repeat center; border: none; cursor:pointer;}
+.bt_banner_edit .depth_up                                                       {height: 35px; width: 35px; background: url(/media/images/icons/arrow_deph_up.png) no-repeat center; border: none; cursor:pointer;}
+.bt_banner_edit .color                                                          {height: 35px; width: 35px; background: url(/media/images/icons/arrow_color.png) no-repeat center; border: none; cursor:pointer;}
+.bt_banner_edit .color_close                                                    {height: 35px; width: 35px; background: url(/media/images/icons/arrow_left.png) no-repeat center; border: none; cursor:pointer; display:none;}
+.bt_banner_edit .height                                                         {height: 35px; width: 35px; background: url(/media/images/icons/arrow_height.png) no-repeat center; border: none; cursor:pointer;}
+.bt_banner_edit .width                                                          {height: 35px; width: 35px; background: url(/media/images/icons/arrow_width.png) no-repeat center; border: none; cursor:pointer;}
+.bt_banner_edit .mirror_h                                                       {height: 35px; width: 35px; background: url(/media/images/icons/arrow_mirror_h.png) no-repeat center; border: none; cursor:pointer;}
+.bt_banner_edit .mirror_v                                                       {height: 35px; width: 35px; background: url(/media/images/icons/arrow_mirror_v.png) no-repeat center; border: none; cursor:pointer;}
+.bt_banner_edit .link                                                           {height: 35px; width: 35px; background: url(/media/images/icons/arrow_link.png) no-repeat center; border: none; cursor:pointer;}
+.bt_banner_edit .menu                                                           {height: 35px; width: 35px; background: url(/media/images/icons/arrow_menu.png) no-repeat center; border: none; cursor:pointer;}
+.bt_banner_edit .horror                                                         {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_horror.png) no-repeat center; border: none; cursor:pointer;}
+.bt_banner_edit .cool-stuff                                                     {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_cool.png) no-repeat center; border: none; cursor:pointer;}
+.bt_base_edit .no-background                                                    {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_no_background.png) no-repeat center; border: none; cursor:pointer;}
+.bt_base_edit .new                                                              {height: 20px; width: 20px; background: url(/media/images/icons/bt_more_playground.png) no-repeat center; border: none; cursor:pointer;}
+.bt_base_edit .rule                                                             {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_rule.png) no-repeat center; border: none; cursor:pointer;}
+.bt_base_edit .size_up                                                          {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_increase.png) no-repeat center; border: none; cursor:pointer;}
+.bt_base_edit .canvas_size                                                      {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_canvas.png) no-repeat center; border: none; cursor:pointer;}
+.bt_base_edit .size_down                                                        {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_decrease.png) no-repeat center; border: none; cursor:pointer;}
+.bt_base_edit .menu_properties                                                  {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_menu_main.png) no-repeat center; border: none; cursor:pointer;}
+.bt_base_edit .directional                                                      {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_menu_directional.png) no-repeat center; border: none; cursor:pointer;}
+.bt_base_edit .locker                                                           {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_menu_locker.png) no-repeat center; border: none; cursor:pointer;}
+.bt_draw_crayon                                                                 {height: 35px; width: 35px; background: url(/media/images/icons/arrow_crayon.png) no-repeat center; border: none; cursor:pointer;}
+.bt_draw_eraser                                                                 {height: 35px; width: 35px; background: url(/media/images/icons/arrow_eraser.png) no-repeat center; border: none; cursor:pointer;}
+.bt_draw_marker                                                                 {height: 35px; width: 35px; background: url(/media/images/icons/arrow_marker.png) no-repeat center; border: none; cursor:pointer;}
+.bt_draw_small                                                                  {height: 29px; width: 29px; background: url(/media/images/icons/arrow_draw_small.png) no-repeat center; border: none; cursor:pointer;}
+.bt_draw_normal                                                                 {height: 29px; width: 29px; background: url(/media/images/icons/arrow_draw_normal.png) no-repeat center; border: none; cursor:pointer;}
+.bt_draw_large                                                                  {height: 29px; width: 29px; background: url(/media/images/icons/arrow_draw_large.png) no-repeat center; border: none; cursor:pointer;}
+.bt_draw_huge                                                                   {height: 29px; width: 29px; background: url(/media/images/icons/arrow_draw_huge.png) no-repeat center; border: none; cursor:pointer; }
+.bt_remove_bg                                                                   {height: 25px; width: 25px; background: url(/media/images/icons/bt_remove_bg.png) no-repeat center; border: none; cursor:pointer; float: right; margin-right: 10px;}
+.botao_trans_back                                                               {text-align: center; cursor: pointer; width: 122px; height: 40px; background: url(/media/images/buttons/buttons_trans_back.png) no-repeat; overflow: hidden; border: none; display: block; }
+
+#bt_delete_transparent, .bt_delete_transparent                                  {background: url("/media/images/buttons/bt_close_default_small.png") no-repeat scroll 0 0 transparent; cursor: pointer; width: 20px; height: 20px; border: none;}
+#bt_delete_transparent:hover, .bt_delete_transparent:hover                      {background-position: 0px -20px;}
+.bt_favorite_star                                                               {height: 22px; width: 22px; background: url(/media/images/icons/icon_star_favorite.png) no-repeat center; border: none; cursor:pointer; float: left; margin-right: 5px;}
+.link_favorites                                                                 {padding-top: 4px;}
+#bt_close_black, .bt_close_black, .bt_close_pb                                  {background: url("/media/images/buttons/bt_close_black.png") no-repeat scroll 0 0 transparent; cursor: pointer; width: 25px; height: 25px; border: none;}
+
+.buttons_quarter_up                                                             {height: 16px; width: 32px; white-space: nowrap; margin-top: 1px;}
+.bt_quarter_up_left                                                             {height: 16px; width: 16px; background: url(/media/images/icons/arrow_quarter_up_left.png) no-repeat; border: none; cursor:pointer; float: left}
+.bt_quarter_up_right                                                            {height: 16px; width: 16px; background: url(/media/images/icons/arrow_quarter_up_right.png) no-repeat; border: none; cursor:pointer; float: left}
+.buttons_quarter_down                                                           {height: 16px; width: 32px; white-space: nowrap;}
+.bt_quarter_down_left                                                           {height: 16px; width: 16px; background: url(/media/images/icons/arrow_quarter_down_left.png) no-repeat; border: none; cursor:pointer; float: left}
+.bt_quarter_down_right                                                          {height: 16px; width: 16px; background: url(/media/images/icons/arrow_quarter_down_right.png) no-repeat; border: none; cursor:pointer; float: left}
+
+.bt_base_edit .font_size                                                        {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_font_size.png) no-repeat center; border: none; cursor:pointer;}
+.bt_base_edit .font_type                                                        {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_font.png) no-repeat center; border: none; cursor:pointer;}
+.bt_base_edit .font_color                                                       {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_font_color.png) no-repeat center; border: none; cursor:pointer;}
+
+.icon_font_size_6                                                               {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_font_size_6.png) no-repeat center; border: none; cursor:pointer;}
+.icon_font_size_8                                                               {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_font_size_8.png) no-repeat center; border: none; cursor:pointer;}
+.icon_font_size_9                                                               {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_font_size_9.png) no-repeat center; border: none; cursor:pointer;}
+.icon_font_size_10                                                              {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_font_size_10.png) no-repeat center; border: none; cursor:pointer;}
+.icon_font_size_11                                                              {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_font_size_11.png) no-repeat center; border: none; cursor:pointer;}
+.icon_font_size_12                                                              {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_font_size_12.png) no-repeat center; border: none; cursor:pointer;}
+.icon_font_size_13                                                              {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_font_size_13.png) no-repeat center; border: none; cursor:pointer;}
+.icon_font_size_14                                                              {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_font_size_14.png) no-repeat center; border: none; cursor:pointer;}
+.icon_font_size_16                                                              {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_font_size_16.png) no-repeat center; border: none; cursor:pointer;}
+.icon_font_size_18                                                              {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_font_size_18.png) no-repeat center; border: none; cursor:pointer;}
+.icon_font_size_20                                                              {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_font_size_20.png) no-repeat center; border: none; cursor:pointer;}
+.icon_font_size_24                                                              {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_font_size_24.png) no-repeat center; border: none; cursor:pointer;}
+.icon_font_size_28                                                              {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_font_size_28.png) no-repeat center; border: none; cursor:pointer;}
+
+.font_type_verdana                                                              {height: 30px; width: 200px; background: url(/media/images/layout/fonts/font_type_verdana.png) no-repeat center; border: none; cursor:pointer;}
+.font_type_cooper                                                               {height: 30px; width: 200px; background: url(/media/images/layout/fonts/font_type_cooper.png) no-repeat center; border: none; cursor:pointer;}
+.font_type_army                                                                 {height: 30px; width: 200px; background: url(/media/images/layout/fonts/font_type_army.png) no-repeat center; border: none; cursor:pointer;}
+.font_type_burrito                                                              {height: 30px; width: 200px; background: url(/media/images/layout/fonts/font_type_burrito.png) no-repeat center; border: none; cursor:pointer;}
+.font_type_bank                                                                 {height: 30px; width: 200px; background: url(/media/images/layout/fonts/font_type_bank.png) no-repeat center; border: none; cursor:pointer;}
+.font_type_rage_italic                                                          {height: 30px; width: 200px; background: url(/media/images/layout/fonts/font_type_rage_italic.png) no-repeat center; border: none; cursor:pointer;}
+.font_type_din                                                                  {height: 30px; width: 200px; background: url(/media/images/layout/fonts/font_type_din.png) no-repeat center; border: none; cursor:pointer;}
+.font_type_lobster                                                              {height: 30px; width: 200px; background: url(/media/images/layout/fonts/font_type_lobster.png) no-repeat center; border: none; cursor:pointer;}
+.font_type_impact                                                               {height: 30px; width: 200px; background: url(/media/images/layout/fonts/font_type_impact.png) no-repeat center; border: none; cursor:pointer;}                            
+
+.bt_buy_stuff                                                                   {height: 25px; width: 25px; background: url("/media/images/icons/icon_buy_pp.png") no-repeat scroll 0 0 transparent; border: none; cursor:pointer; float: right; margin-right: 10px;}
+.bt_add_stuff                                                                   {height: 25px; width: 25px; background: url(/media/images/buttons/bt_add_stuff.png) no-repeat center; border: none; cursor:pointer; float: right; margin-right: 10px;}
+.bt_person_small                                                                {height: 25px; width: 25px; background: url(/media/images/buttons/bt_person_small.png) 0 0 no-repeat; border: none; cursor:pointer; float: right; margin-right: 5px; }
+.bt_people_small                                                                {height: 25px; width: 25px; background: url(/media/images/buttons/bt_people_small.png) 0 0 no-repeat; border: none; cursor:pointer; float: right; margin-right: 10px;}
+.bt_add_item                                                                    {height: 25px; width: 25px; background: url(/media/images/buttons/bt_add.png) 0 0 no-repeat; border: none; cursor:pointer; float: right; margin-right: 10px;}
+
+.bt_people_small.active, .bt_person_small.active                                {background-position: 0px -25px;}
+.bt_back_stuff                                                                  {height: 25px; width: 25px; background: url(/media/images/buttons/bt_back_stuff.png) no-repeat center; border: none; cursor:pointer; float: right; margin-right: 10px;}
+.bt_pay, #bt_pay                                                                {height: 23px; width: 23px; background: url(/media/images/buttons/bt_pay_green.png) no-repeat; border: none; cursor:pointer;}
+.bt_pay_gray, #bt_pay_gray                                                      {height: 23px; width: 23px; background: url(/media/images/buttons/bt_pay_gray.png) no-repeat; border: none; cursor:pointer;}
+.bt_estoque, #bt_estoque                                                        {height: 23px; width: 23px; background: url(/media/images/buttons/bt_estoque.png) no-repeat; border: none; cursor:pointer;}
+.bt_color_small                                                                 {height: 20px; width: 20px; background: url(/media/images/icons/icon_bannermaker_font_color.png) no-repeat center; border: none; cursor:pointer;}
+
+.bt-size-p                                                                      {height: 27px; width: 28px; background: url(/media/images/layout/bt_p.png) no-repeat; border: none; cursor:pointer; float: left; margin-right: 2px; overflow: hidden;}
+.bt-size-p:hover                                                                {height: 27px; width: 28px; background: url(/media/images/layout/bt_p.png) no-repeat; border: none; cursor:pointer; float: left; margin-right: 2px; overflow: hidden; background-position: 0px -27px}
+.bt-size-m                                                                      {height: 27px; width: 28px; background: url(/media/images/layout/bt_m.png) no-repeat; border: none; cursor:pointer; float: left; margin-right: 2px; }
+.bt-size-m:hover                                                                {height: 27px; width: 28px; background: url(/media/images/layout/bt_m.png) no-repeat; border: none; cursor:pointer; float: left; margin-right: 2px; overflow: hidden; background-position: 0px -27px}
+.bt-size-g                                                                      {height: 27px; width: 28px; background: url(/media/images/layout/bt_g.png) no-repeat; border: none; cursor:pointer; float: left; margin-right: 2px; }
+.bt-size-g:hover                                                                {height: 27px; width: 28px; background: url(/media/images/layout/bt_g.png) no-repeat; border: none; cursor:pointer; float: left; margin-right: 2px; overflow: hidden; background-position: 0px -27px}
+.bt-size-j                                                                      {height: 27px; width: 28px; background: url(/media/images/layout/bt_j.png) no-repeat; border: none; cursor:pointer; float: left; margin-right: 2px; }
+.bt-size-j:hover                                                                {height: 27px; width: 28px; background: url(/media/images/layout/bt_j.png) no-repeat; border: none; cursor:pointer; float: left; margin-right: 2px; overflow: hidden; background-position: 0px -27px}
+
+#bt-size-p                                                                      {height: 27px; width: 28px; background: url(/media/images/layout/bt_p.png) no-repeat; border: none; cursor:pointer; float: left; margin-right: 2px; overflow: hidden; position: absolute; z-index: 10; margin-top: 90px;}
+#bt-size-m                                                                      {height: 27px; width: 28px; background: url(/media/images/layout/bt_m.png) no-repeat; border: none; cursor:pointer; float: left; margin-right: 2px; overflow: hidden; position: absolute; z-index: 10; margin-top: 90px; margin-left: 33px}
+#bt-size-g                                                                      {height: 27px; width: 28px; background: url(/media/images/layout/bt_g.png) no-repeat; border: none; cursor:pointer; float: left; margin-right: 2px; overflow: hidden; position: absolute; z-index: 10; margin-top: 90px; margin-left: 63px}
+#bt-size-j                                                                      {height: 27px; width: 28px; background: url(/media/images/layout/bt_j.png) no-repeat; border: none; cursor:pointer; float: left; margin-right: 2px; overflow: hidden; position: absolute; z-index: 10; margin-top: 90px; margin-left: 93px}
+#bt-size-p input                                                                {background: none; border: none; height: 27px; width: 28px; cursor: pointer; position: absolute;}
+#bt-size-m input                                                                {background: none; border: none; height: 27px; width: 28px; cursor: pointer; position: absolute;}
+#bt-size-g input                                                                {background: none; border: none; height: 27px; width: 28px; cursor: pointer; position: absolute;}
+#bt-size-j input                                                                {background: none; border: none; height: 27px; width: 28px; cursor: pointer; position: absolute;}
+
+.bt_apply_property                                                              {height: 21px; width: 24px; background: url(/media/images/buttons/bt_apply_property.png) no-repeat; border: none; cursor:pointer; float: left; overflow: hidden;}
+.bt_apply_property:hover                                                        {background-position: 0 -20px}
+
+#bt_lock_open ,.bt_lock_open                                                    {background: url('/media/images/buttons/bt_lock_open.png') no-repeat; cursor: pointer; width: 23px; height: 23px; border: none;}
+#bt_lock_close ,.bt_lock_close                                                  {background: url('/media/images/buttons/bt_lock_close.png') no-repeat; cursor: pointer; width: 23px; height: 23px; border: none;}
+#bt_lock_close_red ,.bt_lock_close_red                                          {background: url('/media/images/buttons/bt_lock_close_red.png') no-repeat; cursor: pointer; width: 23px; height: 23px; border: none;}
+#bt_key ,.bt_key                                                                {background: url('/media/images/buttons/bt_key.png') no-repeat; cursor: pointer; width: 23px; height: 23px; border: none;}
+#bt_print, .bt_print                                                            {background: url('/media/images/icons/bt_print_small.png') no-repeat; cursor: pointer; width: 23px; height: 23px; border: none;}
+#bt_star, .bt_star                                                              {background: url('/media/images/buttons/bt_star.png') no-repeat; cursor: pointer; width: 23px; height: 23px; border: none;}
+#bt_send_payment, .bt_send_payment                                              {background: url('/media/images/buttons/bt_send_arrow_green.png') no-repeat; cursor: pointer; width: 23px; height: 23px; border: none;}
+#bt_speaker, .bt_speaker                                                        {background: url('/media/images/icons/icon_mega_speaker.png') no-repeat; cursor: pointer; width: 23px; height: 23px; border: none;}
+#bt_mercadolivre, .bt_mercadolivre                                              {background: url('/media/images/icons/icon_mercadolivre.png') no-repeat; cursor: pointer; width: 23px; height: 23px; border: none;}
+#bt_avaliation, .bt_avaliation                                                  {background: url('/media/images/buttons/bt_avaliation.png') no-repeat; cursor: pointer; width: 23px; height: 23px; border: none;}
+#bt_avaliation_more, .bt_avaliation_more                                        {background: url('/media/images/buttons/bt_avaliation_more.png') no-repeat; cursor: pointer; width: 23px; height: 23px; border: none;}
+#bt_avaliation_list, .bt_avaliation_list                                        {background: url('/media/images/buttons/bt_avaliation_list.png') no-repeat; cursor: pointer; width: 23px; height: 23px; border: none;}
+#bt_recuperacao, .bt_recuperacao                                                {background: url('/media/images/icons/bt_recuperacao.png') no-repeat; cursor: pointer; width: 23px; height: 23px; border: none;}
+#bt_pages, .bt_pages                                                            {background: url('/media/images/buttons/bt_pages.png') no-repeat; cursor: pointer; width: 23px; height: 23px; border: none;}
+#bt_advertise, .bt_advertise                                                    {background: url('/media/images/buttons/bt_advertise.png') no-repeat; cursor: pointer; width: 23px!important; height: 23px; border: none;}
+#bt_empty, .bt_empty                                                            {background: url('/media/images/icons/bt_empty.png') no-repeat; cursor: pointer; width: 23px; height: 23px; border: none;}
+
+#bt_comprar_pp, .bt_comprar_pp                                                  {background: url('/media/images/layout/buttons/bt_comprar_conteudo.png') no-repeat; cursor: pointer; width: 155px; height: 30px; border: none;}
+
+.bt_rigth a, .bt_rigth_second a                                                 {text-align:center;text-decoration:none !important;cursor:pointer;color: #FFF!important;}
+.bt_rigth_second                                                                {float:right;margin-right:10px;height: 24px;width: 150px;background:url(../personalizar/buttons/bt_ear_down.png) no-repeat center;text-align:center;}
+.bt_rigth a:hover, .bt_rigth_second a:hover                                     {text-align:center;cursor:pointer;}
+
+.bt_submit                                                                      {float:right;	height: 24px;	margin-right: 170px; margin-top: 25px;}
+
+.bt_rounded_black                                                               {background: url("/media/images/buttons/bt_rounded.png") no-repeat; width: 100px; height: 30px; color: #ccc; border: none}
+.bt_db                                                                          {color: #CCC!important; text-align: center; vertical-align: middle; cursor: pointer; width: 85px; height: 20px; background: url("/media/images/buttons/bt_common.png") 0px 2px no-repeat; padding-top: -15px; float: right; border: none}
+.bt_db:hover                                                                    {color: #FFF!important; background: url("/media/images/buttons/bt_common_hover.png") 0px 2px no-repeat;}
+.bt_db:focus                                                                    {color: #FFF!important; background: url("/media/images/buttons/bt_common_hover.png") 0px 2px no-repeat;}
+
+.form_buttons_support                                                           {margin-right: 0px; margin-top: 15px; margin-bottom: 15px; float: right}
+.form_buttons_support_contact                                                   {margin-right: 20px; margin-top: 15px; margin-bottom: 15px; float: right}
+
+.botao_carrinho                                                                 {text-align: center; vertical-align: middle; cursor: pointer; width: 60px; height: 30px; background-repeat: no-repeat; overflow: hidden; border: none; background-color: transparent;}
+.botao_carrinho:hover                                                           {background-position: 0px -30px;}
+
+.botao_carrinho_disabled                                                        {text-align: center; vertical-align: middle; width: 60px; height: 30px; background-repeat: no-repeat; overflow: hidden; border: none; background-color: transparent;background: url("/media/images/textures/botao/cart_disabled.png") no-repeat}
+
+
+
+.botao_small                                                                    {text-align: center; vertical-align: middle; cursor: pointer; width: 60px; height: 30px; background-repeat: no-repeat; overflow: hidden; border: none; background-color: transparent; background: url("/media/images/textures/botao/blue_dark_3_small.png") no-repeat}
+.botao_small:hover                                                              {background-position: 0px -30px;}
+
+.botao_whishlist                                                                {text-align: center; vertical-align: middle; cursor: pointer; width: 60px; height: 30px; background-repeat: no-repeat; overflow: hidden; border: none; background-color: transparent; background: url("/media/images/textures/botao/buttons_whishlist.png") no-repeat}
+.botao_whishlist:hover                                                          {background-position: 0px -30px;}
+
+.botao_compare                                                                  {text-align: center; vertical-align: middle; cursor: pointer; width: 60px; height: 30px; background-repeat: no-repeat; overflow: hidden; border: none; background-color: transparent; background: url("/media/images/textures/botao/button_compare_items_gray.png") no-repeat}
+.botao_compare:hover                                                            {background-position: 0px -30px;}
+
+
+.botao_mini                                                                     {text-align: center; vertical-align: middle; cursor: pointer; width: 30px; height: 30px; background-repeat: no-repeat; margin-left: 10px; overflow: hidden; border: none; background-color: transparent; background: url("/media/images/textures/botao/bt_mini_white.png") no-repeat}
+.botao_mini:hover                                                               {background-position: 0px -30px;}
+.botao                                                                          {background-color: transparent; border: medium none; height: 40px; width: 120px;}
+
+.botao_trans_alert                                                              {width: 120px; height: 40px; background: url("/media/images/buttons/buttons_trans_red.png") no-repeat; border: none; color: #fff; cursor: pointer}
+.botao_trans_big_alert                                                          {width: 180px; height: 40px; background: url("/media/images/buttons/buttons_trans_big_red.png") no-repeat; border: none; color: #fff; cursor: pointer}
+.botao_trans_alert:hover, .botao_trans_big_alert:hover                          {background-position: 0px -40px;}
+
+.bt_common                                                                      {float: left;}
+
+/* Colors */
+.icon_color_azul_claro                                                          {background: url("/media/images/colors/azul_claro.png") 0px 0px no-repeat; width: 20px; height: 20px; border: none; cursor: pointer} 
+.icon_color_azul_royal                                                          {background: url("/media/images/colors/azul_royal.jpg") 0px 0px no-repeat; width: 20px; height: 20px; border: none; cursor: pointer} 
+.icon_color_azul_escuro                                                         {background: url("/media/images/colors/azul_escuro.png") 0px 0px no-repeat; width: 20px; height: 20px; border: none; cursor: pointer} 
+.icon_color_bege_cru                                                            {background: url("/media/images/colors/bege_cru.png") 0px 0px no-repeat; width: 20px; height: 20px; border: none; cursor: pointer} 
+.icon_color_branco                                                              {background: url("/media/images/colors/branco.png") 0px 0px no-repeat; width: 20px; height: 20px; border: none; cursor: pointer} 
+.icon_color_cinza                                                               {background: url("/media/images/colors/cinza.png") 0px 0px no-repeat; width: 20px; height: 20px; border: none; cursor: pointer} 
+.icon_color_laranja_claro                                                       {background: url("/media/images/colors/laranja_claro.png") 0px 0px no-repeat; width: 20px; height: 20px; border: none; cursor: pointer} 
+.icon_color_preto                                                               {background: url("/media/images/colors/preto.png") 0px 0px no-repeat; width: 20px; height: 20px; border: none; cursor: pointer}
+.icon_color_preto_leve                                                          {background: url("/media/images/colors/preto_leve.png") 0px 0px no-repeat; width: 20px; height: 20px; border: none; cursor: pointer} 
+.icon_color_rosa                                                                {background: url("/media/images/colors/rosa.png") 0px 0px no-repeat; width: 20px; height: 20px; border: none; cursor: pointer} 
+.icon_color_verde_bandeira                                                      {background: url("/media/images/colors/verde_bandeira.png") 0px 0px no-repeat; width: 20px; height: 20px; border: none; cursor: pointer} 
+.icon_color_bordo                                                               {background: url("/media/images/colors/vermelho_bordo.png") 0px 0px no-repeat; width: 20px; height: 20px; border: none; cursor: pointer} 
+
+.SI-FILES-STYLIZED label.botao input.file                                       {position: relative; height: 100%; width: auto; opacity: 0; -moz-opacity: 0; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);}
+
+/* Tablet */
+.bt_list_ipad, #bt_list_ipad                                                    {height: 30px; width: 30px; background: url(/media/images/buttons/bt_list_square.png) no-repeat; border: none; cursor:pointer;}
+.bt_edit_ipad, #bt_edit_ipad                                                    {height: 30px; width: 30px; background: url(/media/images/buttons/bt_edit_square.png) no-repeat; border: none; cursor:pointer;}
+.bt_home_ipad, #bt_home_ipad                                                    {height: 30px; width: 30px; background: url(/media/images/buttons/bt_home_square.png) no-repeat; border: none; cursor:pointer;}
+.bt_order_ipad, #bt_order_ipad                                                  {height: 30px; width: 30px; background: url(/media/images/buttons/bt_order_square.png) no-repeat; border: none; cursor:pointer;}
+.bt_back_tablet, #bt_back_tablet                                                {height: 30px; width: 30px; background: url(/media/images/buttons/bt_back_gray.png) no-repeat; border: none; cursor:pointer;}
+.bt_search_small, #bt_search_small                                              {height: 22px; width: 22px; background: url(/media/images/buttons/bt_search_small.png) no-repeat; border: none; cursor:pointer;}
+
+
+/* Status Icon */
+.icon_status_inativo                                                            {background: url(/media/images/icons/icon_status_inativo.png) no-repeat; height: 23px; width: 23px; margin-top: 0px; border: none; display: inline-block}
+.icon_status_ativo                                                              {background: url(/media/images/icons/icon_status_ativo.png) no-repeat; height: 23px; width: 23px; margin-top: 0px; border: none; display: inline-block}
+.icon_status_aguardando                                                         {background: url(/media/images/icons/icon_status_aguardando.png) no-repeat; height: 23px; width: 23px; margin-top: 0px; border: none; display: inline-block}
+.icon_status_alerta                                                             {background: url(/media/images/icons/icon_status_alerta.png) no-repeat; height: 23px; width: 23px; margin-top: 0px; border: none; display: inline-block}
+.icon_status_erro                                                               {background: url(/media/images/icons/icon_status_error.png) no-repeat; height: 23px; width: 23px; margin-top: 0px; border: none; display: inline-block}
+
+/* Button show */
+a#testbutton, a#testbutton:visited                                              {display:block;background: url(http://darrenhoyt.com/imagedump/simple_button.png) repeat-x; width: 200px; padding:10px 0;text-align:center;border:1px solid #608925;text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.8);font-weight:bold; text-transform:uppercase; border-radius:5px;-moz-border-radius: 5px; -webkit-border-radius: 5px; color:#FFF; text-decoration: none; opacity:.85; }  
+      
+a#testbutton:hover                                                              {border-color:#49671d;}  
+a#testbutton:active                                                             {background-position:  0 -200px;padding:11px 0 9px;text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8);}  
+
+.icon_data                                                                      {background: url(/media/images/icons/forms_calendar2.png) repeat-x; width: 30px; height: 30px; float: left}
+
+/* Social network */
+.icon_facebook_color                                                            {height: 25px; width: 25px; background: url(/media/images/icons/icon_share_facebook.png) no-repeat; border: none; cursor: pointer}
+.icon_twitter_color                                                             {height: 25px; width: 25px; background: url(/media/images/icons/icon_share_twitter.png) no-repeat; border: none; cursor: pointer}
+.icon_businesspage_color                                                        {height: 25px; width: 25px; background: url(/media/images/icons/icon_share_businesspage.png) no-repeat; border: none; cursor: pointer}
+.icon_like_color                                                                {height: 25px; width: 25px; background: url(/media/images/icons/icon_share_like.png) no-repeat; border: none; cursor: pointer}
+

@@ -1,0 +1,35 @@
+/* 
+    Document   : glamo
+    Created on : 20/10/2014, 16:42:45
+    Author     : Assuero
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.mn_osis_pos                                                                    {float: right; }
+#topo_osiris .navbar-inner                                                      {box-shadow: none!important}
+
+.cat-title::after                                                               {content: ""; display: block; font-family: "FontAwesome"; font-size: 24px; position: absolute; right: 12px; text-align: center; top: 12px;}
+.cat-title                                                                      {background: #31353d none repeat scroll 0 0;border-radius: 3px;color: #ffffff; display: none;height: 46px;position: absolute;right: 36px;text-transform: uppercase; top: 12px; width: 46px; cursor: pointer;}
+
+.search-header                                                                  {margin: -10px 0 0 20px; position: relative;}
+#search-header                                                                  {float: right; position: relative;}
+#search-header #search-form_is                                                  {background: #f7f7f7 none repeat scroll 0 0; border: medium none; border-radius: 50%; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17) inset;color: #333;font: 14px/20px FontAwesome !important;  height: 40px;   margin: 0;  padding: 0;   text-shadow: none;   width: 40px;}
+
+#menu_resp_retratil                                                             {display: none;}                           
+.itMenuResp                                                                     {width: 100%; height: 30px; background: #f1f1f1; clear: left; margin-bottom: 5px; padding: 5px; color: #333;}          
+.itMenuResp:hover                                                               {background-color: #ccc; color: #000;}
+
+.navbar .nav > li > a                                                           {font-size: 1em; padding-left: 10px !important; padding-right: 10px !important;text-transform: none!important; font-family: "Open Sans",Arial,sans-serif;}
+
+
+@media (max-width: 480px) {                                               
+    .topbar-sidebar .widget_product_search form input[type="text"], .topbar-sidebar .search-form input[type="text"] {max-width: 130px;} 
+    .topo_helper                                                                {min-height: 70px;}
+}
+
+@media (max-width: 768px) {                                                      
+    .mn_osis_pos                                                                {display: none;}
+    .cat-title                                                                  {display: block;}
+}
+ 

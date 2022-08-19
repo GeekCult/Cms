@@ -1,0 +1,125 @@
+/* 
+    Document   : glamo
+    Created on : 20/10/2014, 16:42:45
+    Author     : Assuero
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.topbar-sidebar .widget_product_search form input[type="submit"], .topbar-sidebar .search-form input[type="submit"] {
+    background: none repeat scroll 0 0 transparent;
+    display: block;
+    height: 16px;
+    margin-right: 5px;
+    padding: 0;
+    position: absolute;
+    right: 3px;
+    text-indent: -9999px;
+    top: 8px;
+    width: 16px;
+    z-index: 100;
+}
+.search-form input[type="submit"] {
+    border: 0 none;
+    cursor: pointer;
+    display: none;
+    height: 40px;
+    position: absolute;
+    right: 6px;
+    text-indent: -9999px;
+    top: -3px;
+    width: 20px;
+}
+input[type="submit"] {
+    background: none repeat scroll 0 0 #333333;
+    border: medium none;
+    border-radius: 2px;
+    color: #ffffff;
+    font-family: "Audiowide",cursive;
+    padding: 7px 30px;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+    width: auto;
+}
+
+.topbar-sidebar .glamo-social-links-widget .social-link {
+    border-radius: 50%;
+    color: #eeeeee;
+    height: 30px;
+    margin-bottom: 0;
+    width: 30px;
+}
+
+.topbar-sidebar .glamo-social-links-widget .social-link:before {
+    line-height: 31px;
+}
+.glamo-social-links-widget .social-link:before {
+    display: block;
+    font-size: 16px;
+    line-height: 33px;
+    text-indent: 0;
+}
+
+.topbar-sidebar .glamo-social-links-widget .social-link:before {
+    line-height: 31px;
+}
+.glamo-social-links-widget .social-link:before {
+    display: block;
+    font-size: 16px;
+    line-height: 33px;
+    text-indent: 0;
+}
+.fa-facebook:before {
+    content: "";
+}
+*:before, *:after {
+    box-sizing: border-box;
+}
+*:before, *:after {
+    box-sizing: border-box;
+}
+.topbar-sidebar .glamo-social-links-widget .social-link                         {border-radius: 50%; height: 30px; margin-bottom: 0; width: 30px;}
+.topbar-sidebar .glamo-social-links-widget .social-link2                        {border-radius: 50%; height: 40px; margin-bottom: 0; width: 40px;}
+.glamo-social-links-widget .social-link                                         {background: none repeat scroll 0 0 #333333;color: #ffffff; display: inline-block; height: 33px; margin: 0 5px 5px 0;text-align: center;text-indent: -9999px;width: 33px;}
+.glamo-social-links-widget .social-link2                                        {background: none repeat scroll 0 0 #333333;color: #ffffff; display: inline-block; height: 50px; margin: 0 15px 15px 0;text-align: center;text-indent: -9999px;width: 50px;}
+
+
+
+.topbar-sidebar-left                                                            {float: left; height: 30px; position: relative}
+.topbar-sidebar .widget_product_search form input[type="text"], .topbar-sidebar .search-form input[type="text"] {background-color: #333333; border: medium none; border-radius: 15px; color: #ffffff;  font: italic 300 12px/1 Roboto,Arial,sans-serif;   height: 13px;   padding: 9px 30px 9px 15px;   width: 150px;   margin-top: 4px; }
+.topbar-sidebar .widget_product_search form input[type="submit"], .topbar-sidebar .search-form input[type="submit"] {background: none repeat scroll 0 0 transparent; display: block; height: 16px;margin-right: 5px;padding: 0; position: absolute; right: 3px;text-indent: -9999px;top: 8px;width: 16px; z-index: 100;}
+
+#Tg_refined .topbar-sidebar .widget_product_search form input[type="text"], 
+#Tg_refined .topbar-sidebar .search-form input[type="text"]                     {width: 250px;}
+
+#Tg_common .topbar-sidebar-right                                                {width: auto; float: right;}
+#Tg_refined .topbar-sidebar-right                                               {width: 40%; float: right;}
+
+#Tg_common .widget_text                                                         {margin: 7px 0 0 10px; display: inline-block;}
+#Tg_refined .widget_text                                                        {margin: 7px 10px 0 0px; display: inline-block; float: left}
+.glamo-social-links-widget                                                      {margin: 5px 0px 0 0;}
+
+#Tg_refined .glamo-mini-cart-widget, #Tg_reverse .glamo-mini-cart-widget                                             {float: left}
+#Tg_refined .widget_search                                                      {top: 10px; position: relative; }
+
+
+.bt_search_glamo                                                                {position: absolute; color: #fff; font-size: 1.2em; cursor: pointer; top: 10px; right: 10px;}
+.textwidget, .textwidget span                                                   {color: #4b4b4b;}
+
+#Tg_reverse .widget_search                                                      {top: 0px; position: relative; display: inline-block}
+#Tg_reverse .search_ctn                                                         {height: 30px;}
+#Tg_reverse .topbar-sidebar-right                                               {width: 40%; float: right;}
+#Tg_reverse .widget_text                                                        {margin: 7px 10px 0 0px; display: inline-block; float: left}
+#Tg_reverse .ctnRedSocial                                                       {top: 20px; position: relative}
+
+#Tg_fgstorme .topbar-sidebar-right                                              {width: auto; float: right;}
+#Tg_fgstorme .widget_text                                                       {margin: 7px 0 0 10px; display: inline-block;}
+
+#topo_contatus .navbar-inner                                                       {box-shadow: none!important}
+
+.navbar .nav > li> a {font-family:purple_main;}
+
+@media (max-width: 480px) {                                                      
+    .topbar-sidebar .widget_product_search form input[type="text"], .topbar-sidebar .search-form input[type="text"] {max-width: 130px;} 
+}
+ 

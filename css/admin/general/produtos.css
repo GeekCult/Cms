@@ -1,0 +1,358 @@
+
+
+
+#cc-profile                                                 {font-size: 12px;}
+/* colors */
+
+.gray_hard                                                  { color: #333; }
+.gray_mid                                                   { color: #999; }
+.gray_light                                                 { color: #a3a3a3; }
+.green                                                      { color: #8abb8a; }
+
+/* cc-content */
+
+#cc-global-center                                           { width: 0100%; background: url(/media/images/layout/form/aaa_global_background_center.jpg) repeat-x top; overflow: auto; }
+#cc-global-center-content                                   { width: 900px; background: url(/media/images/layout/form/aaa_global_background_content.png) repeat-y center; position: relative; left: 50%; margin: 0 0 0 -463px; padding: 0 13px; overflow: hidden; }
+
+
+/* cc-main-vitrine */
+
+#cc-main                                                    { }
+#cc-main h1                                                 { font-size: 3em; letter-spacing: -2.2px; font-weight: normal; }
+#cc-main ul                                                 { }
+#cc-main ul li                                              { display: inline; list-style: none; }
+
+#cc-main-left                                               { text-align: left; }
+#cc-main-left ul li                                         { margin: 0 5px 0 0 ; }
+#cc-main-left .pool-info-counter-icons                      { float: left; margin: 0 5px 0 0; }
+#cc-main-left .pool-info-counter-numbers                    { padding: 2px 6px 1px 5px; color: #8d8d8d; font-size: 1.65em; letter-spacing: -0.1em; border: solid 1px #ccc; margin: 0 5px 0 0; float: left; }
+
+#cc-main-right                                              { text-align: right; }
+#cc-main-right ul li                                        { margin: 0 0 0 5px ; }
+#cc-main-right .pool-info-counter-icons                     { float: right; margin: 0 0 0 5px; }
+#cc-main-right .pool-info-counter-numbers                   { padding: 2px 6px 1px 5px; color: #8d8d8d; font-size: 1.65em; letter-spacing: -0.1em; border: solid 1px #ccc; margin: 0 0 0 5px; float: right; }
+
+.cc-main-pool                                               { width: 900px; height: 345px; }
+.cc-main-pool-content                                       { width: 900px; height: 345px; }
+.cc-main-pool-content-block                                 { width: 900px; height: 345px; position: relative; }
+.cc-main-pool-content-label                                 { width: 840px; height: 295px; position: absolute; margin: 30px 30px 0 30px; }
+
+/* cc-main-content */
+.ctnCenterAdmin                                             {width: 800px; left: 50%; position: relative; margin-left: -400px;}
+#cc-main-content                                            { padding: 0px 30px; overflow: auto; }/*width: 840px;*/
+#cc-main-content .cc-main-content-halfway                   { width: 0050%; float: left; }
+#cc-main-content .cc-main-content-fullway                   { width: 100%; clear: both; margin: 0 0 5px 0px;}
+#cc-main-content .cc-main-content-fullway .buttons_right    { float:right;}
+#cc-main-content .cc-main-content-halfway .helper-margin    { margin-left: 80px;}
+#cc-main-content .cc-main-content-fullway .gallery          { width:980px; overflow: hidden;}
+#cc-main-content .cc-main-content-fullway .info-network     { float: left;}
+#cc-main-content .cc-main-content-fullway .rowtwitter       { width: 70px;}
+#cc-main-content .cc-main-content-fullway .rowfacebook      { width: 170px;}
+#cc-main-content .background-color                          { border: 1px solid  #ccc;}
+#cc-main-content .container-header-pj                       { width: 100%; height: 90px;}
+#cc-main-content .container-title-pj                        { width: 700px; float: left;}
+#cc-main-content .helper-margin-user                        { margin-left: 65px;}
+#cc-main-content .bt_voltar                                 { background: url("/media/images/layout/form/aaa_buttons_profile_voltar.png") no-repeat; width: 120px; height: 30px; border: none; cursor:pointer;}
+#cc-main-content .bt_voltar:focus                           { background: url("/media/images/layout/form/aaa_buttons_profile_voltar_focus.png") no-repeat; width: 120px; height: 30px; border: none; cursor:pointer;}
+#cc-main-content .bt_voltar:hover                           { background: url("/media/images/layout/form/aaa_buttons_profile_voltar_focus.png") no-repeat; width: 120px; height: 30px; border: none; cursor:pointer;}
+
+.row-estado                                                 { height: 45px; padding-top: 8px;}
+.label_after                                                {float: left; margin-top: 7px; margin-left: 6px}
+
+#cc-main-content-form                                       { margin: 20px 0px; }
+#cc-main-content-form table                                 { color: #aaa; margin: 0 0 5px 0; }
+#cc-main-content-form table th                              { width: 150px; padding: 0px 5px 0 0; font-weight: bold; text-align: right; }
+#cc-main-content-form table tr                              { height: 45px; }
+
+#cc-main-content-form .input                                { width: 168px; height: 030px; padding: 0 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_normal.jpg) no-repeat; border: none; font-size: 14px; color: #5D5D5D; letter-spacing: -1px; }
+#cc-main-content-form .input:focus                          { width: 168px; height: 030px; padding: 0 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_normal_focus.jpg) no-repeat; border: none; font-size: 14px; color: #fff; letter-spacing: -1px; }
+
+#cc-main-content-form .input-small                          { width: 040px; height: 030px; padding: 0 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_small.jpg) no-repeat; border: none; font-size: 14px; color: #5D5D5D; letter-spacing: -1px; }
+
+#cc-main-content-form .input-mid                            { width: 070px; height: 030px; padding: 0 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_middle.png) no-repeat; border: none; font-size: 14px; color: #5D5D5D; letter-spacing: -1px;}
+
+#cc-main-content-form .input-date                           { width: 080px; height: 030px; padding: 0 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_middle.png) no-repeat; border: none; font-size: 14px; color: #5D5D5D; letter-spacing: -2px; }
+#cc-main-content-form .input-date:focus                     { width: 080px; height: 030px; padding: 0 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_middle_focus.png) no-repeat; border: none; font-size: 14px; color: #fff; letter-spacing: -2px; }
+
+#cc-main-content-form .input-long                           { width: 200px; height: 030px; padding: 0 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_long.jpg) no-repeat; border: none; font-size: 14px; color: #5D5D5D; letter-spacing: -1px; }
+#cc-main-content-form .input-long:focus                     { width: 200px; height: 030px; padding: 0 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_long_focus.jpg) no-repeat; border: none; font-size: 14px; color: #fff; letter-spacing: -1px; }
+
+#cc-main-content-form .input-area                           { width: 340px; height: 110px; padding: 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_area.jpg) no-repeat; border: none; font-size: 14px; color: #5D5D5D; letter-spacing: -1px; }
+#cc-main-content-form .input-area:focus                     { width: 340px; height: 110px; padding: 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_area_focus.jpg) no-repeat; border: none; font-size: 14px; color: #fff; letter-spacing: -1px; }
+
+#cc-main-content-form .input-area-termo                     { width: 410px; height: 180px; padding: 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_area2.png) no-repeat; border: none; font-size: 14px; color: #5D5D5D; letter-spacing: -1px; }
+#cc-main-content-form .input-area-termo:focus               { width: 410px; height: 180px; padding: 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_area_focus2.png) no-repeat; border: none; font-size: 14px; color: #fff; letter-spacing: -1px; }
+
+#cc-main-content-form .input-full                           { width: 819px; height: 25px; padding: 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_full.jpg) no-repeat; border: none; font-size: 14px; color: #5D5D5D; letter-spacing: -1px; }
+
+#cc-main-content-form .input-giant                          { width: 700px; height: 25px; padding: 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_giant.png) no-repeat; border: none; font-size: 14px; color: #5D5D5D; letter-spacing: -1px; }
+
+#cc-main-content-form .textarea-giant                       { width: 700px; height: 120px; padding: 5px; background: url(/media/images/layout/form/aaa_global_background_formulario_area_giant.png) no-repeat; border: none; font-size: 14px; color: #5D5D5D; letter-spacing: -1px; }
+
+#cc-main-content-form .button                               { margin: 20px 0 0 0; cursor: pointer;}
+#cc-main-content-form .button-continuar                     { margin: 20px 0 0 0; background: url(/media/images/layout/form/aaa_buttons_continuar_inativo.png) no-repeat; border: none; width: 122px; height: 40px; cursor: pointer}
+#cc-main-content-form .button-continuar:hover               { margin: 20px 0 0 0; background: url(/media/images/layout/form/aaa_buttons_continuar.jpg) no-repeat; border: none; width: 122px; height: 40px;}
+#cc-main-content-form .button-continuar:focus               { margin: 20px 0 0 0; background: url(/media/images/layout/form/aaa_buttons_continuar.jpg) no-repeat; border: none; width: 122px; height: 40px;}
+#cc-main-content-form .select                               { margin-top: 5px; }
+#cc-main-content-form .select_regiao                        { width: 150px; border: 1px solid #5D5D5D; font-size: 13px; color: #5D5D5D; letter-spacing: -1px; padding: 5px; margin: 0 15px 0 0; }
+#cc-main-content-form .image                                { width: 830px; height: 318px; border: 2px solid #5D5D5D; margin: -30px 0 15px 0; }
+#cc-main-content-form .category                             { clear: left; margin-top: 15px;}
+#cc-main-content-form .helper-width-pool-form               { width: 690px;}
+#cc-main-content-form .editor-text                          { border: 1px solid #ccc; padding: 9px; }
+#cc-main-content-form #editor-html                          { width: 680px; white-space: nowrap;}
+#cc-main-content-form .label-categoria                      { float:left; font-weight: bold; width: 100px; text-align: right; padding-right: 10px; padding-top: 10px;}
+#cc-main-content-form .paypal-container                     { padding-right: 10px; padding-top: 10px;}
+#cc-main-content-form .cod-afiliacao                        { float:left;}
+#cc-main-content-form .formDescricao                        { width: 690px;}
+
+.check_box_desc                                             {margin-top: 7px; margin-right: 10px;}
+.legend_desc                                                {padding-top: 7px;}
+/* cc-pool */
+
+.pool-info-clock-left                                       { height: 23px; text-transform: uppercase; color: #8d8d8d; font-size: 1.5em; letter-spacing: -0.1em; background: url(../media/images/layout/form/pools_icons_clock.png) no-repeat; padding: 4px 0 0 35px; margin: 0px 0 0 0px; text-align: left; } /*left center no-repeat; padding: 4px 0 0 35px; margin: 10px 0 15px 0; } */
+.pool-info-clock-right                                      { height: 23px; text-transform: uppercase; color: #8d8d8d; font-size: 1.5em; letter-spacing: -0.1em; background: url(../media/images/layout/form/pools_icons_clock.png) right center no-repeat; padding: 4px 35px 0 0; margin: 0 0 0 20px; }
+
+.pool-info-counter                                          { padding-top: 10px; overflow: auto; }
+.pool-info-counter .container-image                         { }
+.pool-info-counter .number-position-left                    { float: left; margin-left: 45px; margin-top: 2px; padding: 2px 6px 1px 5px; color: #8d8d8d; font-size: 12px; letter-spacing: -1px; border: solid 1px #ccc;  }
+.pool-info-counter .number-position-right                   { margin-top: 2px;   text-align: right; padding: 2px 6px 1px 5px; color: #8d8d8d; font-size: 12px; letter-spacing: -1px; border: solid 1px #ccc; float: right; margin-right: 42px;}
+.pool-info-counter .icon-position-left                      { float: left; margin-left: 10px;}
+.pool-info-counter .icon-position-right                     { float: right; margin-right: 10px;}
+
+.pool-info-clock-support                                    { margin-left: 50px;}
+.pool-info-price                                            { margin: 10px 0 0 0; clear: both; height: 50px;}
+.pool-info-price_pool                                       { width: auto; font-size: 3em; letter-spacing: -1.2px; font-weight: bold; float:right; margin-left: 10px;}
+.pool-info-price_real                                       { font-size: 1.3em; letter-spacing: -1px; margin: 3px 0 0 0; text-decoration:line-through; float:right; color:#ccc; }
+.pool-info-price_left                                       { margin: 20px 0 0 0; clear: both; height: 50px; float: left;}
+.pool-info-price_pool_left                                  { width: auto; font-size: 3em; letter-spacing: -1.2px; font-weight: bold; float:right; margin-right: 10px;}
+.pool-info-price_real_left                                  { font-size: 1.3em; letter-spacing: -1px; margin: 3px 0 0 0; text-decoration:line-through; float:right; color:#ccc; }
+.pool-info-delivery                                         { font-size: 1.4em; letter-spacing: -1.4px; margin: 0 0 10px 0; color: #ccc;}
+.pool-info-faltam                                           { font-size: 1.4em; letter-spacing: -1.4px; margin: 0 0 5px 0; color: #ccc;}
+.pool-info-maxunits                                         { font-size: 1em; color: #ccc; margin-bottom: 5px; }
+.pool-info-participate                                      { margin: 0px 0 0 0; clear: both;}
+.pool-info-share                                            { font-size: 1.4em; color: #8d8d8d; text-transform: uppercase; letter-spacing: -0.8px; font-weight: bold; margin: 15px 0 0 0; }
+.pool-container-image                                       { border: 1px solid #f0f0f0; height: 240px; width: 240px; position: relative; left: 50%; margin-left: -120px;}
+.pool-info-image                                            { border: none; z-index: 0;}
+
+
+
+#cc-profile                                                 { width: 100%; overflow: auto; }
+#cc-profile-menu                                            { width: 220px; float: left; margin: -320px 0 0 0; background: #f9f9f9; padding: 20px; position: absolute; top: 350px; }
+
+#cc-profile-menu h1                                         { color: #8c8c8c; font-size: 20px; letter-spacing: -1px; font-weight: bold; line-height: 20px; }
+#cc-profile-menu h2                                         { color: #8c8c8c; font-size: 18px; letter-spacing: -1px; }
+
+#cc-profile-menu ul                                         { }
+#cc-profile-menu ul li                                      { display: list-item; line-height: 18px; font-size: 12px; letter-spacing: -1px; }
+#cc-profile-menu ul li a                                    { text-decoration: underline; }
+
+#cc-profile-menu .profile-info-reseller                     { clear: right; overflow: auto; margin: 0 0 20px 0; }
+#cc-profile-menu .profile-info-reseller-image               { float: left; padding: 0 20px 0 0; }
+#cc-profile-menu .profile-info-reseller-menu                { clear: left; margin: 25px 0 0 0; }
+#cc-profile-menu .profile-info-list                         { width: 110px; float: left; }
+
+#cc-profile-menu .profile-ratings                           { height: 60px; clear: both; overflow: visible; }
+#cc-profile-menu .profile-ratings-positive                  { width: 117px; height: 41px; float: left; background: url(/media/icons/profile_rating_positive.gif) no-repeat; }
+#cc-profile-menu .profile-ratings-negative                  { width: 103px; height: 41px; float: right; background: url(/media/icons/profile_rating_negative.gif) no-repeat; }
+#cc-profile-menu .profile-ratings-votes                     { margin: 10px 0 0 50px; font-size: 18px; letter-spacing: -1px; font-weight: bold; }
+#cc-profile-menu .profile-ratings-label                     { margin: 10px 0 0 10px; font-size: 12px; letter-spacing: -1px; color: #999; }
+#cc-profile-menu .profile-feeds                             { overflow: auto; clear: both; margin: 20px 0; }
+
+#cc-profile-content                                         { width: 550px; float: right; background: #f9f9f9; }
+#cc-profile .profile-content-header                         { padding: 20px; overflow: auto; background: #f9f9f9; margin-bottom: 15px;}
+#cc-profile .profile-content-header-titulo                  { width: 500px; float: left; margin-bottom: 10px; }
+#cc-profile .profile-content-header-titulo h1               { color: #999; font-size: 20px; letter-spacing: -1px; font-weight: bold; padding: 4px 0 0 0; }
+#cc-profile .profile-content-header-buttom                  { width: 200px; float: right; text-align: right; }
+#cc-profile .profile-content-options                        { background: #ebebeb; padding: 20px; text-align: right; border-bottom: 10px solid #fff; }
+#cc-profile .profile-content-pool-container                 { height: 70px; border-bottom: 1px dotted #ccc ; clear:both; margin-bottom: 20px;}
+#cc-profile .profile-content-pool-container .button         { cursor: pointer;}
+#cc-profile .profile-content-pool-menu                      { height: 20px; clear:both; font-size: 12px; color: #555; background: #f0f0f0; margin-bottom:10px; padding-top: 3px;}
+#cc-profile .profile-content-pool-menu-name                 { width: 330px; float:left; padding-left: 10px;}
+#cc-profile .profile-content-pool-menu-prop                 { width: 120px; float:left; }
+#cc-profile .profile-content-pool-prop_ver                  { width: 67px; height:31px; float: left; padding-top: 10px; margin-left: 10px;}
+#cc-profile .profile-content-pool-prop_editar               { width: 67px; height:31px; float: left; padding-top: 10px; margin-left: 10px; margin-right: 20px;}
+#cc-profile .profile-content-pool-status                    { width: 30px; height:30px; float:left; padding-top: 10px;}
+#cc-profile .profile-content-pool-thumb                     { float:left; width: 60px; height: 60px; border: 1px solid #f0f0f0; padding: 2px; margin-right: 10px;}
+#cc-profile .profile-content-pool-title                     { padding: 20px 5px 0px 10px; font-size: 14px; font-weight: bold; float:left; width: 200px; overflow: hidden; }
+#cc-profile .profile-content-header-info                    { clear:both; width: 500px; float: left;}
+#cc-profile .profile-content-pool-title-no-pool             { padding: 20px 5px 0px 0px; font-size: 14px; font-weight: bold; clear:both; width: 300px; height: 40px;}
+#cc-profile .profile-content-pool-title-clock               { padding: 20px 5px 0px 10px; font-size: 14px; font-weight: bold; width: 180px; height:30px; float: left;}
+#cc-profile .profile-content-pool-menu-status-clock         { width: 40px; height:30px; float:left; margin-left: 40px;}
+#cc-profile .profile-content-pool-clock                     { float: right; width: 220px; display: inline-block; padding-top: 22px; }
+#cc-profile .profile-content-pool-clock li                  { float: left; }
+
+#cc-profile-content-internal                                { width: 100%; overflow: hidden; }
+
+#details-pool-participants                                  { width: 840px; overflow: auto; }
+.details-pool-participants-menu                             { width: 840px; clear: both; float: left; font-size: 12px; color: #555; background: #f0f0f0; border-bottom: 1px dotted #ccc; margin-bottom:10px; padding-top: 3px; }
+.details-pool-participants-container                        { width: 840px; clear: both; float: left; border-bottom: 1px dotted #ccc; padding-bottom: 10px; margin-bottom: 10px;}
+.details-pool-participants-name                             { width: 25%; float: left; overflow: auto; }
+.details-pool-participants-tel                              { width: 13%; float: left; overflow: auto; }
+.details-pool-participants-address                          { width: 20%; float: left; overflow: auto; }
+.details-pool-participants-units                            { width: 12%; float: left; overflow: auto; }
+.details-pool-participants-payment                          { width: 20%; float: left; overflow: auto; }
+.details-pool-participants-paymentstatus                    { width: 10%; float: left; text-align: center; overflow: auto; }
+
+#formPoolImagensProdutos                                    { list-style-type: none; margin: 0; padding: 0;}
+#formPoolImagensProdutos li                                 { height: 120px; width: 120px; float: left; margin: 9px; text-align: center;}
+#formPoolImagensProdutos
+.formPoolImagensProdutosExcluir                             { position: relative; top: 0px; left: 110px; clear: both; float: left; color: #FF0000;}
+#formPoolImagensProdutosMissing .fake                       { height: 120px; width: 120px; float: left; margin: 6px; text-align: center; float: left;}
+#editor-html table                                          { color: #aaa; margin: 0 0 0px 0; }
+#editor-html table th                                       { width: 0px; padding: 0px 0; }
+#editor-html table tr                                       { height: 0px; }
+
+
+.no-display                                                 { display: none;}
+.clear                                                      { clear:both;}
+#digitalbuzz-zoho                                           { background: url(/media/images/logo_db_zoho.png) no-repeat; width: 150px; height:62px; float: right; position: absolute; left:85%; display: none}
+#cc-common-text-center                                      { width: 600px; position: relative; left:50%; margin-left: -300px; text-align: center; font-size: 12px;}
+
+/* cc-site pages Contato / Sobre Nós / Como funciona */
+#message-result-submit                                      {display: none;}
+
+.container-info-tip                                         { height: 25px; float: left; }
+.container-info-subtitle                                    { padding-top: 3px; float: left;}
+
+/* cc-intro content */
+
+#cc-intro-content                                           { width: 100%; height: 100%;}
+#cc-intro-cities ul                                         { float: left; height: 100px; width: 140px; }
+#cc-intro-states ul                                         { float: left; height: 100px; width:  75px;}
+#cc-intro-content ul li                                     { list-style: none; height: 18px;}
+#cc-intro-email .input                                      { width: 374px; height: 039px; padding: 0 5px;  margin-top: 215px; margin-left: 95px; background: url(/media/images/layout/form//input_email.png) no-repeat; border: none; font-size: 14px; color: #5D5D5D; letter-spacing: -1px; }
+#cc-intro-states                                            { width: 500px; height: 160px; margin-top: 85px; overflow: hidden; float: left; position: relative;}
+#cc-intro-cities                                            { width: 500px; height: 150px; margin-top: 85px; overflow: hidden; float: left; position: relative; display: none;}
+#cc-intro-cities-container                                  { width: 600px; height: 120px;}
+#cc-intro-states-container                                  { width: 500px; height: 120px; margin-left: 60px;}
+#cc-intro-submit-button                                     { width: 183px; height: 55px; margin-left: 85px; margin-top: 275px; cursor: pointer; position: absolute; background: url("/media/images/layout/form//bt_inscreverse.png") no-repeat;}
+#cc-button-left                                             { width: 17px; height: 32px ; background: url("/media/images/layout/form//bt_left.png") no-repeat; float: left;  cursor: pointer; display: none;}
+#cc-button-right                                            { width: 17px; height: 32px ; background: url("/media/images/layout/form//bt_right.png") no-repeat; float:right; cursor: pointer; display: none;}
+.cc-buttons-carousel                                        { width: 600px; position: absolute; left: 50%; margin-left: -295px; margin-top: 130px;}
+#cc-intro-result-message                                    { width: 280px; height:30px; margin-top: 295px; margin-left: 290px; position: absolute;}
+#cc-intro-aba                                               { width: 840px; height: 72px; margin-left: 0px; margin-top: 15px; background: url("/media/images/layout/form//aba_regioes.png") no-repeat; position: absolute; overflow: hidden;}
+#cc-intro-aba #bt-estado                                    { width: 140px; height: 40px; float: left; margin-right: 2px; margin-left: 70px;margin-top: 23px; cursor: pointer; display:none;  }
+#cc-intro-aba #bt-regiao                                    { width: 140px; height: 40px; float: left; margin-top: 23px; cursor: pointer; display:none;}
+.bt-link-state                                              { cursor: pointer;}
+.bt-link-selected                                           { background: #8abb8a; padding-left: 5px; padding-right: 5px; color: #333;}
+.bt-link-selected:hover                                     { color: #000;}
+.cc-intro-checkbox-all                                      { margin-right: 10px;}
+.cc-bg-details-cities                                       { background: #777; width: 100%; height: 300px; float: left; position: fixed; margin-top: 80px; opacity: 0.3;}
+.cc-intro-header                                            { background:  url("/media/images/layout/form//header_regioes.png") no-repeat; position: fixed; height: 194px; width: 400px; margin-left: 85px; margin-top: 10px; float: left;}
+.cc-intro-header-titulo                                     { margin-left: 25px; margin-top: 10px;}
+.check-newsletter                                           { height: 20px; margin-top: 240px; position: absolute; margin-left: 95px; clear: left;}
+
+/* Edit Pool part*/
+#cc-intro-states-pool                                       { width: 800px; height: 130px; margin-top: 85px; overflow: hidden; float: left; position: relative; left: 50%; margin-left: -260px;}
+#cc-intro-cities-pool                                       { width: 700px; height: 130px; margin-top: 85px; overflow: hidden; float: left; position: relative; left: 50%; margin-left: -260px; display: none;}
+#cc-intro-states-container-pool                             { width: 700px; height: 80px; margin-left: 90px; margin-top: 35px;}
+#cc-intro-container-content-pool                            { margin-left: 50px; margin-top: 10px;}
+#cc-intro-all-regions                                       { width: 300px; height: 25px;}
+.intro-helper-pool-margin                                   { margin-left: 0px !important;}
+#cc-intro-divider-pool                                      { width: 700px; height: 30px; background: url(/media/images/layout/divider_shadow_full.png) no-repeat; position: relative; left: 50%; margin-left: -350px; margin-bottom: 20px;}
+#cc-intro-content-pool                                      { width: 500px; height: 200px ;}
+#cc-intro-states-pool ul                                    { float: left; height: 100px; width:  75px; }
+#cc-intro-cities-pool ul                                    { float: left; height: 100px; width: 150px; }
+#cc-intro-content-pool ul li                                { list-style: none; height: 19px;}
+#cc-intro-states-locked                                     { width: 640px; height: 60px; float: left; position: absolute; display: none;}
+.cc-intro-check-regions-position                            { margin: 20px 0 0 35px;}
+
+.combobox_ecommerce                                         {padding-top: 3px; margin-top: 7px; width: 150px}
+
+
+.container_form1                                            {margin-top: 0px; margin-left: 0px;}
+.container_form2                                            {margin-top: 20px;}
+.container_form_regioes                                     {margin-top: 10px; position: relative; left: 50%; margin-left: -400px;}
+.container_form_pictures                                    {margin-top: 20px; position: relative; left: 50%; margin-left: -400px;}
+.container_detalhes                                         {margin-top: 5px; margin-left: 15px;}
+.container_valor                                            {margin-top: 15px; margin-left: 0px; width: 310px; float: left}
+.container_avaliacao_details                                {margin: 15px 0 10px 0px; width: 190px; float: left}
+.container_dimensions                                       {float: left; width: 220px;}
+.txtPack                                                    {margin-bottom: 13px; font-size: 1em;}
+.container_detalhes_icons                                   {width: 700px; position: relative; left: 50%; margin-left: -335px; margin-top: 5px;}
+.container_icons_payment                                    {margin-top: 10px;}
+
+.info_qtd_images                                            {margin-top: 5px; margin-bottom: 10px; font-weight: bold;}
+
+#support_transportation                                                         {display: none;}
+#support_images, #support_extras                                                {display: none;}
+
+
+/* Icons*/
+
+.title_icons                                                                    {font-weight: bold; color: #AAA; width: 100px; text-align: right; padding-right: 10px; padding-top: 10px;}
+.icon_plane                                                                     {background: url(/media/images/layout/buttons/icon_plane.png) no-repeat; width: 30px; height: 30px; overflow: hidden; cursor: pointer; border: none; background-position: 0px 0px}
+.icon_plane_pressed                                                             {background: url(/media/images/layout/buttons/icon_plane.png) no-repeat; width: 30px; height: 30px; overflow: hidden; cursor: pointer; border: none; background-position: 0px -60px;}
+.icon_plane:hover                                                               {background-position: 0px -30px}
+
+.icon_payment_1x                                                                {background: url(/media/images/layout/buttons/icon_1x.png) no-repeat; width: 30px; height: 30px; overflow: hidden; cursor: pointer; border: none; background-position: 0px 0px}
+.icon_payment_1x:hover                                                          {background-position: 0px -30px}
+
+.icon_payment_2x                                                                {background: url(/media/images/layout/buttons/icon_2x.png) no-repeat; width: 30px; height: 30px; overflow: hidden; cursor: pointer; border: none; background-position: 0px 0px}
+.icon_payment_2x:hover                                                          {background-position: 0px -30px}
+
+.icon_payment_3x                                                                {background: url(/media/images/layout/buttons/icon_3x.png) no-repeat; width: 30px; height: 30px; overflow: hidden; cursor: pointer; border: none; background-position: 0px 0px}
+.icon_payment_3x:hover                                                          {background-position: 0px -30px}
+
+.icon_payment_4x                                                                {background: url(/media/images/layout/buttons/icon_4x.png) no-repeat; width: 30px; height: 30px; overflow: hidden; cursor: pointer; border: none; background-position: 0px 0px}
+.icon_payment_4x:hover                                                          {background-position: 0px -30px}
+
+.icon_payment_5x                                                                {background: url(/media/images/layout/buttons/icon_5x.png) no-repeat; width: 30px; height: 30px; overflow: hidden; cursor: pointer; border: none; background-position: 0px 0px}
+.icon_payment_5x:hover                                                          {background-position: 0px -30px}
+
+.icon_payment_6x                                                                {background: url(/media/images/layout/buttons/icon_6x.png) no-repeat; width: 30px; height: 30px; overflow: hidden; cursor: pointer; border: none; background-position: 0px 0px}
+.icon_payment_6x:hover                                                          {background-position: 0px -30px}
+
+.icon_payment_7x                                                                {background: url(/media/images/layout/buttons/icon_7x.png) no-repeat; width: 30px; height: 30px; overflow: hidden; cursor: pointer; border: none; background-position: 0px 0px}
+.icon_payment_7x:hover                                                          {background-position: 0px -30px}
+
+.icon_payment_8x                                                                {background: url(/media/images/layout/buttons/icon_8x.png) no-repeat; width: 30px; height: 30px; overflow: hidden; cursor: pointer; border: none; background-position: 0px 0px}
+.icon_payment_8x:hover                                                          {background-position: 0px -30px}
+
+.icon_payment_9x                                                                {background: url(/media/images/layout/buttons/icon_9x.png) no-repeat; width: 30px; height: 30px; overflow: hidden; cursor: pointer; border: none; background-position: 0px 0px}
+.icon_payment_9x:hover                                                          {background-position: 0px -30px}
+
+.icon_payment_10x                                                               {background: url(/media/images/layout/buttons/icon_10x.png) no-repeat; width: 30px; height: 30px; overflow: hidden; cursor: pointer; border: none; background-position: 0px 0px}
+.icon_payment_10x:hover                                                         {background-position: 0px -30px}
+
+.icon_payment_11x                                                               {background: url(/media/images/layout/buttons/icon_11x.png) no-repeat; width: 30px; height: 30px; overflow: hidden; cursor: pointer; border: none; background-position: 0px 0px}
+.icon_payment_11x:hover                                                         {background-position: 0px -30px}
+
+.icon_payment_12x                                                               {background: url(/media/images/layout/buttons/icon_12x.png) no-repeat; width: 30px; height: 30px; overflow: hidden; cursor: pointer; border: none; background-position: 0px 0px}
+.icon_payment_12x:hover                                                         {background-position: 0px -30px}
+
+.icon_payment_13x                                                               {background: url(/media/images/layout/buttons/icon_13x.png) no-repeat; width: 30px; height: 30px; overflow: hidden; cursor: pointer; border: none; background-position: 0px 0px}
+.icon_payment_13x:hover                                                         {background-position: 0px -30px}
+
+.icon_payment_14x                                                               {background: url(/media/images/layout/buttons/icon_14x.png) no-repeat; width: 30px; height: 30px; overflow: hidden; cursor: pointer; border: none; background-position: 0px 0px}
+.icon_payment_14x:hover                                                         {background-position: 0px -30px}
+
+.icon_payment_15x                                                               {background: url(/media/images/layout/buttons/icon_15x.png) no-repeat; width: 30px; height: 30px; overflow: hidden; cursor: pointer; border: none; background-position: 0px 0px}
+.icon_payment_15x:hover                                                         {background-position: 0px -30px}
+
+.icon_payment_16x                                                               {background: url(/media/images/layout/buttons/icon_16x.png) no-repeat; width: 30px; height: 30px; overflow: hidden; cursor: pointer; border: none; background-position: 0px 0px}
+.icon_payment_16x:hover                                                         {background-position: 0px -30px}
+
+.icon_payment_17x                                                               {background: url(/media/images/layout/buttons/icon_17x.png) no-repeat; width: 30px; height: 30px; overflow: hidden; cursor: pointer; border: none; background-position: 0px 0px}
+.icon_payment_17x:hover                                                         {background-position: 0px -30px}
+
+.icon_payment_18x                                                               {background: url(/media/images/layout/buttons/icon_18x.png) no-repeat; width: 30px; height: 30px; overflow: hidden; cursor: pointer; border: none; background-position: 0px 0px}
+.icon_payment_18x:hover                                                         {background-position: 0px -30px}
+
+.icon_payment_9x.active, .icon_payment_1x.active, .icon_payment_2x.active,
+.icon_payment_3x.active, .icon_payment_4x.active, .icon_payment_5x.active,  
+.icon_payment_6x.active, .icon_payment_7x.active, .icon_payment_8x.active,   
+.icon_payment_10x.active,.icon_payment_11x.active, .icon_payment_12x.active,
+.icon_payment_13x.active, .icon_payment_14x.active, .icon_payment_15x.active,
+.icon_payment_16x.active, .icon_payment_17x.active, .icon_payment_18x.active    {background-position: 0px -60px;}
+
+
+.container_categoria_product                                                    {float: left; width: 325px;}
+.container_subcategoria_product                                                 {float: left; margin-right: 15px}
+.container_select_product                                                       {margin-top: 4px; width: 180px;}
+
+/* Bug fix Admin align center*/
+.pan                                                                            {left: 50%!important; margin-left: -490px!important;}
+
+.exemplos_caixa                                                                 {float: left; height: 170px;  width: 260px; margin: 0px 0 0 0;}
+.container_valor_dimensions                                                     {width: 250px;}

@@ -1,0 +1,56 @@
+/* 
+    Document   : produto detalhes
+    Created on : 30/05/2011, 13:13:27
+    Author     : carlosgarcia
+    Description: Purpose of the stylesheet follows.
+*/
+
+.container_item_produto                                                         {width: 980px;}
+.container_proposta_chamado                                                     {margin: 10px; display: none;}
+
+.container_item_produto                                                         {margin-left: 0px; width: 100%}
+.titulo_main                                                                    {margin-left: 20px;}
+
+.item_produto .container_left                                                   {width: 420px; float: left; margin-top: 20px; text-align: right; margin-right: 0px; min-height: 600px; margin-left: 10px;}
+.item_produto .titulo_item                                                      {margin-left: 10px; height: 22px; font-size: 11pt; margin-bottom: 5px;}
+.item_produto .destino                                                          {margin-left: 10px; clear: both; font-size: 16pt; text-align: right; font-weight: boldl}
+.item_produto .nome                                                             {margin-top: 10px; margin-left: 10px;}
+.item_produto span.nome                                                         {font-size: 16px;}
+
+.item_produto .container_quantidade                                             {margin-bottom: 10px; margin-top: 20px;}
+.item_produto .qtd_title                                                        {width: 300px; text-align: right; margin-bottom: 7px; float: right}
+.item_produto .qtd                                                              {width: 40px; text-align: right}
+
+.item_produto .container_valor                                                  {margin-bottom: 10px; margin-top: 20px;}
+.item_produto .container_valor .parcelado                                       {font-size: 2em;}
+.item_produto .container_valor .total                                           {font-size: 1em; margin-bottom: 10px;}
+.item_produto .valor:before                                                     {margin-right: 3px;font-size: 12pt; text-indent: -1px;}
+.item_produto .titulo_descricao                                                 {font-size: 11pt; margin-bottom: 15px; height: 17px;}
+.item_produto .descricao                                                        {font-size: 10pt; color: #ccc; text-align: right; min-height: 60px; margin-bottom: 20px; margin-top: 10px;}
+
+.item_produto .data                                                             {margin-top: 20px; margin-left: 10px;}
+.item_produto span.data                                                         {font-size: 16px;}
+.item_produto .data_saida                                                       {height: 20px; clear: both}
+.item_produto .data_retorno                                                     {height: 20px; clear: both}
+
+
+.divider                                                                        {background: url(/media/images/layout/user/purplepier/faq_divider_horizontal_small_right.png) no-repeat; width: 300px; height: 31px; float: right}
+
+.item_produto .container_right                                                  {float: right; margin-right: 10px; margin-top: 10px;}
+
+.container_foto_produto                                                         {width: 500px; height: 490px; margin-left: 10px; margin-right: 10px; margin-top: 10px; border: 1px solid #ccc; padding: 5px; position: relative}
+.container_thumbnails                                                           {display: inline-block; height: 130px; white-space: nowrap; margin-left: 10px; margin-top: 10px;}
+.thumbnail_foto_produto                                                         {border: 1px solid #ccc; width: 85px; height: 85px; margin-right: 19px; float: left; position: relative; cursor: pointer} 
+.thumbnail_foto_produto_html5                                                   {height: 85px; position: relative; cursor: pointer;}
+.bt_back_produtos                                                               {float: right; margin-right: 15px;}
+
+.ctnPropertiesProdutos                                                          {position: relative}
+.tab_properties                                                                 {background: url(/media/images/layout/boundbox/tab_branco.png) no-repeat; width: 200px; height: 40px; cursor: pointer; margin-left: 20px; float: left}
+.tab_properties:hover                                                           {background-position: 0px -40px}
+.txtproperties                                                                  {font-size: 0.9em; margin: 15px 0 0 0; width: 200px; text-align: center; position: absolute}
+.container_icons                                                                {display: inline-block;}
+
+#ctnVideo, #ctnDescricao                                                        {display: none;}
+.descricaoTotal                                                                 {margin: 20px 0 0 20px; }
+.title_blue                                                                     {float: none!important;}
+

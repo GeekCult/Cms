@@ -1,0 +1,17 @@
+/* 
+    Document   : topo_blacklight
+    Created on : 31/03/2015, 17:24:23
+    Author     : Assuero
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+.link_header                                                                    {font-size: 0.7em; text-transform: uppercase; color: #fff; margin: 7px 25px 0 0; display: inline-block}
+input.search_box                                                                {height: 12px!important; background: none; border: none; margin: 2px 0 0 25px; width: 130px;}
+.searchbar_button                                                               {background: #333; border: none; height: 23px; margin: 0 0px 0 5px; color: #fff; font-size: 0.7em; }
+.bt_suporte                                                                     {height: 32px ;width: 100px!important; background: url(/media/images/layout/topo/bt_suporte.png) no-repeat; border: none;}
+.bt_central_client                                                              {height: 32px ;width: 147px!important; background: url(/media/images/layout/topo/bt_central_cliente.png) no-repeat; border: none;}
+.bt_webmail_client                                                              {height: 32px ;width: 83px!important; background: url(/media/images/layout/topo/bt_webmail_cliente.png) no-repeat; border: none;}
+.search_base                                                                    {height: 23px ;width: 230px!important; background: url(/media/images/layout/topo/search_bar.png) no-repeat; border: none;margin: 5px 0 5px 0px }
+.headermainPan                                                                  {background-position: top center!important;}

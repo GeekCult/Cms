@@ -1,0 +1,16 @@
+/* 
+    Document   : bootstrap_nonresponsive
+    Created on : 18/04/2015, 15:56:53
+    Author     : Assuero
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@media (min-width: 1200px) {
+  .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: 1170px;
+    }
+    .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+        width: 1170px;
+    }
+}

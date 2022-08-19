@@ -1,0 +1,14 @@
+/media/user/css/main.css
+/media/user/css/tablet.css
+/media/user/images/original/*
+/media/user/images/thumbs_50/*
+/media/user/images/thumbs_120/*
+/media/user/images/thumbs_200/*
+/media/user/images/thumbs_250/*
+/media/user/images/thumbs_350/*
+/media/user/images/thumbs_650/*
+/media/user/rss/*.xml
+/protected/config/database.php
+/media/user/images/hotsites/*
+.htaccess
+/media/images/icons/favicon.ico

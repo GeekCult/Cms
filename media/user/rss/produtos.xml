@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="0.91">
+  <channel>
+    <title>Purplepier</title>
+    <description>Desenvolvimento Sites, Loja Virtual E-commerce, Fotografia de Produtos, Sistemas de Gerenciamento de Conteúdo Online, Marketing Digital e Identidade Visual
+</description>
+    <link>http://www..com.br</link>
+    <copyright>Copyright (C) 2010.com.br</copyright>
+    <item>
+      <title>Camiseta Preta</title>
+      <pubDate>13 11:57:37 Outubro 2016</pubDate>
+      <description>Camiseta preta</description>
+      <thumbnail></thumbnail>
+      <link>http://dev.minisite.com.br/produtos/detalhes/1</link>
+    </item>
+    <item>
+      <title>Camiseta Preta</title>
+      <pubDate>13 11:58:44 Outubro 2016</pubDate>
+      <description>Camiseta preta</description>
+      <thumbnail></thumbnail>
+      <link>http://dev.minisite.com.br/produtos/detalhes/2</link>
+    </item>
+    <item>
+      <title>Camiseta Preta</title>
+      <pubDate>13 11:59:58 Outubro 2016</pubDate>
+      <description>Camiseta preta</description>
+      <thumbnail></thumbnail>
+      <link>http://dev.minisite.com.br/produtos/detalhes/3</link>
+    </item>
+  </channel>
+</rss>

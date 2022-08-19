@@ -1,0 +1,249 @@
+/* 
+    Document   : conta home
+    Created on : 19/05/2011, 13:59:34
+    Author     : carlosgarcia
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+h1                                                                              {clear: both}
+h2                                                                              {font-size: 1.6em;}
+.container_text_obrigado                                                        {margin-left: 0px; margin-bottom: 40px;}
+.bt_voltar_home                                                                 {margin-bottom: 20px;}
+.colorLink                                                                      {color: #ff9900!important}
+.cc-main-content                                                                {margin: 0 10px 0 10px;}
+.titleContent                                                                   {margin-left: 20px;}
+.button_conta_right                                                             {float: right;}
+.bt_conta_ear_down                                                              {background: url(/media/images/buttons/bt_ear_conta_down.png) no-repeat; width: 150px; height: 24px; border: none; cursor: pointer; text-align: center; font-size: 9pt; padding-top: 3px;}
+.bt_galeria_escolher                                                            {background: url(/media/images/buttons/bt_arquivo_escolher.png) no-repeat; width: 117px; height: 24px; border: none; cursor: pointer}
+.container_bt_laucher_images                                                    {margin-top: 9px;}
+.container_title_conta                                                          {float: left;}
+.container_carrinho_value                                                       {background: url(/media/images/icons/carrinho_compras_big.png) no-repeat; width: 120px; height: 30px; border: none; cursor: pointer; float: right; margin-top: 5px;}
+.container_carrinho_credits                                                     {background: url(/media/images/icons/carrinho_creditos_gray_big.png) no-repeat; width: 120px; height: 30px; border: none; cursor: pointer; float: right; margin-top: 10px; margin-right: 10px}
+.value_carrinho_credit, .amount_user_credits                                    {text-align: left; font-size: 10pt; margin-top: 10px; margin-left: 35px; color: #333;}
+.contentLine                                                                    {font-size: 13px; margin: 10px 20px; height: 25px;}
+
+/*TODO: tome cuidado quebra conta cadastro */
+.contentFormMargin                                                              {width: 900px; left: 50%; margin: 20px 0 0 -450px; position: relative}
+.cep_container                                                                  {float: left}
+.legend_cep_ex                                                                  {font-size: 0.9em; margin-left: 10px; padding-top: 7px; color: #ccc;}
+.cel_operadoras                                                                 {margin: -25px 0 0 162px!important}
+
+/* Avisos */
+.container_avisos_main                                                          {margin-top: 0px; margin-left: 10px; float: left}
+.container_aviso_header                                                         {width: 960px; height: 20px; background: url(/media/images/layout/conta/background_aviso_header.png) no-repeat;}
+.container_aviso_middle                                                         {width: 930px; height: 100%; background: url(/media/images/layout/conta/background_aviso_middle.png) repeat-y; padding: 0px 10px 20px 20px; min-height: 370px}
+.container_aviso_footer                                                         {width: 960px; height: 20px; background: url(/media/images/layout/conta/background_aviso_footer.png) no-repeat;}
+.container_total                                                                {width: 460px; float: left; position: relative}
+.qtd_avisos                                                                     {width: 20px; border-right: 1px solid #999; margin-right: 10px}
+.image_avatar                                                                   {float: left; width: 50px; background: #f9f9f9; border: #ccc 1px solid; padding: 5px; margin-right: 10px;}
+.container_info_user                                                            {display: block; float: left}
+.title_user_hello                                                               {margin-bottom: 6px; float: left; margin-top: 5px; margin-right: 5px;}
+.title_user_conta                                                               {font-weight: bold; margin-bottom: 6px; margin-top: 5px}
+.phrase_user_conta                                                              {font-style: italic; line-height: 20px; clear: both}
+.container_adicionar_post                                                       {float: right; width: 420px; height: 114px; margin-right: 10px;}
+.corner_left_post                                                               {background: url(/media/images/layout/conta/corner_left_viajar.png) no-repeat; width: 114px; height: 90px; float: right}
+.button_adicionar_post                                                          {background: url(/media/images/layout/conta/bt_adicionar_post.png) no-repeat; width: 192px; height: 32px; margin-top: 0px; overflow: hidden; position: relative; cursor: pointer; float: right}
+.button_adicionar_post:hover                                                    {background-position: 0px -32px;}
+.button_adicionar_erro                                                          {background: url(/media/images/layout/conta/bt_adicionar_erro.png) no-repeat; width: 192px; height: 32px; margin-top: 0px; overflow: hidden; position: relative; cursor: pointer; float: right}
+.button_adicionar_erro:hover                                                    {background-position: 0px -32px;}
+.avisos_owner                                                                   {margin-left: 10px; margin-top: 2px; float: left; width: 280px}
+.legend_info                                                                    {margin-top: 6px; font-size: 0.8em;}
+.container_feed_facebook                                                        {position: relative; float:right; width: 300px; margin-right: 10px;}
+.acesso_user_conta                                                              {margin-bottom: 6px; margin-top: 5px}
+
+/* Birthday */
+.birthday                                                                       {margin-top: 20px;}
+.container_images_birthday                                                      {clear: both; margin-top: 5px; padding-top: 7px; font-size: 0.8em}
+.container_picture_birthday                                                     {padding: 3px; border: 1px solid #ccc; width: 40px; height: 40px; float: left; margin-right: 5px;}
+
+/* Inhamer */
+.container_inhamer_main                                                         {display: inline-block;}
+.item_inhamer                                                                   {margin: 0px 0px 0px 20px;; border: 1px solid #ccc; padding: 2px; background: #f1f1f1;}
+.container_inhamer                                                              {position: relative; float:right; width: 400px; margin-right: 0px;}
+.container_inhamer_header                                                       {width: 400px; height: 35px; background: url(/media/images/layout/conta/background_inhamer_header.png) no-repeat; }
+.container_inhamer_middle                                                       {width: 400px; height: 100%; background: url(/media/images/layout/conta/background_inhamer_middle.png) repeat-y;}
+.container_inhamer_footer                                                       {width: 400px; height: 30px; background: url(/media/images/layout/conta/background_inhamer_footer.png) no-repeat;}
+.container_inhamer_message                                                      {max-height: 700px; overflow: auto; width: 380px;}
+.image_inhamer                                                                  {float: left; margin-right: 10px; border: 1px solid #ccc; padding: 2px; height: auto;}
+.inhamer_line_1                                                                 {height: 20px;}
+.name_inhamer                                                                   {font-size: 11pt; height: 15px; font-weight: bold; width: 160px; float: left; overflow: hidden}
+.date_inhamer                                                                   {font-size: 6pt; height: 20px; color: #999; float: right}
+.container_comentario_inhamer                                                   {font-size: 8pt!important;}
+.comment_inhamer                                                                {font-size: 9pt; display: table-row-group}
+#container_inhamer_success                                                      {display: none;}
+.container_inhamer_buttons                                                      {border-top: 1px solid #ccc; width: 100%; padding-top: 3px; margin-top: 5px;}
+.button_inhamer_reply                                                           {float: right; border: 1px solid #ccc; font-size: 7pt; height: 15px; width: 60px; text-align: center; padding-top: 3px; cursor: pointer; }
+.button_inhamer_reply:hover                                                     {background: #ccc;}
+.button_inhamer_like                                                            {float: right;  background: url(/media/images/layout/conta/bt_like_inhamer.png) no-repeat; height: 20px; width: 30px; text-align: center; cursor: pointer; overflow: hidden}
+.button_inhamer_unlike                                                          {float: right;  background: url(/media/images/layout/conta/bt_unlike_inhamer.png) no-repeat; height: 20px; width: 30px; text-align: center; cursor: pointer; overflow: hidden}
+.button_inhamer_like:hover, .button_inhamer_unlike:hover                        {background-position: 0px -20px}
+#table_site table                                                               {border-spacing: 2px; }
+.table_support                                                                  {margin-top: 0px; margin-bottom: 25px; margin-right: 2%;margin-left: 2%;}
+.table_support td                                                               {padding-left: 5px; vertical-align: middle;}
+.title_table                                                                    {background: #afafaf; height: 22px; font-weight: bold}
+#title_table td                                                                 {background: #afafaf; height: 22px; font-weight: bold; vertical-align: middle;}
+.rows_table_0                                                                   {background: #f9f9f9; vertical-align: middle}
+.rows_table_1                                                                   {background: #e6e6e6; vertical-align: middle}
+.rows_table_total                                                               {background: #f1f1f1; vertical-align: middle; font-size: 16px!important; border: 1px solid #ccc; height: 30px;}
+.item_promo_support                                                             {height: 20px; background: #ccc;}
+.item_promo_each                                                                {margin-top: 4px;}
+.td_total                                                                       {font-weight: bold; margin-right: 10px;}
+.td_total_value                                                                 {font-weight: bold; font-size: 18px;}
+#bt_edit, .bt_edit                                                              {background: url('/media/images/icons/editar.gif') no-repeat; cursor: pointer; width: 23px!important; height: 23px; border: none;}
+#bt_delete, .bt_delete                                                          {background: url('/media/images/icons/excluir.gif') no-repeat; cursor: pointer; width: 23px!important; height: 23px; border: none;}
+
+#bt_settings                                                                    {background: url('/media/images/buttons/bt_settings.png') no-repeat; cursor: pointer; width: 23px!important; height: 23px; border: none;}
+#bt_tools                                                                       {background: url('/media/images/icons/icon_tools.png') no-repeat; cursor: pointer; width: 23px!important; height: 23px; border: none;}
+.bt_interview                                                                   {background: url('/media/images/buttons/bt_interview.png') no-repeat; cursor: pointer; width: 23px!important; height: 23px; border: none;}
+.bt_ok, #bt_ok                                                                  {background: url('/media/images/buttons/bt_ok.png') no-repeat; cursor: pointer; width: 23px!important; height: 23px; border: none;}
+.bt_recuse_proposal                                                             {background: url('/media/images/buttons/bt_lock_close_red.png') no-repeat; cursor: pointer; width: 23px!important; height: 23px; border: none;}
+.bt_resume                                                                      {background: url('/media/images/buttons/bt_pages.png') no-repeat; cursor: pointer; width: 23px!important; height: 23px; border: none; display: block}
+#bt_ver, .bt_ver                                                                {background: url('/media/images/icons/icon_eye.png') no-repeat; cursor: pointer; width: 23px!important; height: 23px; border: none;}
+.bt_video                                                                       {background: url('/media/images/buttons/bt_video.png') no-repeat; cursor: pointer; width: 25px!important; height: 25px; border: none; display: block}
+.bt_line_transparent, #bt_line_transparent                                      {background: url('/media/images/buttons/bt_payment_transparent.png') no-repeat; cursor: pointer; width: 120px; height: 20px; border: none; overflow: hidden}
+.bt_line_transparent:hover, #bt_line_transparent:hover                          {background-position: 0px -20px;}
+
+/* Payment */
+.button_inscrever_se                                                            {float: right}
+.container_line_payment                                                         {margin-top: 30px;}
+.status_payment                                                                 {float: left; padding-top: 5px;}
+.item_table_listar                                                              {height: 18px; padding-top: 10px; font-size: 1em}
+.container_submenu_categorias                                                   {float: right; margin-right: 20px;}
+.container_submenu_users                                                        {float: none; height: 36px;}
+.message_result_vagas                                                           {text-align: center; margin-bottom: 20px; margin-top: 20px;}
+.icon_information                                                               {background: url(/media/images/icons/icon_information.png) no-repeat; width: 25px; height: 25px; float: left; margin-right: 10px;}
+.container_fechamento_total                                                     {float: right; margin-top: 10px; margin-bottom: 15px; margin-right: 15px;}
+.container_message_success                                                      {padding-left: 25px; margin-top: 20px; margin-bottom: 20px;}
+.link_back_home                                                                 {margin-left: 20px;}
+
+/*Pedidos*/
+.rows                                                                           {margin-left:0px!important; margin-top:10px; clear: both; min-height: 20px;display:block}
+.combo_order_select                                                             {float: left; font-size: 9pt !important;}
+.order_data_creation                                                            {font-size: 9pt; margin-top: 5px;}
+.label_text_order                                                               {float: left; margin-right:0px; text-align: left; margin-right: 20px;}
+.order_item_dates                                                               {height: 25px; float: left; margin-right: 20px; margin-top: 0px;}
+.container_cep_block_left                                                       {width: 300px; float: left;}
+.container_cep_block_right                                                      {width: 300px; float: right;}
+.status_order_div                                                               {font-size: 0.8em; font-weight: bold; margin-top: 5px;}
+.container_status_order                                                         {float: left;}
+.button_solve_order                                                             {float: right}
+.radio_curriculum_left                                                          {float: left;}
+.radio_curriculum                                                               {width: 20px; margin-right: 15px; margin-top: 3px;}
+.label_radio_curriculum                                                         {width: auto; font-size: 9pt}
+.checkbox_solve_order                                                           {width: 20px; margin-right: 5px; margin-top: 3px; float: left;}
+.label_text_Admin                                                               {float:left; margin-right:10px; width: 80px!important; text-align: right; font-size: 0.8em; margin-top: 4px;}
+.label_text_Admin2                                                              {float:left; margin-right:10px; width: 80px!important; text-align: right; font-size: 0.8em; margin-top: 10px;}
+.label_text_Conta                                                               {float:left; margin-right:10px; width: 100px; text-align: right; font-size: 0.8em;}
+.buttons_right_order                                                            {float: right; margin-right: 50px}
+.result_message_order                                                           {margin-top: 45px; font-weight: bold;}
+.container_message_result                                                       {width: 100%; margin-left: 110px;}
+.container_slot                                                                 {width: 135px; height: 135px; float: left; margin-right: 13px;}
+.slot_page                                                                      {background: url(/media/images/icons/icons_slot.png) no-repeat; height: 135px; width: 135px; float: left; border: none; position: absolute; padding-left: 6px; padding-top: 5px; background-repeat: no-repeat; z-index: 0; overflow: hidden; margin-left: 0px;}
+.zoom_slot                                                                      {background: url(/media/images/icons/zoom_slots.png) no-repeat; height: 19px; width: 21px; float: right; cursor: pointer; border: none; position: relative; margin-top: 5px; margin-right: 10px; display: none; }
+.zoom_slot:hover                                                                {background: url(/media/images/icons/zoom_slots_hover.png) no-repeat; height: 19px; width: 21px;}
+.title_slot                                                                     {float: left; position: absolute; font-size: 9px; margin-left: 7px; margin-top: 50px;}
+.titleIndex                                                                     {float:left; width: 50px; margin-right: 110px;}
+.ic_fotos                                                                       {float:left; position: relative; left: 50%; margin-left: -15px; z-index: 0}
+.qtd_fotos                                                                      {background:none;border:none;text-decoration:none;width:30px; z-index: 3; position: relative}
+.titleCombo                                                                     {float:left; width:450px; margin-right: 70px;}
+.id_slot                                                                        {float: left; position: absolute; font-size: 9px; margin-left: 7px; margin-top: 40px; display: none;}
+.bt_fotos_slot                                                                  {background: url(/media/images/icons/icons_slot_shine.png) no-repeat; height: 135px; width: 135px; float: left; cursor: pointer; border: none; position: relative; margin-left: 0px;}
+.bt_fotos_slot:hover                                                            {background: url(/media/images/icons/icons_slot_hover.png) no-repeat; height: 135px; width: 135px;}
+ul#slot_support                                                                 {width: 900px!important;}
+#slot_support_pict                                                              {width: 900px!important; position: absolute;}
+.slot_pict                                                                      {float: left;}
+.text_add_categoria                                                             {font-size: 0.8em; padding-top: 4px;}
+.text_combo                                                                     {font-size: 0.8em;}
+.select_prioridade_pedidos                                                      {font-size: 9pt!important; }
+.select_users_orders                                                            {margin-right: 15px; font-size: 9pt!important;} 
+.container_type_orders                                                          {height: 20px; margin-top: 15px;}
+.label_type                                                                     {margin-left: 15px;}
+.container_select_types                                                         {margin-right: 50px;}
+.select_task_orders                                                             {margin-right: 0px;font-size: 9pt!important;}
+
+/* Eventos */
+.title_event                                                                    {margin-left: 20px; margin-bottom: 15px;}
+.container_valor_event                                                          {float: left; position: relative}
+.container_valor_associado_event                                                {float: right; position: relative; margin-right: 0px; width: 325px;}
+.form_data_event                                                                {width: 195px; float: left; margin-right: 93px; margin-bottom: 10px;}
+.container_qtd_users                                                            {float: right; margin-right: 5%; font-size: 0.9em;}
+.container_input_bt                                                             {width: 545px!important}
+.bt_icon_set                                                                    {float: right}
+.container_hiperlink                                                            {margin-bottom: 20px;}
+
+/* InfoTips */
+.rows_dicas                                                                     {margin-left:25px; margin-top:30px; clear: both;}
+.rows_dicas_bottom                                                              {margin-left:25px; margin-top:30px; float: left; margin-bottom: 20px;}
+.container_divider_info                                                         {width: 100%; height: 19px; margin-left: 0px; margin-right: 0px;}
+.divider_corner_left                                                            {background: url(/media/images/divider/divider_corner_left_simple.png) no-repeat; width: 90px; height: 19px; float: left}
+.divider_corner_middle                                                          {background: url(/media/images/divider/divider_middle_simple.png) repeat-x; width: 81%; height: 19px; float: left}
+.divider_corner_rigth                                                           {background: url(/media/images/divider/divider_corner_right_simple.png) no-repeat; width: 90px; height: 19px; float: left}
+.container_infotip_bottom                                                       {float:left; margin-top: 13px; margin-left: 20px; float: left;}
+.label_text_dicas                                                               {margin-right:10px; width: 500px; text-align: left; font-size: 0.8em; }/*Label aparecer no menu*/
+.conf_maps_tip                                                                  {width: 400px!important; font-size: 10px; float: left; color: #555; white-space: pre; margin-left: 10%;}
+.conf_maps_tip_p                                                                {width: 400px!important; font-size: 10px; float: left; color: #555; white-space: pre-wrap; }
+.conf_container_text_tip                                                        {margin-bottom: 10px; width: 60%; float: left; margin-top: 20px; margin-left: 10%;}
+.conf_text_tip                                                                  {width: 100%; font-size: 10px; float: left; color: #555; white-space: pre-line; border-right: 1px solid #999; margin-right: 30px; line-height: 12px!important}
+.container-info-tip                                                             {padding-top: 0px; margin-left: 8px; }
+.container-info-tags                                                            {background: url('/media/images/icons/icon_tags.png') no-repeat; height: 25px; width: 25px; float: left; margin-top: 20px; cursor: pointer;}
+
+/* Promocao */
+.banner_promo                                                                   {width: 100%; height: 400px; position: absolute; float: right; margin-right: 5px;}
+.icon_email_from                                                                {float: left; margin-right: 10px; margin-top: 2px; margin-left: 5px;}
+.rows_margin                                                                    {margin-left:20px!important; margin-top:10px; clear: both; min-height: 15px;}
+.container_promotion_statistics_data_single                                     {margin-bottom: 10px; clear: both; height: 15px;}
+.titulo_session_statistics, .titulo_static_promo                                {margin-bottom: 10px;}
+.container_promotion_statistics_data                                            {margin-bottom: 10px; clear: both;}
+.item_static_promo                                                              {margin-bottom: 10px; clear: both; font-size: 1.2em; padding-top: 8px}
+.container_line_estatisticas                                                    {clear: both; border-bottom: 1px dashed #ccc; margin-bottom: 10px;}
+.total_statistics                                                               {float: right; margin-top: 10px;}
+.container_label_participantes                                                  {float: left;}
+.container_unidade                                                              {text-align: right; width: 40px; float: right}
+.container_static_left                                                          {float: left; width: 700px;}
+.container_static_right                                                         {float: right; margin-right: 20px}
+.format_static_percent                                                          {font-size: 1.5em; font-family: Din; margin-bottom: 10px; text-align: right}
+
+/* Avaliacao */
+.super_title                                                                    {margin-left: 20px; margin-bottom: 30px;}
+.item_avaliacao                                                                 {margin-bottom: 30px; margin-left: 50px}
+.title_avaliacao                                                                {font-weight: bold; margin-bottom: 10px;}
+.opt                                                                            {margin-bottom: 10px; margin-left: 15px}
+.opt .optLabel                                                                  {text-transform: uppercase; width: 30px; float: left; font-weight: bold;}
+.opt input                                                                      {float: left; width: 50px; margin-right: 10px!important;}
+.buttons_avaliacao                                                              {margin: 10px 10px 30px 100px; height: 45px;}
+.ctn_pag_av_1,.ctn_pag_av_2,.ctn_pag_av_3,.ctn_pag_av_4,.ctn_pag_av_5           {display: none}
+.ctn_pag_av_6,.ctn_pag_av_7, #pros_address, #pros_contact, #cnpj_prospects,
+#tipo_prospects                                                                 {display: none}
+.status_prosp, .n_prospectador                                                  {position: absolute; margin-left: 70px; font-size: 0.8em; color: #ccc; margin-top: -10px;}
+.status_prosp                                                                   {margin-top: 6px; color: #FFBF00;}
+
+.bt_pagination_next, .bt_pagination_back, .bt_pagination_save                   {float: right}
+.middle                                                                         {position: absolute; margin-top: -9px;}
+.ctn_image_prova                                                                {padding: 10px; border: 1px solid #ccc; margin: 5px 0 10px 0; background: url("/media/images/textures/paginas/transparent_20.png") repeat scroll 0 0 rgba(0, 0, 0, 0);  height: auto; max-width: 810px; overflow: hidden;}
+.search_cpf                                                                     {margin: 30px 0px 20px -150px; left: 50%; position: relative}
+.bt_center                                                                      {position: relative; left: 50%; margin: 0 0 0 -71px;}
+
+.a_focus                                                                        {background: none repeat scroll 0 0 #B80573; color: #FFFFFF; padding: 5px;}
+
+/* Milestone */
+.estatisticas_support                                                           {width: 90%; margin-left: 20px;}
+.itemEstatistica                                                                {height: 55px; position: relative; margin-bottom: 20px;}
+.barSupport                                                                     {width: 720px; float: left; position: relative}
+.progressMilestone                                                              {height: 22px; width: 100%; -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px; border:1px #ccc solid; padding: 1px; position: relative; float: left; -webkit-animation: progress 2s 1 forwards;-moz-animation: progress 2s 1 forwards;-ms-animation: progress 2s 1 forwards;animation: progress 2s 1 forwards; background: #f1f1f1;}
+.progressMilestone.small														{height: 15px; }
+.progressbar                                                                    {width:100%;height:20px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px; border:1px #e1e1e1 solid; -webkit-box-shadow: inset 0px 0px 5px rgba(255,255,255,0.5);-moz-box-shadow: inset 0px 0px 5px rgba(255,255,255,0.5);box-shadow: inset 0px 0px 5px rgba(255,255,255,0.5); position: absolute;-webkit-animation: progress 2s 1 forwards;-moz-animation: progress 2s 1 forwards;-ms-animation: progress 2s 1 forwards;animation: progress 2s 1 forwards;}
+.progressbar.small																{height: 13px; }
+.progressMilestone:after                                                        {content: '';margin: 0;padding: 0;width: 100%;height: 100%;position: absolute;top: 0;left: 0;background: -webkit-repeating-linear-gradient(-45deg, transparent, transparent 8.5px, rgba(255,255,255,.2) 1px, rgba(255,255,255,.2) 17px);background: -moz-repeating-linear-gradient(-45deg, transparent, transparent 8.5px, rgba(255,255,255,.2) 1px, rgba(255,255,255,.2) 17px);background: -ms-repeating-linear-gradient(-45deg, transparent, transparent 8.5px, rgba(255,255,255,.2) 1px, rgba(255,255,255,.2) 17px);background: -o-repeating-linear-gradient(-45deg, transparent, transparent 8.5px, rgba(255,255,255,.2) 1px, rgba(255,255,255,.2) 17px);background: repeating-linear-gradient(-45deg, transparent, transparent 8.5px, rgba(255,255,255,.2) 1px, rgba(255,255,255,.2) 17px);}
+.fPurple                                                                        {font-size: 1.2em;}
+.purple                                                                         {color: #d81483}
+.porcentagem  						                                            {font-size: 1.5em; color: #999; font-style: italic; font-family: verdana; float: left; margin: -3px 0 0 15px; min-width: 65px;}
+.porcentagem.small                   						                    {font-size: 1.2em; margin: 0; margin-left: 10px;}
+.estatisticas_support .values                                                   {color: #fff; margin: 5px 0 0 25px; font-style: italic; font-family: verdana; float: left}
+.progressbar.blue                                                               {background: -webkit-linear-gradient(top, rgba(109,179,242,1) 0%, rgba(84,163,238,1) 50%, rgba(54,144,240,1) 51%, rgba(30,105,222,1) 100%);background: -moz-linear-gradient(top, rgba(109,179,242,1) 0%, rgba(84,163,238,1) 50%, rgba(54,144,240,1) 51%, rgba(30,105,222,1) 100%);background: -ms-linear-gradient(top, rgba(109,179,242,1) 0%, rgba(84,163,238,1) 50%, rgba(54,144,240,1) 51%, rgba(30,105,222,1) 100%);background: -o-linear-gradient(top, rgba(109,179,242,1) 0%, rgba(84,163,238,1) 50%, rgba(54,144,240,1) 51%, rgba(30,105,222,1) 100%);background: linear-gradient(top, rgba(109,179,242,1) 0%, rgba(84,163,238,1) 50%, rgba(54,144,240,1) 51%, rgba(30,105,222,1) 100%); position: absolute}
+
+
+/* Html5 */
+.bt_avaliation                                                                  {width: 25px!important; height: 25px; background: url("/media/images/buttons/bt_prova.png") no-repeat;border: none;}
+.bt_pages                                                                       {width: 25px!important; height: 25px; background: url("/media/images/buttons/bt_page.png") no-repeat!important; border: none;}
+.bt_recuperacao                                                                 {width: 25px!important; height: 25px; background: url("/media/images/buttons/bt_recuperacao.png") no-repeat;border: none;}

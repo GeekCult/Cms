@@ -1,0 +1,36 @@
+2021/05/13 18:21:16 [error] [exception.CHttpException.404] CHttpException: Não foi possível resolver a requisição "<". in /Applications/MAMP/htdocs/minisite/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/minisite/www/framework/web/CWebApplication.php(141): CWebApplication->runController('<')
+#1 /Applications/MAMP/htdocs/minisite/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/minisite/www/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/%3C?%20echo%20$baseUrl%20?%3E/css/lib/reset.css
+HTTP_REFERER=http://sandbox.com.br/admin
+---
+2021/05/19 14:55:55 [error] [exception.CHttpException.404] CHttpException: Não foi possível resolver a requisição "<". in /Applications/MAMP/htdocs/minisite/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/minisite/www/framework/web/CWebApplication.php(141): CWebApplication->runController('<')
+#1 /Applications/MAMP/htdocs/minisite/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/minisite/www/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/%3C?%20echo%20$baseUrl%20?%3E/css/lib/reset.css
+HTTP_REFERER=http://sandbox.com.br/admin
+---
+2021/05/19 19:03:50 [error] [exception.CHttpException.404] CHttpException: Não foi possível resolver a requisição "<". in /Applications/MAMP/htdocs/minisite/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/minisite/www/framework/web/CWebApplication.php(141): CWebApplication->runController('<')
+#1 /Applications/MAMP/htdocs/minisite/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/minisite/www/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/%3C?%20echo%20$baseUrl%20?%3E/css/lib/reset.css
+HTTP_REFERER=http://sandbox.com.br/admin
+---
+2021/06/04 13:44:12 [error] [exception.CHttpException.404] CHttpException: Não foi possível resolver a requisição "<". in /Applications/MAMP/htdocs/minisite/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/minisite/www/framework/web/CWebApplication.php(141): CWebApplication->runController('<')
+#1 /Applications/MAMP/htdocs/minisite/www/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/minisite/www/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/%3C?%20echo%20$baseUrl%20?%3E/css/lib/reset.css
+HTTP_REFERER=http://sandbox.com.br/admin
+---

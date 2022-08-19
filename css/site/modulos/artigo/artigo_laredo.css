@@ -1,0 +1,183 @@
+.view {
+   max-width: 100%;
+   height: 100%;
+   overflow: hidden;
+   position: relative;
+   cursor: default;
+}
+.view .mask,.view .content {
+   width: 100%;
+   height: 100%;
+   position: relative;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+
+.rowinline                                                                      {display: inline-block; height: 80px!important}
+.bgArtCh                                                                        {width:100%; height: 0%; background: #ff9900; position: absolute; right: 0px; top: 0px;}
+.bgArtCh2                                                                       {width:100%; height: 0%; background: red; position: absolute; right: 0px; top: 0px;}
+.bgArtCh3                                                                       {width:100%; height: 0%; background: blue; position: absolute; top: 0px;}
+
+
+.view img {
+   display: block;
+   position: relative;
+}
+.view .textoCh {
+   text-transform: uppercase;
+   color: #fff;
+   text-align: center!important;
+   position: relative;
+   font-size: 14px;
+   font-style: italic;
+   padding: 30px 0px;
+   opacity: 0;
+   width: 100%;
+}
+
+.view .txtFinal {
+   text-transform: uppercase;
+   color: #fff;
+   text-align: center;
+   position: relative;
+   opacity: 0;
+   width: 100%;
+   font-size: 14px;
+   font-style: italic;
+   padding: 30px 0px;
+}
+.view p {
+   font-family: Georgia, serif;
+   font-style: italic;
+   font-size: 12px;
+   position: relative;
+   color: #fff;
+   padding: 10px 20px 20px;
+   text-align: center;
+}
+.view .txtInfo {
+   display: inline-block;
+   text-decoration: none;
+   padding: 30px 0px;
+   opacity: 0;
+   color: #fff;
+   text-transform: uppercase;
+   position: relative;
+   text-align: center;
+   width: 100%;
+   font-size: 14px;
+   font-style: italic;
+  
+}
+
+.aBounceIn                                                                      {animation: bounceIn 2s;animation-fill-mode: forwards;}
+.aBounceOut                                                                     {animation: bounceOut 2s;animation-fill-mode: forwards;}
+
+.aFadeIn                                                                        {animation: fadeIn 2s;animation-fill-mode: forwards;}
+.aFadeOut                                                                       {animation: fadeOut 2s; animation-fill-mode: forwards;}
+
+.animeIncreaseWidth {
+  animation: animeWidthIncrease 1s;
+  animation-fill-mode: forwards;
+}
+
+.animeDecreaseWidth {
+  animation: animeWidthDecrease 1s;
+  animation-fill-mode: forwards;
+}
+
+.animeIncreaseHeight {
+  animation: animeHeightIncrease 1s;
+  animation-fill-mode: forwards;
+}
+
+.animeDecreaseHeight {
+  animation: animeHeightDecrease 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bounceIn {
+  0% {
+    left: 0;
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes bounceOut {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  60% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes animeWidthIncrease {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes animeWidthDecrease {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+
+@keyframes animeHeightIncrease {
+  0% {
+    height: 0%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes animeHeightDecrease {
+  0% {
+    height: 100%;
+  }
+  100% {
+    height: 0%;
+  }
+}

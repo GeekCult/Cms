@@ -1,0 +1,53 @@
+/* 
+    Document   : alertDim
+    Created on : 10/12/2010, 09:34:08
+    Author     : carlosgarcia
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.bg_result_message                                                              { background: url("/media/images/messages/base_common.png") no-repeat; width: 340px; height: 180px; float: left; color: #fff; text-align: center; vertical-align: middle; padding-top: 40px; position: fixed; top:50%; left: 50%; margin-top: -50px; margin-left: -170px; z-index: 1000; display: none; font-size: 9pt;}
+.bg_result_login                                                                { background: url("/media/images/messages/base_common.png") no-repeat; width: 340px; height: 180px; float: left; color: #fff; vertical-align: middle; padding-top: 20px; position: fixed; top:50%; left: 50%; margin-top: -50px; margin-left: -170px; z-index: 1000; display: none; font-size: 9pt;}
+.bg_result_message2                                                             { background: #000; opacity: 0.8; width: 340px; height: 500px; float: left; color: #fff; text-align: left; padding: 20px; position: fixed; top:50%; left: 50%; margin-top: -300px; margin-left: -490px; z-index: 1000; display: none;font-size: 9pt;}
+
+#container_password_forgot_password                                             { display: none}
+#container_result_preloader                                                     { display: none;}
+.bg_result_preloader                                                            { width: 150px; height: 45px; float: left; vertical-align: middle; position: fixed; top:50%; left: 50%; margin-top: -35px; margin-left: -75px; z-index: 1000; background: url(/media/images/preloaders/preloader_admin_default.png) no-repeat}
+.bg_result_preloader_bar                                                        { width: 130px; height: 5px;  position: fixed; top:50%; left: 50%; margin-top: -10px; margin-left: -65px; z-index: 1001; background: url(/media/images/preloaders/preloader_admin_bar_default.png) no-repeat; overflow: hidden}
+.text_result_preloader                                                          { padding-top: 5px; color: #ccc; font-size: 8pt; text-align: center; }
+.bt_close_message                                                               { background: url("/media/images/buttons/bt_close_message.png") no-repeat; width: 35px; height: 35px; cursor: pointer; float: right; margin-top: -50px; display: none;}
+
+/*Login*/
+ul.container_form                                                               { width: 320px; position: relative; left: 50%; margin-left: -160px;}
+.button_login_clear                                                             { background: url("/media/images/buttons/bt_login_clear_admin.png") no-repeat; width: 60px; height: 25px; border: none; cursor: pointer;}
+.button_login_logar                                                             { background: url("/media/images/buttons/bt_login_logar_admin.png") no-repeat; width: 60px; height: 25px; border: none; cursor: pointer;}
+.button_login_clear:hover                                                       { background: url("/media/images/buttons/bt_login_clear_admin_hover.png") no-repeat; width: 60px; height: 25px; border: none;}
+.button_login_logar:hover                                                       { background: url("/media/images/buttons/bt_login_logar_admin_hover.png") no-repeat; width: 60px; height: 25px; border: none;}
+.button_login_esqueci_senha                                                     { background: url("/media/images/buttons/bt_login_esqueci_senha_admin.png") no-repeat; width: 120px; height: 25px; border: none;cursor: pointer;}
+
+.login_user                                                                     { margin-bottom: 10px; padding: 2px 0 0 9px !important;}
+.login_user label                                                               { width: 60px!important; text-align: right!important; margin-right: 10px; display: block; float: left;}
+.login_password                                                                 { margin-bottom: 5px; }
+.login_password label                                                           { width: 60px!important; text-align: right; margin-right: 10px; display: block; float: left;}
+.buttons_right_dim                                                              { border: none!important; float: right; margin-right: 50px; text-align: right;}
+.label                                                                          { width: 120px;}
+.login_result_message                                                           { text-align: right; height: 20px; display: none; width: 100%; font-size: 12px!important;}
+.field_text                                                                     { width: 220px;}
+.container_button_login                                                         { display: block; height: 40px; clear: left; margin-top: 5px;}
+
+#container_result_message_cancel                                                { display: none;}
+.container_buttons_message_cancel                                               { margin-top: 20px;}
+.bt_default_cancel_admin                                                        { background: url("/media/images/layout/buttons/bt_alert_dim_default.png") no-repeat; width: 122px!important; height: 40px; border: none; color: #fff; cursor: pointer}
+.bt_default_cancel_admin:hover                                                  { background-position: 0px -40px;}
+#resultAlertMessage                                                             {z-index: 1001;}
+
+.container_legend_conected                                                      { margin-left: 68px; margin-top: 3px;}
+.check_conected                                                                 { float: left; margin-right: 10px;}
+.label_conected                                                                 { font-size: 0.8em;}
+.title_forgotten                                                                { margin-left: 25px}
+#container_esqueci_senha_success                                                {text-align: center; width: 100%; display: none;}

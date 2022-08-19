@@ -1,0 +1,20 @@
+/* 
+    Document   : infotip
+    Created on : 26/01/2011, 10:15:30
+    Author     : carlosgarcia
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+
+/* tooltip styling. by default the element to be styled is .tooltip  */
+.container-info-tip                                         {height: 209px; }
+.tooltip                                                    {display:none; background:transparent no-repeat; font-size:12px; height:90px; width:180px; padding:8px 15px 12px 15px; z-index: 1000; position: absolute; margin-top: 10px;}
+.info-tip-icon                                              {cursor: pointer; width: 15px; height: 25px; margin-right: 10px; padding-top: 6px;}
+.titulo-info                                                {width:170px; height: 14px; white-space:normal!important; text-align: left; font-weight: normal; font-family: Verdana; font-weight: bold; font-size: 10px; color:#fff!important; padding-top: 5px;}
+.text-info                                                  {width:170px; height: 50px; white-space:normal!important; text-align: left; font-weight: normal; font-family: Verdana; font-size: 10px; color:#fff!important;}
+.text-info p                                                {width:170px; height: 50px; white-space:normal!important; text-align: left; font-weight: normal; font-family: Verdana; font-size: 10px; color:#fff!important; line-height: 13px!important;}
+.link-info                                                  {width:170px; text-align: right; font-weight: normal; font-family: Verdana; font-size: 9px; padding-right: 10px;}
+.link-info a                                                {color: #ccc!important;}
+.link-info a:hover                                          {color: #8abb8a !important;}
+
